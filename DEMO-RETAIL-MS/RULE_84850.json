@@ -164,9 +164,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 934163,
-        "srcColId" : 934150,
-        "trgColId" : 934158,
+        "colMapId" : 934176,
+        "srcColId" : 934166,
+        "trgColId" : 934174,
         "colMapType" : "join",
         "srcColName" : "customerid",
         "tgtColName" : "gd",
@@ -177,7 +177,7 @@
       "exprlist" : [ {
         "exprID" : 84883,
         "exprLogID" : 0,
-        "exprName" : "StateCompleteness*",
+        "exprName" : "StateCompleteness",
         "expression" : "if ( S.statecode != null) { S.statecode.trim().length() == 2 } else {  false }",
         "result" : "Pass",
         "exprType" : "5",
@@ -380,7 +380,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select \nPROVIDER_NUM CustomerID, PROVIDER_NM CustomerName, \nOFFICE_ADDRESS_1 AddressLine1, OFFICE_STATE_CD StateCode,  \nSPECIALITY_CD CustomerCode, PHONE_NUMBER CustomerPhoneNumber, EFFECTIVE_DT SignupDate\nfrom HC_PROVIDEr",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 934150,
+          "srcTgtColId" : 934166,
           "ruleClsPropId" : 84862,
           "srcTrgColName" : "customerid",
           "srcTrgColDataType" : "varchar",
@@ -391,7 +391,7 @@
           "colFormat" : "",
           "displayIndex" : 3
         }, {
-          "srcTgtColId" : 934151,
+          "srcTgtColId" : 934167,
           "ruleClsPropId" : 84862,
           "srcTrgColName" : "customername",
           "srcTrgColDataType" : "varchar",
@@ -402,7 +402,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 934152,
+          "srcTgtColId" : 934168,
           "ruleClsPropId" : 84862,
           "srcTrgColName" : "addressline1",
           "srcTrgColDataType" : "varchar",
@@ -413,7 +413,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 934153,
+          "srcTgtColId" : 934169,
           "ruleClsPropId" : 84862,
           "srcTrgColName" : "statecode",
           "srcTrgColDataType" : "varchar",
@@ -424,7 +424,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 934154,
+          "srcTgtColId" : 934170,
           "ruleClsPropId" : 84862,
           "srcTrgColName" : "customercode",
           "srcTrgColDataType" : "varchar",
@@ -435,7 +435,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 934155,
+          "srcTgtColId" : 934171,
           "ruleClsPropId" : 84862,
           "srcTrgColName" : "customerphonenumber",
           "srcTrgColDataType" : "varchar",
@@ -446,7 +446,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 934156,
+          "srcTgtColId" : 934172,
           "ruleClsPropId" : 84862,
           "srcTrgColName" : "signupdate",
           "srcTrgColDataType" : "varchar",
@@ -529,7 +529,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select GETDATE() as gd",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 934158,
+          "srcTgtColId" : 934174,
           "ruleClsPropId" : 84876,
           "srcTrgColName" : "gd",
           "srcTrgColDataType" : "String",
@@ -572,7 +572,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 934150,
+      "srcTgtColId" : 934166,
       "ruleClsPropId" : 84862,
       "srcTrgColName" : "customerid",
       "srcTrgColDataType" : "varchar",
@@ -583,7 +583,7 @@
       "colFormat" : "",
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 934151,
+      "srcTgtColId" : 934167,
       "ruleClsPropId" : 84862,
       "srcTrgColName" : "customername",
       "srcTrgColDataType" : "varchar",
@@ -594,7 +594,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 934152,
+      "srcTgtColId" : 934168,
       "ruleClsPropId" : 84862,
       "srcTrgColName" : "addressline1",
       "srcTrgColDataType" : "varchar",
@@ -605,7 +605,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 934153,
+      "srcTgtColId" : 934169,
       "ruleClsPropId" : 84862,
       "srcTrgColName" : "statecode",
       "srcTrgColDataType" : "varchar",
@@ -616,7 +616,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 934154,
+      "srcTgtColId" : 934170,
       "ruleClsPropId" : 84862,
       "srcTrgColName" : "customercode",
       "srcTrgColDataType" : "varchar",
@@ -627,7 +627,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 934155,
+      "srcTgtColId" : 934171,
       "ruleClsPropId" : 84862,
       "srcTrgColName" : "customerphonenumber",
       "srcTrgColDataType" : "varchar",
@@ -638,7 +638,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 934156,
+      "srcTgtColId" : 934172,
       "ruleClsPropId" : 84862,
       "srcTrgColName" : "signupdate",
       "srcTrgColDataType" : "varchar",
@@ -649,7 +649,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 934158,
+      "srcTgtColId" : 934174,
       "ruleClsPropId" : 84876,
       "srcTrgColName" : "gd",
       "srcTrgColDataType" : "String",
@@ -661,9 +661,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 934163,
-      "srcColId" : 934150,
-      "trgColId" : 934158,
+      "colMapId" : 934176,
+      "srcColId" : 934166,
+      "trgColId" : 934174,
       "colMapType" : "join",
       "srcColName" : "customerid",
       "tgtColName" : "gd",
@@ -690,7 +690,7 @@
     "exprVOList" : [ {
       "exprID" : 84883,
       "exprLogID" : 0,
-      "exprName" : "StateCompleteness*",
+      "exprName" : "StateCompleteness",
       "expression" : "if ( S.statecode != null) { S.statecode.trim().length() == 2 } else {  false }",
       "result" : "Pass",
       "exprType" : "5",
