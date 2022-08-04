@@ -134,9 +134,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 971027,
-        "srcColId" : 971017,
-        "trgColId" : 971024,
+        "colMapId" : 971040,
+        "srcColId" : 971031,
+        "trgColId" : 971038,
         "colMapType" : "join",
         "srcColName" : "custid",
         "tgtColName" : "gd",
@@ -209,30 +209,6 @@
         "falseCount" : null,
         "errCount" : null,
         "exprOrg" : "S.comments ==~ /.*\\b((3[47][0-9]{2}([^0-9]?)[0-9]{4}([^0-9]?)[0-9]{4}([^0-9]?)([0-9]{3}))|(3[47][0-9]{2}([^0-9]?)[0-9]{6}([^0-9]?)[0-9]{5}))\\b.*/",
-        "tc" : null,
-        "fc" : null,
-        "er" : null,
-        "name" : null,
-        "ve" : 0,
-        "exporg" : null,
-        "iceAllObjectVOlist" : [ ]
-      }, {
-        "exprID" : 971028,
-        "exprLogID" : 0,
-        "exprName" : "EXPR_8KK84OR",
-        "expression" : "S.custid != null",
-        "result" : "Pass",
-        "exprType" : "5",
-        "exprVisible" : 1,
-        "exprIndex" : 3,
-        "ruleId" : 616,
-        "ruleInstanceId" : 0,
-        "ruleClassId" : 619,
-        "ruleName" : null,
-        "trueCount" : null,
-        "falseCount" : null,
-        "errCount" : null,
-        "exprOrg" : "S.custid != null",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -356,7 +332,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "SELECT * from UserComments",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 971017,
+          "srcTgtColId" : 971031,
           "ruleClsPropId" : 620,
           "srcTrgColName" : "custid",
           "srcTrgColDataType" : "int",
@@ -367,7 +343,7 @@
           "colFormat" : "",
           "displayIndex" : 3
         }, {
-          "srcTgtColId" : 971018,
+          "srcTgtColId" : 971032,
           "ruleClsPropId" : 620,
           "srcTrgColName" : "custname",
           "srcTrgColDataType" : "varchar",
@@ -376,9 +352,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 5
+          "displayIndex" : 4
         }, {
-          "srcTgtColId" : 971019,
+          "srcTgtColId" : 971033,
           "ruleClsPropId" : 620,
           "srcTrgColName" : "dob",
           "srcTrgColDataType" : "varchar",
@@ -387,9 +363,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 6
+          "displayIndex" : 5
         }, {
-          "srcTgtColId" : 971020,
+          "srcTgtColId" : 971034,
           "ruleClsPropId" : 620,
           "srcTrgColName" : "ssn",
           "srcTrgColDataType" : "varchar",
@@ -398,9 +374,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 7
+          "displayIndex" : 6
         }, {
-          "srcTgtColId" : 971021,
+          "srcTgtColId" : 971035,
           "ruleClsPropId" : 620,
           "srcTrgColName" : "comments",
           "srcTrgColDataType" : "varchar",
@@ -409,9 +385,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 8
+          "displayIndex" : 7
         }, {
-          "srcTgtColId" : 971022,
+          "srcTgtColId" : 971036,
           "ruleClsPropId" : 620,
           "srcTrgColName" : "expected",
           "srcTrgColDataType" : "varchar",
@@ -420,7 +396,7 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 4
+          "displayIndex" : 8
         } ],
         "fileContent" : null
       }, {
@@ -495,7 +471,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select GETDATE() as gd",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 971024,
+          "srcTgtColId" : 971038,
           "ruleClsPropId" : 632,
           "srcTrgColName" : "gd",
           "srcTrgColDataType" : "String",
@@ -538,7 +514,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 971017,
+      "srcTgtColId" : 971031,
       "ruleClsPropId" : 620,
       "srcTrgColName" : "custid",
       "srcTrgColDataType" : "int",
@@ -549,7 +525,7 @@
       "colFormat" : "",
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 971018,
+      "srcTgtColId" : 971032,
       "ruleClsPropId" : 620,
       "srcTrgColName" : "custname",
       "srcTrgColDataType" : "varchar",
@@ -558,9 +534,9 @@
       "joinList" : null,
       "mapColName" : "custname",
       "colFormat" : "",
-      "displayIndex" : 5
+      "displayIndex" : 4
     }, {
-      "srcTgtColId" : 971019,
+      "srcTgtColId" : 971033,
       "ruleClsPropId" : 620,
       "srcTrgColName" : "dob",
       "srcTrgColDataType" : "varchar",
@@ -569,9 +545,9 @@
       "joinList" : null,
       "mapColName" : "dob",
       "colFormat" : "",
-      "displayIndex" : 6
+      "displayIndex" : 5
     }, {
-      "srcTgtColId" : 971020,
+      "srcTgtColId" : 971034,
       "ruleClsPropId" : 620,
       "srcTrgColName" : "ssn",
       "srcTrgColDataType" : "varchar",
@@ -580,9 +556,9 @@
       "joinList" : null,
       "mapColName" : "ssn",
       "colFormat" : "",
-      "displayIndex" : 7
+      "displayIndex" : 6
     }, {
-      "srcTgtColId" : 971021,
+      "srcTgtColId" : 971035,
       "ruleClsPropId" : 620,
       "srcTrgColName" : "comments",
       "srcTrgColDataType" : "varchar",
@@ -591,9 +567,9 @@
       "joinList" : null,
       "mapColName" : "comments",
       "colFormat" : "",
-      "displayIndex" : 8
+      "displayIndex" : 7
     }, {
-      "srcTgtColId" : 971022,
+      "srcTgtColId" : 971036,
       "ruleClsPropId" : 620,
       "srcTrgColName" : "expected",
       "srcTrgColDataType" : "varchar",
@@ -602,9 +578,9 @@
       "joinList" : null,
       "mapColName" : "expected",
       "colFormat" : "",
-      "displayIndex" : 4
+      "displayIndex" : 8
     }, {
-      "srcTgtColId" : 971024,
+      "srcTgtColId" : 971038,
       "ruleClsPropId" : 632,
       "srcTrgColName" : "gd",
       "srcTrgColDataType" : "String",
@@ -616,9 +592,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 971027,
-      "srcColId" : 971017,
-      "trgColId" : 971024,
+      "colMapId" : 971040,
+      "srcColId" : 971031,
+      "trgColId" : 971038,
       "colMapType" : "join",
       "srcColName" : "custid",
       "tgtColName" : "gd",
@@ -699,30 +675,6 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 2,
-      "ruleId" : 616,
-      "ruleInstanceId" : 0,
-      "ruleClassId" : 619,
-      "ruleName" : null,
-      "trueCount" : null,
-      "falseCount" : null,
-      "errCount" : null,
-      "exprOrg" : null,
-      "tc" : null,
-      "fc" : null,
-      "er" : null,
-      "name" : null,
-      "ve" : 0,
-      "exporg" : null,
-      "iceAllObjectVOlist" : null
-    }, {
-      "exprID" : 971028,
-      "exprLogID" : 0,
-      "exprName" : "EXPR_8KK84OR",
-      "expression" : "S.custid != null",
-      "result" : "Pass",
-      "exprType" : "5",
-      "exprVisible" : 1,
-      "exprIndex" : 3,
       "ruleId" : 616,
       "ruleInstanceId" : 0,
       "ruleClassId" : 619,
