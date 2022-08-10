@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 166289,
-        "srcColId" : 166285,
-        "trgColId" : 166288,
+        "colMapId" : 166297,
+        "srcColId" : 166293,
+        "trgColId" : 166296,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -110,7 +110,7 @@
         "exprID" : 166290,
         "exprLogID" : 0,
         "exprName" : "EXPR_Z06GK7I",
-        "expression" : "S.cnt ==T.cnt",
+        "expression" : "#c#",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
@@ -122,7 +122,7 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "S.cnt ==T.cnt",
+        "exprOrg" : "#c#",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -231,7 +231,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from HR.LOCATIONS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 166288,
+          "srcTgtColId" : 166296,
           "ruleClsPropId" : 166035,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -322,7 +322,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from HR.LOCATIONS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 166285,
+          "srcTgtColId" : 166293,
           "ruleClsPropId" : 166025,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -344,7 +344,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 166285,
+      "srcTgtColId" : 166293,
       "ruleClsPropId" : 166025,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -355,7 +355,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 166288,
+      "srcTgtColId" : 166296,
       "ruleClsPropId" : 166035,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -367,9 +367,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 166289,
-      "srcColId" : 166285,
-      "trgColId" : 166288,
+      "colMapId" : 166297,
+      "srcColId" : 166293,
+      "trgColId" : 166296,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
@@ -397,7 +397,7 @@
       "exprID" : 166290,
       "exprLogID" : 0,
       "exprName" : "EXPR_Z06GK7I",
-      "expression" : "S.cnt ==T.cnt",
+      "expression" : "#c#",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
@@ -417,6 +417,18 @@
       "ve" : 0,
       "exporg" : null
     } ],
-    "derivedvariablelist" : null
+    "derivedvariablelist" : [ {
+      "derivedExpressionName" : "DVAR_3E892UN",
+      "derivedExpression" : "repository",
+      "derivedExpressionResult" : "",
+      "derivedExpressionIndex" : 1,
+      "derivedExpressionVisibleFlag" : 1
+    }, {
+      "derivedExpressionName" : "rule-exception-export-file-copy",
+      "derivedExpression" : "rule-exception-export-file-copy",
+      "derivedExpressionResult" : "",
+      "derivedExpressionIndex" : 1,
+      "derivedExpressionVisibleFlag" : 1
+    } ]
   }
 }
