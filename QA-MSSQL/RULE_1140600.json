@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 1140591,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 1140591,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2022-08-22 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2022-08-22 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -114,7 +114,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "sneha.s",
     "projectName" : "SSMS_AdventureWorks",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "sneha.s",
     "ruleClassId" : 1140603,
     "successBody" : "",
     "failureBody" : "",
@@ -156,17 +156,86 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1140643,
-        "srcColId" : 1140613,
-        "trgColId" : 1140627,
+        "colMapId" : 1140673,
+        "srcColId" : 1140661,
+        "trgColId" : 1140668,
         "colMapType" : "join",
         "srcColName" : "empid",
         "tgtColName" : "empid",
         "colMapExpr" : "empid=empid",
         "srcTrgColMapVisible" : 1,
-        "displayIndex" : 1
+        "displayIndex" : 0
       } ],
-      "exprlist" : [ ],
+      "exprlist" : [ {
+        "exprID" : 1140674,
+        "exprLogID" : 0,
+        "exprName" : "CHK_Name",
+        "expression" : "S.firstname + ' ' + S.lastname == T.fullname",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 1,
+        "ruleId" : 1140600,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140603,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.firstname + ' ' + S.lastname == T.fullname",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      }, {
+        "exprID" : 1140675,
+        "exprLogID" : 0,
+        "exprName" : "CHK_Salary",
+        "expression" : "S.salary == T.salary",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 2,
+        "ruleId" : 1140600,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140603,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.salary == T.salary",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      }, {
+        "exprID" : 1140676,
+        "exprLogID" : 0,
+        "exprName" : "CHK_EmpStatus",
+        "expression" : "S.empstatus == T.empstatus",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 3,
+        "ruleId" : 1140600,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140603,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.empstatus == T.empstatus",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
         "ruleClsPropID" : 1140634,
@@ -289,7 +358,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from TEMP.EmployeeRecord where EmpStatus='PE'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1140613,
+          "srcTgtColId" : 1140661,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -300,7 +369,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140614,
+          "srcTgtColId" : 1140662,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
@@ -311,7 +380,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140615,
+          "srcTgtColId" : 1140663,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
@@ -322,7 +391,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140616,
+          "srcTgtColId" : 1140664,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "salary",
           "srcTrgColDataType" : "int",
@@ -333,7 +402,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140617,
+          "srcTgtColId" : 1140665,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -424,7 +493,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from TEMP.EmployeeRecord",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1140627,
+          "srcTgtColId" : 1140668,
           "ruleClsPropId" : 1140618,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -435,7 +504,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140628,
+          "srcTgtColId" : 1140669,
           "ruleClsPropId" : 1140618,
           "srcTrgColName" : "fullname",
           "srcTrgColDataType" : "varchar",
@@ -446,7 +515,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140629,
+          "srcTgtColId" : 1140670,
           "ruleClsPropId" : 1140618,
           "srcTrgColName" : "salary",
           "srcTrgColDataType" : "int",
@@ -457,7 +526,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140630,
+          "srcTgtColId" : 1140671,
           "ruleClsPropId" : 1140618,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -514,7 +583,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1140613,
+      "srcTgtColId" : 1140661,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -525,7 +594,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140614,
+      "srcTgtColId" : 1140662,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
@@ -536,7 +605,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140615,
+      "srcTgtColId" : 1140663,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
@@ -547,7 +616,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140616,
+      "srcTgtColId" : 1140664,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "salary",
       "srcTrgColDataType" : "int",
@@ -558,7 +627,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140617,
+      "srcTgtColId" : 1140665,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -569,7 +638,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140627,
+      "srcTgtColId" : 1140668,
       "ruleClsPropId" : 1140618,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -580,7 +649,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140628,
+      "srcTgtColId" : 1140669,
       "ruleClsPropId" : 1140618,
       "srcTrgColName" : "fullname",
       "srcTrgColDataType" : "varchar",
@@ -591,7 +660,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140629,
+      "srcTgtColId" : 1140670,
       "ruleClsPropId" : 1140618,
       "srcTrgColName" : "salary",
       "srcTrgColDataType" : "int",
@@ -602,7 +671,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140630,
+      "srcTgtColId" : 1140671,
       "ruleClsPropId" : 1140618,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -614,15 +683,15 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1140643,
-      "srcColId" : 1140613,
-      "trgColId" : 1140627,
+      "colMapId" : 1140673,
+      "srcColId" : 1140661,
+      "trgColId" : 1140668,
       "colMapType" : "join",
       "srcColName" : "empid",
       "tgtColName" : "empid",
       "colMapExpr" : "empid=empid",
       "srcTrgColMapVisible" : 1,
-      "displayIndex" : 1
+      "displayIndex" : 0
     } ],
     "objectVOList" : null,
     "srcCount" : null,
@@ -640,7 +709,76 @@
     "classModifydBy" : 0,
     "classCreateDate" : null,
     "classModifyDate" : null,
-    "exprVOList" : [ ],
+    "exprVOList" : [ {
+      "exprID" : 1140674,
+      "exprLogID" : 0,
+      "exprName" : "CHK_Name",
+      "expression" : "S.firstname + ' ' + S.lastname == T.fullname",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 1,
+      "ruleId" : 1140600,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140603,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    }, {
+      "exprID" : 1140675,
+      "exprLogID" : 0,
+      "exprName" : "CHK_Salary",
+      "expression" : "S.salary == T.salary",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 2,
+      "ruleId" : 1140600,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140603,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    }, {
+      "exprID" : 1140676,
+      "exprLogID" : 0,
+      "exprName" : "CHK_EmpStatus",
+      "expression" : "S.empstatus == T.empstatus",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 3,
+      "ruleId" : 1140600,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140603,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    } ],
     "derivedvariablelist" : null
   }
 }
