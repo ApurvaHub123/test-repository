@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 1140592,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 1140592,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2022-08-23 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2022-08-23 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "dilfaraz.k",
     "projectName" : "SSMS_AdventureWorks",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "dilfaraz.k",
     "ruleClassId" : 1140749,
     "successBody" : "",
     "failureBody" : "",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1140794,
-        "srcColId" : 1140759,
-        "trgColId" : 1140775,
+        "colMapId" : 1140814,
+        "srcColId" : 1140797,
+        "trgColId" : 1140806,
         "colMapType" : "join",
         "srcColName" : "empid",
         "tgtColName" : "empid",
@@ -227,9 +227,9 @@
         "ruleClsPropID" : 1140750,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select * from ZEBRACO.EmpRecord",
+        "paramValue" : "select * from ZEBRACO.EmpRecord\nWhere EmpStatus='Permanent' ;",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1140759,
+          "srcTgtColId" : 1140797,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -240,7 +240,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140760,
+          "srcTgtColId" : 1140798,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
@@ -251,7 +251,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140761,
+          "srcTgtColId" : 1140799,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
@@ -262,7 +262,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140762,
+          "srcTgtColId" : 1140800,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "varchar",
@@ -273,7 +273,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140763,
+          "srcTgtColId" : 1140801,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "country",
           "srcTrgColDataType" : "varchar",
@@ -284,7 +284,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140764,
+          "srcTgtColId" : 1140802,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -295,7 +295,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140765,
+          "srcTgtColId" : 1140803,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "age",
           "srcTrgColDataType" : "int",
@@ -386,7 +386,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from DBO.ZebraCo",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1140775,
+          "srcTgtColId" : 1140806,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -397,7 +397,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140776,
+          "srcTgtColId" : 1140807,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
@@ -408,7 +408,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140777,
+          "srcTgtColId" : 1140808,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
@@ -419,7 +419,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140778,
+          "srcTgtColId" : 1140809,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "varchar",
@@ -430,7 +430,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140779,
+          "srcTgtColId" : 1140810,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "country",
           "srcTrgColDataType" : "varchar",
@@ -441,7 +441,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140780,
+          "srcTgtColId" : 1140811,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -452,7 +452,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140781,
+          "srcTgtColId" : 1140812,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "age",
           "srcTrgColDataType" : "int",
@@ -509,7 +509,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1140759,
+      "srcTgtColId" : 1140797,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -520,7 +520,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140760,
+      "srcTgtColId" : 1140798,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
@@ -531,7 +531,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140761,
+      "srcTgtColId" : 1140799,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
@@ -542,7 +542,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140762,
+      "srcTgtColId" : 1140800,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "varchar",
@@ -553,7 +553,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140763,
+      "srcTgtColId" : 1140801,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "country",
       "srcTrgColDataType" : "varchar",
@@ -564,7 +564,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140764,
+      "srcTgtColId" : 1140802,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -575,7 +575,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140765,
+      "srcTgtColId" : 1140803,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "age",
       "srcTrgColDataType" : "int",
@@ -586,7 +586,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140775,
+      "srcTgtColId" : 1140806,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -597,7 +597,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140776,
+      "srcTgtColId" : 1140807,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
@@ -608,7 +608,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140777,
+      "srcTgtColId" : 1140808,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
@@ -619,7 +619,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140778,
+      "srcTgtColId" : 1140809,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "varchar",
@@ -630,7 +630,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140779,
+      "srcTgtColId" : 1140810,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "country",
       "srcTrgColDataType" : "varchar",
@@ -641,7 +641,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140780,
+      "srcTgtColId" : 1140811,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -652,7 +652,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140781,
+      "srcTgtColId" : 1140812,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "age",
       "srcTrgColDataType" : "int",
@@ -664,9 +664,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1140794,
-      "srcColId" : 1140759,
-      "trgColId" : 1140775,
+      "colMapId" : 1140814,
+      "srcColId" : 1140797,
+      "trgColId" : 1140806,
       "colMapType" : "join",
       "srcColName" : "empid",
       "tgtColName" : "empid",
