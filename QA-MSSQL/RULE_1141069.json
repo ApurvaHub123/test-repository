@@ -126,9 +126,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1141109,
-        "srcColId" : 1141104,
-        "trgColId" : 1141107,
+        "colMapId" : 1141117,
+        "srcColId" : 1141112,
+        "trgColId" : 1141115,
         "colMapType" : "join",
         "srcColName" : "firstname",
         "tgtColName" : "cnt",
@@ -259,27 +259,27 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select FirstName, LastName from TEMP.EmployeeRecord Group by FirstName, LastName,Salary having count(*)>1",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1141104,
+          "srcTgtColId" : 1141112,
           "ruleClsPropId" : 1141073,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
+          "srcTrgColVisible" : 1,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141105,
+          "srcTgtColId" : 1141113,
           "ruleClsPropId" : 1141073,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
+          "srcTrgColVisible" : 1,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 0
+          "displayIndex" : 1
         } ],
         "fileContent" : null
       }, {
@@ -354,7 +354,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1141107,
+          "srcTgtColId" : 1141115,
           "ruleClsPropId" : 1141083,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -390,29 +390,29 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1141104,
+      "srcTgtColId" : 1141112,
       "ruleClsPropId" : 1141073,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 0,
+      "srcTrgColVisible" : 1,
       "joinList" : null,
       "mapColName" : "firstname",
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141105,
+      "srcTgtColId" : 1141113,
       "ruleClsPropId" : 1141073,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 0,
+      "srcTrgColVisible" : 1,
       "joinList" : null,
       "mapColName" : "lastname",
       "colFormat" : "",
-      "displayIndex" : 0
+      "displayIndex" : 1
     }, {
-      "srcTgtColId" : 1141107,
+      "srcTgtColId" : 1141115,
       "ruleClsPropId" : 1141083,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -424,9 +424,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1141109,
-      "srcColId" : 1141104,
-      "trgColId" : 1141107,
+      "colMapId" : 1141117,
+      "srcColId" : 1141112,
+      "trgColId" : 1141115,
       "colMapType" : "join",
       "srcColName" : "firstname",
       "tgtColName" : "cnt",
