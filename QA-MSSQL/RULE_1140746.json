@@ -22,7 +22,7 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2022-08-23 00:00:00",
-    "ruleModifiedDate" : "2022-08-23 00:00:00",
+    "ruleModifiedDate" : "2022-08-24 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1141229,
-        "srcColId" : 1141212,
-        "trgColId" : 1141221,
+        "colMapId" : 1141388,
+        "srcColId" : 1141371,
+        "trgColId" : 1141380,
         "colMapType" : "join",
         "srcColName" : "empid",
         "tgtColName" : "empid",
@@ -106,7 +106,30 @@
         "srcTrgColMapVisible" : 1,
         "displayIndex" : 1
       } ],
-      "exprlist" : [ ],
+      "exprlist" : [ {
+        "exprID" : 1141389,
+        "exprLogID" : 0,
+        "exprName" : "Empid check",
+        "expression" : "S.empid == T.empid",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 1,
+        "ruleId" : 1140746,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140749,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.empid == T.empid",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
         "ruleClsPropID" : 1140785,
@@ -229,7 +252,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from ZEBRACO.EmpRecord\nwhere EmpStatus = 'Permanent'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1141212,
+          "srcTgtColId" : 1141371,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -240,7 +263,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141213,
+          "srcTgtColId" : 1141372,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
@@ -251,7 +274,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141214,
+          "srcTgtColId" : 1141373,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
@@ -262,7 +285,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141215,
+          "srcTgtColId" : 1141374,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "varchar",
@@ -273,7 +296,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141216,
+          "srcTgtColId" : 1141375,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "country",
           "srcTrgColDataType" : "varchar",
@@ -284,7 +307,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141217,
+          "srcTgtColId" : 1141376,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -295,7 +318,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141218,
+          "srcTgtColId" : 1141377,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "age",
           "srcTrgColDataType" : "int",
@@ -386,7 +409,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from ZEBRACODW.EmpRecord\nwhere EmpStatus = 'Permanent'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1141221,
+          "srcTgtColId" : 1141380,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -397,7 +420,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141222,
+          "srcTgtColId" : 1141381,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
@@ -408,7 +431,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141223,
+          "srcTgtColId" : 1141382,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
@@ -419,7 +442,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141224,
+          "srcTgtColId" : 1141383,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "varchar",
@@ -430,7 +453,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141225,
+          "srcTgtColId" : 1141384,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "country",
           "srcTrgColDataType" : "varchar",
@@ -441,7 +464,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141226,
+          "srcTgtColId" : 1141385,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -452,7 +475,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141227,
+          "srcTgtColId" : 1141386,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "age",
           "srcTrgColDataType" : "int",
@@ -509,7 +532,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1141212,
+      "srcTgtColId" : 1141371,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -520,7 +543,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141213,
+      "srcTgtColId" : 1141372,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
@@ -531,7 +554,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141214,
+      "srcTgtColId" : 1141373,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
@@ -542,7 +565,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141215,
+      "srcTgtColId" : 1141374,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "varchar",
@@ -553,7 +576,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141216,
+      "srcTgtColId" : 1141375,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "country",
       "srcTrgColDataType" : "varchar",
@@ -564,7 +587,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141217,
+      "srcTgtColId" : 1141376,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -575,7 +598,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141218,
+      "srcTgtColId" : 1141377,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "age",
       "srcTrgColDataType" : "int",
@@ -586,7 +609,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141221,
+      "srcTgtColId" : 1141380,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -597,7 +620,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141222,
+      "srcTgtColId" : 1141381,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
@@ -608,7 +631,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141223,
+      "srcTgtColId" : 1141382,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
@@ -619,7 +642,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141224,
+      "srcTgtColId" : 1141383,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "varchar",
@@ -630,7 +653,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141225,
+      "srcTgtColId" : 1141384,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "country",
       "srcTrgColDataType" : "varchar",
@@ -641,7 +664,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141226,
+      "srcTgtColId" : 1141385,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -652,7 +675,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141227,
+      "srcTgtColId" : 1141386,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "age",
       "srcTrgColDataType" : "int",
@@ -664,9 +687,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1141229,
-      "srcColId" : 1141212,
-      "trgColId" : 1141221,
+      "colMapId" : 1141388,
+      "srcColId" : 1141371,
+      "trgColId" : 1141380,
       "colMapType" : "join",
       "srcColName" : "empid",
       "tgtColName" : "empid",
@@ -690,7 +713,30 @@
     "classModifydBy" : 0,
     "classCreateDate" : null,
     "classModifyDate" : null,
-    "exprVOList" : [ ],
+    "exprVOList" : [ {
+      "exprID" : 1141389,
+      "exprLogID" : 0,
+      "exprName" : "Empid check",
+      "expression" : "S.empid == T.empid",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 1,
+      "ruleId" : 1140746,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140749,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    } ],
     "derivedvariablelist" : null
   }
 }
