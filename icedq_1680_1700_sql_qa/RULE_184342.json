@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2022-08-25 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2022-08-25 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "ICEDQ_17.2.0_ACT_CRM",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 184345,
     "successBody" : "",
     "failureBody" : "",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 184430,
-        "srcColId" : 184354,
-        "trgColId" : 184417,
+        "colMapId" : 184600,
+        "srcColId" : 184539,
+        "trgColId" : 184598,
         "colMapType" : "join",
         "srcColName" : "id",
         "tgtColName" : "cnt",
@@ -222,7 +222,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from Contact --where lastname='DW'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 184354,
+          "srcTgtColId" : 184539,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "id",
           "srcTrgColDataType" : "VARCHAR",
@@ -233,7 +233,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 184355,
+          "srcTgtColId" : 184540,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "isdeleted",
           "srcTrgColDataType" : "BIT",
@@ -244,7 +244,7 @@
           "colFormat" : "",
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 184356,
+          "srcTgtColId" : 184541,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "masterrecordid",
           "srcTrgColDataType" : "VARCHAR",
@@ -255,7 +255,7 @@
           "colFormat" : "",
           "displayIndex" : 2
         }, {
-          "srcTgtColId" : 184357,
+          "srcTgtColId" : 184542,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "accountid",
           "srcTrgColDataType" : "VARCHAR",
@@ -266,7 +266,7 @@
           "colFormat" : "",
           "displayIndex" : 3
         }, {
-          "srcTgtColId" : 184358,
+          "srcTgtColId" : 184543,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "VARCHAR",
@@ -277,7 +277,7 @@
           "colFormat" : "",
           "displayIndex" : 4
         }, {
-          "srcTgtColId" : 184359,
+          "srcTgtColId" : 184544,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "VARCHAR",
@@ -288,7 +288,7 @@
           "colFormat" : "",
           "displayIndex" : 5
         }, {
-          "srcTgtColId" : 184360,
+          "srcTgtColId" : 184545,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "salutation",
           "srcTrgColDataType" : "VARCHAR",
@@ -299,7 +299,7 @@
           "colFormat" : "",
           "displayIndex" : 6
         }, {
-          "srcTgtColId" : 184361,
+          "srcTgtColId" : 184546,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "name",
           "srcTrgColDataType" : "VARCHAR",
@@ -310,7 +310,7 @@
           "colFormat" : "",
           "displayIndex" : 7
         }, {
-          "srcTgtColId" : 184362,
+          "srcTgtColId" : 184547,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "otherstreet",
           "srcTrgColDataType" : "VARCHAR",
@@ -321,7 +321,7 @@
           "colFormat" : "",
           "displayIndex" : 8
         }, {
-          "srcTgtColId" : 184363,
+          "srcTgtColId" : 184548,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "othercity",
           "srcTrgColDataType" : "VARCHAR",
@@ -332,7 +332,7 @@
           "colFormat" : "",
           "displayIndex" : 9
         }, {
-          "srcTgtColId" : 184364,
+          "srcTgtColId" : 184549,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "otherstate",
           "srcTrgColDataType" : "VARCHAR",
@@ -343,7 +343,7 @@
           "colFormat" : "",
           "displayIndex" : 10
         }, {
-          "srcTgtColId" : 184365,
+          "srcTgtColId" : 184550,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "otherpostalcode",
           "srcTrgColDataType" : "VARCHAR",
@@ -354,7 +354,7 @@
           "colFormat" : "",
           "displayIndex" : 11
         }, {
-          "srcTgtColId" : 184366,
+          "srcTgtColId" : 184551,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "othercountry",
           "srcTrgColDataType" : "VARCHAR",
@@ -365,7 +365,7 @@
           "colFormat" : "",
           "displayIndex" : 12
         }, {
-          "srcTgtColId" : 184367,
+          "srcTgtColId" : 184552,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "otherlatitude",
           "srcTrgColDataType" : "FLOAT",
@@ -376,7 +376,7 @@
           "colFormat" : "",
           "displayIndex" : 13
         }, {
-          "srcTgtColId" : 184368,
+          "srcTgtColId" : 184553,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "otherlongitude",
           "srcTrgColDataType" : "FLOAT",
@@ -387,7 +387,7 @@
           "colFormat" : "",
           "displayIndex" : 14
         }, {
-          "srcTgtColId" : 184369,
+          "srcTgtColId" : 184554,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "othergeocodeaccuracy",
           "srcTrgColDataType" : "VARCHAR",
@@ -398,7 +398,7 @@
           "colFormat" : "",
           "displayIndex" : 15
         }, {
-          "srcTgtColId" : 184370,
+          "srcTgtColId" : 184555,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mailingstreet",
           "srcTrgColDataType" : "VARCHAR",
@@ -409,7 +409,7 @@
           "colFormat" : "",
           "displayIndex" : 16
         }, {
-          "srcTgtColId" : 184371,
+          "srcTgtColId" : 184556,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mailingcity",
           "srcTrgColDataType" : "VARCHAR",
@@ -420,7 +420,7 @@
           "colFormat" : "",
           "displayIndex" : 17
         }, {
-          "srcTgtColId" : 184372,
+          "srcTgtColId" : 184557,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mailingstate",
           "srcTrgColDataType" : "VARCHAR",
@@ -431,7 +431,7 @@
           "colFormat" : "",
           "displayIndex" : 18
         }, {
-          "srcTgtColId" : 184373,
+          "srcTgtColId" : 184558,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mailingpostalcode",
           "srcTrgColDataType" : "VARCHAR",
@@ -442,7 +442,7 @@
           "colFormat" : "",
           "displayIndex" : 19
         }, {
-          "srcTgtColId" : 184374,
+          "srcTgtColId" : 184559,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mailingcountry",
           "srcTrgColDataType" : "VARCHAR",
@@ -453,7 +453,7 @@
           "colFormat" : "",
           "displayIndex" : 20
         }, {
-          "srcTgtColId" : 184375,
+          "srcTgtColId" : 184560,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mailinglatitude",
           "srcTrgColDataType" : "FLOAT",
@@ -464,7 +464,7 @@
           "colFormat" : "",
           "displayIndex" : 21
         }, {
-          "srcTgtColId" : 184376,
+          "srcTgtColId" : 184561,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mailinglongitude",
           "srcTrgColDataType" : "FLOAT",
@@ -475,7 +475,7 @@
           "colFormat" : "",
           "displayIndex" : 22
         }, {
-          "srcTgtColId" : 184377,
+          "srcTgtColId" : 184562,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mailinggeocodeaccuracy",
           "srcTrgColDataType" : "VARCHAR",
@@ -486,7 +486,7 @@
           "colFormat" : "",
           "displayIndex" : 23
         }, {
-          "srcTgtColId" : 184378,
+          "srcTgtColId" : 184563,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "phone",
           "srcTrgColDataType" : "VARCHAR",
@@ -497,7 +497,7 @@
           "colFormat" : "",
           "displayIndex" : 24
         }, {
-          "srcTgtColId" : 184379,
+          "srcTgtColId" : 184564,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "fax",
           "srcTrgColDataType" : "VARCHAR",
@@ -508,7 +508,7 @@
           "colFormat" : "",
           "displayIndex" : 25
         }, {
-          "srcTgtColId" : 184380,
+          "srcTgtColId" : 184565,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "mobilephone",
           "srcTrgColDataType" : "VARCHAR",
@@ -519,7 +519,7 @@
           "colFormat" : "",
           "displayIndex" : 26
         }, {
-          "srcTgtColId" : 184381,
+          "srcTgtColId" : 184566,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "homephone",
           "srcTrgColDataType" : "VARCHAR",
@@ -530,7 +530,7 @@
           "colFormat" : "",
           "displayIndex" : 27
         }, {
-          "srcTgtColId" : 184382,
+          "srcTgtColId" : 184567,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "otherphone",
           "srcTrgColDataType" : "VARCHAR",
@@ -541,7 +541,7 @@
           "colFormat" : "",
           "displayIndex" : 28
         }, {
-          "srcTgtColId" : 184383,
+          "srcTgtColId" : 184568,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "assistantphone",
           "srcTrgColDataType" : "VARCHAR",
@@ -552,7 +552,7 @@
           "colFormat" : "",
           "displayIndex" : 29
         }, {
-          "srcTgtColId" : 184384,
+          "srcTgtColId" : 184569,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "reportstoid",
           "srcTrgColDataType" : "VARCHAR",
@@ -563,7 +563,7 @@
           "colFormat" : "",
           "displayIndex" : 30
         }, {
-          "srcTgtColId" : 184385,
+          "srcTgtColId" : 184570,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "email",
           "srcTrgColDataType" : "VARCHAR",
@@ -574,7 +574,7 @@
           "colFormat" : "",
           "displayIndex" : 31
         }, {
-          "srcTgtColId" : 184386,
+          "srcTgtColId" : 184571,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "title",
           "srcTrgColDataType" : "VARCHAR",
@@ -585,7 +585,7 @@
           "colFormat" : "",
           "displayIndex" : 32
         }, {
-          "srcTgtColId" : 184387,
+          "srcTgtColId" : 184572,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "department",
           "srcTrgColDataType" : "VARCHAR",
@@ -596,7 +596,7 @@
           "colFormat" : "",
           "displayIndex" : 33
         }, {
-          "srcTgtColId" : 184388,
+          "srcTgtColId" : 184573,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "assistantname",
           "srcTrgColDataType" : "VARCHAR",
@@ -607,7 +607,7 @@
           "colFormat" : "",
           "displayIndex" : 34
         }, {
-          "srcTgtColId" : 184389,
+          "srcTgtColId" : 184574,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "leadsource",
           "srcTrgColDataType" : "VARCHAR",
@@ -618,7 +618,7 @@
           "colFormat" : "",
           "displayIndex" : 35
         }, {
-          "srcTgtColId" : 184390,
+          "srcTgtColId" : 184575,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "birthdate",
           "srcTrgColDataType" : "DATE",
@@ -629,7 +629,7 @@
           "colFormat" : "",
           "displayIndex" : 36
         }, {
-          "srcTgtColId" : 184391,
+          "srcTgtColId" : 184576,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "description",
           "srcTrgColDataType" : "VARCHAR",
@@ -640,7 +640,7 @@
           "colFormat" : "",
           "displayIndex" : 37
         }, {
-          "srcTgtColId" : 184392,
+          "srcTgtColId" : 184577,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "ownerid",
           "srcTrgColDataType" : "VARCHAR",
@@ -651,7 +651,7 @@
           "colFormat" : "",
           "displayIndex" : 38
         }, {
-          "srcTgtColId" : 184393,
+          "srcTgtColId" : 184578,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "createddate",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -662,7 +662,7 @@
           "colFormat" : "",
           "displayIndex" : 39
         }, {
-          "srcTgtColId" : 184394,
+          "srcTgtColId" : 184579,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "createdbyid",
           "srcTrgColDataType" : "VARCHAR",
@@ -673,7 +673,7 @@
           "colFormat" : "",
           "displayIndex" : 40
         }, {
-          "srcTgtColId" : 184395,
+          "srcTgtColId" : 184580,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "lastmodifieddate",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -684,7 +684,7 @@
           "colFormat" : "",
           "displayIndex" : 41
         }, {
-          "srcTgtColId" : 184396,
+          "srcTgtColId" : 184581,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "lastmodifiedbyid",
           "srcTrgColDataType" : "VARCHAR",
@@ -695,7 +695,7 @@
           "colFormat" : "",
           "displayIndex" : 42
         }, {
-          "srcTgtColId" : 184397,
+          "srcTgtColId" : 184582,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "systemmodstamp",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -706,7 +706,7 @@
           "colFormat" : "",
           "displayIndex" : 43
         }, {
-          "srcTgtColId" : 184398,
+          "srcTgtColId" : 184583,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "lastactivitydate",
           "srcTrgColDataType" : "DATE",
@@ -717,7 +717,7 @@
           "colFormat" : "",
           "displayIndex" : 44
         }, {
-          "srcTgtColId" : 184399,
+          "srcTgtColId" : 184584,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "lastcurequestdate",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -728,7 +728,7 @@
           "colFormat" : "",
           "displayIndex" : 45
         }, {
-          "srcTgtColId" : 184400,
+          "srcTgtColId" : 184585,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "lastcuupdatedate",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -739,7 +739,7 @@
           "colFormat" : "",
           "displayIndex" : 46
         }, {
-          "srcTgtColId" : 184401,
+          "srcTgtColId" : 184586,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "lastvieweddate",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -750,7 +750,7 @@
           "colFormat" : "",
           "displayIndex" : 47
         }, {
-          "srcTgtColId" : 184402,
+          "srcTgtColId" : 184587,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "lastreferenceddate",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -761,7 +761,7 @@
           "colFormat" : "",
           "displayIndex" : 48
         }, {
-          "srcTgtColId" : 184403,
+          "srcTgtColId" : 184588,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "emailbouncedreason",
           "srcTrgColDataType" : "VARCHAR",
@@ -772,7 +772,7 @@
           "colFormat" : "",
           "displayIndex" : 49
         }, {
-          "srcTgtColId" : 184404,
+          "srcTgtColId" : 184589,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "emailbounceddate",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -783,7 +783,7 @@
           "colFormat" : "",
           "displayIndex" : 50
         }, {
-          "srcTgtColId" : 184405,
+          "srcTgtColId" : 184590,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "isemailbounced",
           "srcTrgColDataType" : "BIT",
@@ -794,7 +794,7 @@
           "colFormat" : "",
           "displayIndex" : 51
         }, {
-          "srcTgtColId" : 184406,
+          "srcTgtColId" : 184591,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "photourl",
           "srcTrgColDataType" : "VARCHAR",
@@ -805,7 +805,7 @@
           "colFormat" : "",
           "displayIndex" : 52
         }, {
-          "srcTgtColId" : 184407,
+          "srcTgtColId" : 184592,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "jigsaw",
           "srcTrgColDataType" : "VARCHAR",
@@ -816,7 +816,7 @@
           "colFormat" : "",
           "displayIndex" : 53
         }, {
-          "srcTgtColId" : 184408,
+          "srcTgtColId" : 184593,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "jigsawcontactid",
           "srcTrgColDataType" : "VARCHAR",
@@ -827,7 +827,7 @@
           "colFormat" : "",
           "displayIndex" : 54
         }, {
-          "srcTgtColId" : 184409,
+          "srcTgtColId" : 184594,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "cleanstatus",
           "srcTrgColDataType" : "VARCHAR",
@@ -838,7 +838,7 @@
           "colFormat" : "",
           "displayIndex" : 55
         }, {
-          "srcTgtColId" : 184410,
+          "srcTgtColId" : 184595,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "level__c",
           "srcTrgColDataType" : "VARCHAR",
@@ -849,7 +849,7 @@
           "colFormat" : "",
           "displayIndex" : 56
         }, {
-          "srcTgtColId" : 184411,
+          "srcTgtColId" : 184596,
           "ruleClsPropId" : 184346,
           "srcTrgColName" : "languages__c",
           "srcTrgColDataType" : "VARCHAR",
@@ -933,7 +933,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 184417,
+          "srcTgtColId" : 184598,
           "ruleClsPropId" : 184412,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -976,7 +976,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 184354,
+      "srcTgtColId" : 184539,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "id",
       "srcTrgColDataType" : "VARCHAR",
@@ -987,7 +987,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 184355,
+      "srcTgtColId" : 184540,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "isdeleted",
       "srcTrgColDataType" : "BIT",
@@ -998,7 +998,7 @@
       "colFormat" : "",
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 184356,
+      "srcTgtColId" : 184541,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "masterrecordid",
       "srcTrgColDataType" : "VARCHAR",
@@ -1009,7 +1009,7 @@
       "colFormat" : "",
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 184357,
+      "srcTgtColId" : 184542,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "accountid",
       "srcTrgColDataType" : "VARCHAR",
@@ -1020,7 +1020,7 @@
       "colFormat" : "",
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 184358,
+      "srcTgtColId" : 184543,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "VARCHAR",
@@ -1031,7 +1031,7 @@
       "colFormat" : "",
       "displayIndex" : 4
     }, {
-      "srcTgtColId" : 184359,
+      "srcTgtColId" : 184544,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "VARCHAR",
@@ -1042,7 +1042,7 @@
       "colFormat" : "",
       "displayIndex" : 5
     }, {
-      "srcTgtColId" : 184360,
+      "srcTgtColId" : 184545,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "salutation",
       "srcTrgColDataType" : "VARCHAR",
@@ -1053,7 +1053,7 @@
       "colFormat" : "",
       "displayIndex" : 6
     }, {
-      "srcTgtColId" : 184361,
+      "srcTgtColId" : 184546,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "name",
       "srcTrgColDataType" : "VARCHAR",
@@ -1064,7 +1064,7 @@
       "colFormat" : "",
       "displayIndex" : 7
     }, {
-      "srcTgtColId" : 184362,
+      "srcTgtColId" : 184547,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "otherstreet",
       "srcTrgColDataType" : "VARCHAR",
@@ -1075,7 +1075,7 @@
       "colFormat" : "",
       "displayIndex" : 8
     }, {
-      "srcTgtColId" : 184363,
+      "srcTgtColId" : 184548,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "othercity",
       "srcTrgColDataType" : "VARCHAR",
@@ -1086,7 +1086,7 @@
       "colFormat" : "",
       "displayIndex" : 9
     }, {
-      "srcTgtColId" : 184364,
+      "srcTgtColId" : 184549,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "otherstate",
       "srcTrgColDataType" : "VARCHAR",
@@ -1097,7 +1097,7 @@
       "colFormat" : "",
       "displayIndex" : 10
     }, {
-      "srcTgtColId" : 184365,
+      "srcTgtColId" : 184550,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "otherpostalcode",
       "srcTrgColDataType" : "VARCHAR",
@@ -1108,7 +1108,7 @@
       "colFormat" : "",
       "displayIndex" : 11
     }, {
-      "srcTgtColId" : 184366,
+      "srcTgtColId" : 184551,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "othercountry",
       "srcTrgColDataType" : "VARCHAR",
@@ -1119,7 +1119,7 @@
       "colFormat" : "",
       "displayIndex" : 12
     }, {
-      "srcTgtColId" : 184367,
+      "srcTgtColId" : 184552,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "otherlatitude",
       "srcTrgColDataType" : "FLOAT",
@@ -1130,7 +1130,7 @@
       "colFormat" : "",
       "displayIndex" : 13
     }, {
-      "srcTgtColId" : 184368,
+      "srcTgtColId" : 184553,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "otherlongitude",
       "srcTrgColDataType" : "FLOAT",
@@ -1141,7 +1141,7 @@
       "colFormat" : "",
       "displayIndex" : 14
     }, {
-      "srcTgtColId" : 184369,
+      "srcTgtColId" : 184554,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "othergeocodeaccuracy",
       "srcTrgColDataType" : "VARCHAR",
@@ -1152,7 +1152,7 @@
       "colFormat" : "",
       "displayIndex" : 15
     }, {
-      "srcTgtColId" : 184370,
+      "srcTgtColId" : 184555,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mailingstreet",
       "srcTrgColDataType" : "VARCHAR",
@@ -1163,7 +1163,7 @@
       "colFormat" : "",
       "displayIndex" : 16
     }, {
-      "srcTgtColId" : 184371,
+      "srcTgtColId" : 184556,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mailingcity",
       "srcTrgColDataType" : "VARCHAR",
@@ -1174,7 +1174,7 @@
       "colFormat" : "",
       "displayIndex" : 17
     }, {
-      "srcTgtColId" : 184372,
+      "srcTgtColId" : 184557,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mailingstate",
       "srcTrgColDataType" : "VARCHAR",
@@ -1185,7 +1185,7 @@
       "colFormat" : "",
       "displayIndex" : 18
     }, {
-      "srcTgtColId" : 184373,
+      "srcTgtColId" : 184558,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mailingpostalcode",
       "srcTrgColDataType" : "VARCHAR",
@@ -1196,7 +1196,7 @@
       "colFormat" : "",
       "displayIndex" : 19
     }, {
-      "srcTgtColId" : 184374,
+      "srcTgtColId" : 184559,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mailingcountry",
       "srcTrgColDataType" : "VARCHAR",
@@ -1207,7 +1207,7 @@
       "colFormat" : "",
       "displayIndex" : 20
     }, {
-      "srcTgtColId" : 184375,
+      "srcTgtColId" : 184560,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mailinglatitude",
       "srcTrgColDataType" : "FLOAT",
@@ -1218,7 +1218,7 @@
       "colFormat" : "",
       "displayIndex" : 21
     }, {
-      "srcTgtColId" : 184376,
+      "srcTgtColId" : 184561,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mailinglongitude",
       "srcTrgColDataType" : "FLOAT",
@@ -1229,7 +1229,7 @@
       "colFormat" : "",
       "displayIndex" : 22
     }, {
-      "srcTgtColId" : 184377,
+      "srcTgtColId" : 184562,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mailinggeocodeaccuracy",
       "srcTrgColDataType" : "VARCHAR",
@@ -1240,7 +1240,7 @@
       "colFormat" : "",
       "displayIndex" : 23
     }, {
-      "srcTgtColId" : 184378,
+      "srcTgtColId" : 184563,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "phone",
       "srcTrgColDataType" : "VARCHAR",
@@ -1251,7 +1251,7 @@
       "colFormat" : "",
       "displayIndex" : 24
     }, {
-      "srcTgtColId" : 184379,
+      "srcTgtColId" : 184564,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "fax",
       "srcTrgColDataType" : "VARCHAR",
@@ -1262,7 +1262,7 @@
       "colFormat" : "",
       "displayIndex" : 25
     }, {
-      "srcTgtColId" : 184380,
+      "srcTgtColId" : 184565,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "mobilephone",
       "srcTrgColDataType" : "VARCHAR",
@@ -1273,7 +1273,7 @@
       "colFormat" : "",
       "displayIndex" : 26
     }, {
-      "srcTgtColId" : 184381,
+      "srcTgtColId" : 184566,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "homephone",
       "srcTrgColDataType" : "VARCHAR",
@@ -1284,7 +1284,7 @@
       "colFormat" : "",
       "displayIndex" : 27
     }, {
-      "srcTgtColId" : 184382,
+      "srcTgtColId" : 184567,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "otherphone",
       "srcTrgColDataType" : "VARCHAR",
@@ -1295,7 +1295,7 @@
       "colFormat" : "",
       "displayIndex" : 28
     }, {
-      "srcTgtColId" : 184383,
+      "srcTgtColId" : 184568,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "assistantphone",
       "srcTrgColDataType" : "VARCHAR",
@@ -1306,7 +1306,7 @@
       "colFormat" : "",
       "displayIndex" : 29
     }, {
-      "srcTgtColId" : 184384,
+      "srcTgtColId" : 184569,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "reportstoid",
       "srcTrgColDataType" : "VARCHAR",
@@ -1317,7 +1317,7 @@
       "colFormat" : "",
       "displayIndex" : 30
     }, {
-      "srcTgtColId" : 184385,
+      "srcTgtColId" : 184570,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "email",
       "srcTrgColDataType" : "VARCHAR",
@@ -1328,7 +1328,7 @@
       "colFormat" : "",
       "displayIndex" : 31
     }, {
-      "srcTgtColId" : 184386,
+      "srcTgtColId" : 184571,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "title",
       "srcTrgColDataType" : "VARCHAR",
@@ -1339,7 +1339,7 @@
       "colFormat" : "",
       "displayIndex" : 32
     }, {
-      "srcTgtColId" : 184387,
+      "srcTgtColId" : 184572,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "department",
       "srcTrgColDataType" : "VARCHAR",
@@ -1350,7 +1350,7 @@
       "colFormat" : "",
       "displayIndex" : 33
     }, {
-      "srcTgtColId" : 184388,
+      "srcTgtColId" : 184573,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "assistantname",
       "srcTrgColDataType" : "VARCHAR",
@@ -1361,7 +1361,7 @@
       "colFormat" : "",
       "displayIndex" : 34
     }, {
-      "srcTgtColId" : 184389,
+      "srcTgtColId" : 184574,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "leadsource",
       "srcTrgColDataType" : "VARCHAR",
@@ -1372,7 +1372,7 @@
       "colFormat" : "",
       "displayIndex" : 35
     }, {
-      "srcTgtColId" : 184390,
+      "srcTgtColId" : 184575,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "birthdate",
       "srcTrgColDataType" : "DATE",
@@ -1383,7 +1383,7 @@
       "colFormat" : "",
       "displayIndex" : 36
     }, {
-      "srcTgtColId" : 184391,
+      "srcTgtColId" : 184576,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "description",
       "srcTrgColDataType" : "VARCHAR",
@@ -1394,7 +1394,7 @@
       "colFormat" : "",
       "displayIndex" : 37
     }, {
-      "srcTgtColId" : 184392,
+      "srcTgtColId" : 184577,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "ownerid",
       "srcTrgColDataType" : "VARCHAR",
@@ -1405,7 +1405,7 @@
       "colFormat" : "",
       "displayIndex" : 38
     }, {
-      "srcTgtColId" : 184393,
+      "srcTgtColId" : 184578,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "createddate",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1416,7 +1416,7 @@
       "colFormat" : "",
       "displayIndex" : 39
     }, {
-      "srcTgtColId" : 184394,
+      "srcTgtColId" : 184579,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "createdbyid",
       "srcTrgColDataType" : "VARCHAR",
@@ -1427,7 +1427,7 @@
       "colFormat" : "",
       "displayIndex" : 40
     }, {
-      "srcTgtColId" : 184395,
+      "srcTgtColId" : 184580,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "lastmodifieddate",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1438,7 +1438,7 @@
       "colFormat" : "",
       "displayIndex" : 41
     }, {
-      "srcTgtColId" : 184396,
+      "srcTgtColId" : 184581,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "lastmodifiedbyid",
       "srcTrgColDataType" : "VARCHAR",
@@ -1449,7 +1449,7 @@
       "colFormat" : "",
       "displayIndex" : 42
     }, {
-      "srcTgtColId" : 184397,
+      "srcTgtColId" : 184582,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "systemmodstamp",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1460,7 +1460,7 @@
       "colFormat" : "",
       "displayIndex" : 43
     }, {
-      "srcTgtColId" : 184398,
+      "srcTgtColId" : 184583,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "lastactivitydate",
       "srcTrgColDataType" : "DATE",
@@ -1471,7 +1471,7 @@
       "colFormat" : "",
       "displayIndex" : 44
     }, {
-      "srcTgtColId" : 184399,
+      "srcTgtColId" : 184584,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "lastcurequestdate",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1482,7 +1482,7 @@
       "colFormat" : "",
       "displayIndex" : 45
     }, {
-      "srcTgtColId" : 184400,
+      "srcTgtColId" : 184585,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "lastcuupdatedate",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1493,7 +1493,7 @@
       "colFormat" : "",
       "displayIndex" : 46
     }, {
-      "srcTgtColId" : 184401,
+      "srcTgtColId" : 184586,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "lastvieweddate",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1504,7 +1504,7 @@
       "colFormat" : "",
       "displayIndex" : 47
     }, {
-      "srcTgtColId" : 184402,
+      "srcTgtColId" : 184587,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "lastreferenceddate",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1515,7 +1515,7 @@
       "colFormat" : "",
       "displayIndex" : 48
     }, {
-      "srcTgtColId" : 184403,
+      "srcTgtColId" : 184588,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "emailbouncedreason",
       "srcTrgColDataType" : "VARCHAR",
@@ -1526,7 +1526,7 @@
       "colFormat" : "",
       "displayIndex" : 49
     }, {
-      "srcTgtColId" : 184404,
+      "srcTgtColId" : 184589,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "emailbounceddate",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1537,7 +1537,7 @@
       "colFormat" : "",
       "displayIndex" : 50
     }, {
-      "srcTgtColId" : 184405,
+      "srcTgtColId" : 184590,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "isemailbounced",
       "srcTrgColDataType" : "BIT",
@@ -1548,7 +1548,7 @@
       "colFormat" : "",
       "displayIndex" : 51
     }, {
-      "srcTgtColId" : 184406,
+      "srcTgtColId" : 184591,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "photourl",
       "srcTrgColDataType" : "VARCHAR",
@@ -1559,7 +1559,7 @@
       "colFormat" : "",
       "displayIndex" : 52
     }, {
-      "srcTgtColId" : 184407,
+      "srcTgtColId" : 184592,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "jigsaw",
       "srcTrgColDataType" : "VARCHAR",
@@ -1570,7 +1570,7 @@
       "colFormat" : "",
       "displayIndex" : 53
     }, {
-      "srcTgtColId" : 184408,
+      "srcTgtColId" : 184593,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "jigsawcontactid",
       "srcTrgColDataType" : "VARCHAR",
@@ -1581,7 +1581,7 @@
       "colFormat" : "",
       "displayIndex" : 54
     }, {
-      "srcTgtColId" : 184409,
+      "srcTgtColId" : 184594,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "cleanstatus",
       "srcTrgColDataType" : "VARCHAR",
@@ -1592,7 +1592,7 @@
       "colFormat" : "",
       "displayIndex" : 55
     }, {
-      "srcTgtColId" : 184410,
+      "srcTgtColId" : 184595,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "level__c",
       "srcTrgColDataType" : "VARCHAR",
@@ -1603,7 +1603,7 @@
       "colFormat" : "",
       "displayIndex" : 56
     }, {
-      "srcTgtColId" : 184411,
+      "srcTgtColId" : 184596,
       "ruleClsPropId" : 184346,
       "srcTrgColName" : "languages__c",
       "srcTrgColDataType" : "VARCHAR",
@@ -1614,7 +1614,7 @@
       "colFormat" : "",
       "displayIndex" : 57
     }, {
-      "srcTgtColId" : 184417,
+      "srcTgtColId" : 184598,
       "ruleClsPropId" : 184412,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -1626,9 +1626,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 184430,
-      "srcColId" : 184354,
-      "trgColId" : 184417,
+      "colMapId" : 184600,
+      "srcColId" : 184539,
+      "trgColId" : 184598,
       "colMapType" : "join",
       "srcColName" : "id",
       "tgtColName" : "cnt",
