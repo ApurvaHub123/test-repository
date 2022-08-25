@@ -96,15 +96,15 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1141755,
-        "srcColId" : 1141693,
-        "trgColId" : 1141719,
+        "colMapId" : 1141823,
+        "srcColId" : 1141761,
+        "trgColId" : 1141787,
         "colMapType" : "join",
         "srcColName" : "productnumber",
         "tgtColName" : "productalternatekey",
         "colMapExpr" : "productalternatekey=productnumber",
         "srcTrgColMapVisible" : 1,
-        "displayIndex" : 3
+        "displayIndex" : 1
       } ],
       "exprlist" : [ {
         "exprID" : 1141688,
@@ -113,7 +113,7 @@
         "expression" : "S.productid == T.productkey",
         "result" : "Pass",
         "exprType" : "5",
-        "exprVisible" : 1,
+        "exprVisible" : 0,
         "exprIndex" : 0,
         "ruleId" : 1141524,
         "ruleInstanceId" : 0,
@@ -137,7 +137,7 @@
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
-        "exprIndex" : 1,
+        "exprIndex" : 0,
         "ruleId" : 1141524,
         "ruleInstanceId" : 0,
         "ruleClassId" : 1141527,
@@ -275,7 +275,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from PRODUCTION.Product",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1141691,
+          "srcTgtColId" : 1141759,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "productid",
           "srcTrgColDataType" : "int",
@@ -286,7 +286,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141692,
+          "srcTgtColId" : 1141760,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "name",
           "srcTrgColDataType" : "nvarchar",
@@ -297,7 +297,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141693,
+          "srcTgtColId" : 1141761,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "productnumber",
           "srcTrgColDataType" : "nvarchar",
@@ -308,7 +308,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141694,
+          "srcTgtColId" : 1141762,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "makeflag",
           "srcTrgColDataType" : "bit",
@@ -319,7 +319,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141695,
+          "srcTgtColId" : 1141763,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "finishedgoodsflag",
           "srcTrgColDataType" : "bit",
@@ -330,7 +330,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141696,
+          "srcTgtColId" : 1141764,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "color",
           "srcTrgColDataType" : "nvarchar",
@@ -341,7 +341,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141697,
+          "srcTgtColId" : 1141765,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "safetystocklevel",
           "srcTrgColDataType" : "smallint",
@@ -352,7 +352,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141698,
+          "srcTgtColId" : 1141766,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "reorderpoint",
           "srcTrgColDataType" : "smallint",
@@ -363,7 +363,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141699,
+          "srcTgtColId" : 1141767,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "standardcost",
           "srcTrgColDataType" : "money",
@@ -374,7 +374,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141700,
+          "srcTgtColId" : 1141768,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "listprice",
           "srcTrgColDataType" : "money",
@@ -385,7 +385,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141701,
+          "srcTgtColId" : 1141769,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "size",
           "srcTrgColDataType" : "nvarchar",
@@ -396,7 +396,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141702,
+          "srcTgtColId" : 1141770,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "sizeunitmeasurecode",
           "srcTrgColDataType" : "nchar",
@@ -407,7 +407,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141703,
+          "srcTgtColId" : 1141771,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "weightunitmeasurecode",
           "srcTrgColDataType" : "nchar",
@@ -418,7 +418,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141704,
+          "srcTgtColId" : 1141772,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "weight",
           "srcTrgColDataType" : "decimal",
@@ -429,7 +429,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141705,
+          "srcTgtColId" : 1141773,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "daystomanufacture",
           "srcTrgColDataType" : "int",
@@ -440,7 +440,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141706,
+          "srcTgtColId" : 1141774,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "productline",
           "srcTrgColDataType" : "nchar",
@@ -451,7 +451,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141707,
+          "srcTgtColId" : 1141775,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "class",
           "srcTrgColDataType" : "nchar",
@@ -462,7 +462,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141708,
+          "srcTgtColId" : 1141776,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "style",
           "srcTrgColDataType" : "nchar",
@@ -473,7 +473,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141709,
+          "srcTgtColId" : 1141777,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "productsubcategoryid",
           "srcTrgColDataType" : "int",
@@ -484,7 +484,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141710,
+          "srcTgtColId" : 1141778,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "productmodelid",
           "srcTrgColDataType" : "int",
@@ -495,7 +495,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141711,
+          "srcTgtColId" : 1141779,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "sellstartdate",
           "srcTrgColDataType" : "datetime",
@@ -506,7 +506,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141712,
+          "srcTgtColId" : 1141780,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "sellenddate",
           "srcTrgColDataType" : "datetime",
@@ -517,7 +517,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141713,
+          "srcTgtColId" : 1141781,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "discontinueddate",
           "srcTrgColDataType" : "datetime",
@@ -528,7 +528,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141714,
+          "srcTgtColId" : 1141782,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "rowguid",
           "srcTrgColDataType" : "uniqueidentifier",
@@ -539,7 +539,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141715,
+          "srcTgtColId" : 1141783,
           "ruleClsPropId" : 1141528,
           "srcTrgColName" : "modifieddate",
           "srcTrgColDataType" : "datetime",
@@ -630,7 +630,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from DBO.DimProduct",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1141718,
+          "srcTgtColId" : 1141786,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "productkey",
           "srcTrgColDataType" : "int",
@@ -641,7 +641,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141719,
+          "srcTgtColId" : 1141787,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "productalternatekey",
           "srcTrgColDataType" : "nvarchar",
@@ -652,7 +652,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141720,
+          "srcTgtColId" : 1141788,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "productsubcategorykey",
           "srcTrgColDataType" : "int",
@@ -663,7 +663,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141721,
+          "srcTgtColId" : 1141789,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "weightunitmeasurecode",
           "srcTrgColDataType" : "nchar",
@@ -674,7 +674,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141722,
+          "srcTgtColId" : 1141790,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "sizeunitmeasurecode",
           "srcTrgColDataType" : "nchar",
@@ -685,7 +685,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141723,
+          "srcTgtColId" : 1141791,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "englishproductname",
           "srcTrgColDataType" : "nvarchar",
@@ -696,7 +696,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141724,
+          "srcTgtColId" : 1141792,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "spanishproductname",
           "srcTrgColDataType" : "nvarchar",
@@ -707,7 +707,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141725,
+          "srcTgtColId" : 1141793,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "frenchproductname",
           "srcTrgColDataType" : "nvarchar",
@@ -718,7 +718,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141726,
+          "srcTgtColId" : 1141794,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "standardcost",
           "srcTrgColDataType" : "money",
@@ -729,7 +729,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141727,
+          "srcTgtColId" : 1141795,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "finishedgoodsflag",
           "srcTrgColDataType" : "bit",
@@ -740,7 +740,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141728,
+          "srcTgtColId" : 1141796,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "color",
           "srcTrgColDataType" : "nvarchar",
@@ -751,7 +751,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141729,
+          "srcTgtColId" : 1141797,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "safetystocklevel",
           "srcTrgColDataType" : "smallint",
@@ -762,7 +762,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141730,
+          "srcTgtColId" : 1141798,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "reorderpoint",
           "srcTrgColDataType" : "smallint",
@@ -773,7 +773,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141731,
+          "srcTgtColId" : 1141799,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "listprice",
           "srcTrgColDataType" : "money",
@@ -784,7 +784,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141732,
+          "srcTgtColId" : 1141800,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "size",
           "srcTrgColDataType" : "nvarchar",
@@ -795,7 +795,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141733,
+          "srcTgtColId" : 1141801,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "sizerange",
           "srcTrgColDataType" : "nvarchar",
@@ -806,7 +806,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141734,
+          "srcTgtColId" : 1141802,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "weight",
           "srcTrgColDataType" : "float",
@@ -817,7 +817,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141735,
+          "srcTgtColId" : 1141803,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "daystomanufacture",
           "srcTrgColDataType" : "int",
@@ -828,7 +828,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141736,
+          "srcTgtColId" : 1141804,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "productline",
           "srcTrgColDataType" : "nchar",
@@ -839,7 +839,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141737,
+          "srcTgtColId" : 1141805,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "dealerprice",
           "srcTrgColDataType" : "money",
@@ -850,7 +850,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141738,
+          "srcTgtColId" : 1141806,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "class",
           "srcTrgColDataType" : "nchar",
@@ -861,7 +861,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141739,
+          "srcTgtColId" : 1141807,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "style",
           "srcTrgColDataType" : "nchar",
@@ -872,7 +872,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141740,
+          "srcTgtColId" : 1141808,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "modelname",
           "srcTrgColDataType" : "nvarchar",
@@ -883,7 +883,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141741,
+          "srcTgtColId" : 1141809,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "largephoto",
           "srcTrgColDataType" : "varbinary",
@@ -894,7 +894,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141742,
+          "srcTgtColId" : 1141810,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "englishdescription",
           "srcTrgColDataType" : "nvarchar",
@@ -905,7 +905,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141743,
+          "srcTgtColId" : 1141811,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "frenchdescription",
           "srcTrgColDataType" : "nvarchar",
@@ -916,7 +916,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141744,
+          "srcTgtColId" : 1141812,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "chinesedescription",
           "srcTrgColDataType" : "nvarchar",
@@ -927,7 +927,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141745,
+          "srcTgtColId" : 1141813,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "arabicdescription",
           "srcTrgColDataType" : "nvarchar",
@@ -938,7 +938,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141746,
+          "srcTgtColId" : 1141814,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "hebrewdescription",
           "srcTrgColDataType" : "nvarchar",
@@ -949,7 +949,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141747,
+          "srcTgtColId" : 1141815,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "thaidescription",
           "srcTrgColDataType" : "nvarchar",
@@ -960,7 +960,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141748,
+          "srcTgtColId" : 1141816,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "germandescription",
           "srcTrgColDataType" : "nvarchar",
@@ -971,7 +971,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141749,
+          "srcTgtColId" : 1141817,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "japanesedescription",
           "srcTrgColDataType" : "nvarchar",
@@ -982,7 +982,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141750,
+          "srcTgtColId" : 1141818,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "turkishdescription",
           "srcTrgColDataType" : "nvarchar",
@@ -993,7 +993,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141751,
+          "srcTgtColId" : 1141819,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "startdate",
           "srcTrgColDataType" : "datetime",
@@ -1004,7 +1004,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141752,
+          "srcTgtColId" : 1141820,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "enddate",
           "srcTrgColDataType" : "datetime",
@@ -1015,7 +1015,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141753,
+          "srcTgtColId" : 1141821,
           "ruleClsPropId" : 1141562,
           "srcTrgColName" : "status",
           "srcTrgColDataType" : "nvarchar",
@@ -1072,7 +1072,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1141691,
+      "srcTgtColId" : 1141759,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "productid",
       "srcTrgColDataType" : "int",
@@ -1083,7 +1083,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141692,
+      "srcTgtColId" : 1141760,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "name",
       "srcTrgColDataType" : "nvarchar",
@@ -1094,7 +1094,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141693,
+      "srcTgtColId" : 1141761,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "productnumber",
       "srcTrgColDataType" : "nvarchar",
@@ -1105,7 +1105,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141694,
+      "srcTgtColId" : 1141762,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "makeflag",
       "srcTrgColDataType" : "bit",
@@ -1116,7 +1116,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141695,
+      "srcTgtColId" : 1141763,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "finishedgoodsflag",
       "srcTrgColDataType" : "bit",
@@ -1127,7 +1127,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141696,
+      "srcTgtColId" : 1141764,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "color",
       "srcTrgColDataType" : "nvarchar",
@@ -1138,7 +1138,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141697,
+      "srcTgtColId" : 1141765,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "safetystocklevel",
       "srcTrgColDataType" : "smallint",
@@ -1149,7 +1149,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141698,
+      "srcTgtColId" : 1141766,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "reorderpoint",
       "srcTrgColDataType" : "smallint",
@@ -1160,7 +1160,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141699,
+      "srcTgtColId" : 1141767,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "standardcost",
       "srcTrgColDataType" : "money",
@@ -1171,7 +1171,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141700,
+      "srcTgtColId" : 1141768,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "listprice",
       "srcTrgColDataType" : "money",
@@ -1182,7 +1182,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141701,
+      "srcTgtColId" : 1141769,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "size",
       "srcTrgColDataType" : "nvarchar",
@@ -1193,7 +1193,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141702,
+      "srcTgtColId" : 1141770,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "sizeunitmeasurecode",
       "srcTrgColDataType" : "nchar",
@@ -1204,7 +1204,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141703,
+      "srcTgtColId" : 1141771,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "weightunitmeasurecode",
       "srcTrgColDataType" : "nchar",
@@ -1215,7 +1215,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141704,
+      "srcTgtColId" : 1141772,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "weight",
       "srcTrgColDataType" : "decimal",
@@ -1226,7 +1226,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141705,
+      "srcTgtColId" : 1141773,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "daystomanufacture",
       "srcTrgColDataType" : "int",
@@ -1237,7 +1237,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141706,
+      "srcTgtColId" : 1141774,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "productline",
       "srcTrgColDataType" : "nchar",
@@ -1248,7 +1248,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141707,
+      "srcTgtColId" : 1141775,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "class",
       "srcTrgColDataType" : "nchar",
@@ -1259,7 +1259,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141708,
+      "srcTgtColId" : 1141776,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "style",
       "srcTrgColDataType" : "nchar",
@@ -1270,7 +1270,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141709,
+      "srcTgtColId" : 1141777,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "productsubcategoryid",
       "srcTrgColDataType" : "int",
@@ -1281,7 +1281,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141710,
+      "srcTgtColId" : 1141778,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "productmodelid",
       "srcTrgColDataType" : "int",
@@ -1292,7 +1292,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141711,
+      "srcTgtColId" : 1141779,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "sellstartdate",
       "srcTrgColDataType" : "datetime",
@@ -1303,7 +1303,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141712,
+      "srcTgtColId" : 1141780,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "sellenddate",
       "srcTrgColDataType" : "datetime",
@@ -1314,7 +1314,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141713,
+      "srcTgtColId" : 1141781,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "discontinueddate",
       "srcTrgColDataType" : "datetime",
@@ -1325,7 +1325,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141714,
+      "srcTgtColId" : 1141782,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "rowguid",
       "srcTrgColDataType" : "uniqueidentifier",
@@ -1336,7 +1336,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141715,
+      "srcTgtColId" : 1141783,
       "ruleClsPropId" : 1141528,
       "srcTrgColName" : "modifieddate",
       "srcTrgColDataType" : "datetime",
@@ -1347,7 +1347,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141718,
+      "srcTgtColId" : 1141786,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "productkey",
       "srcTrgColDataType" : "int",
@@ -1358,7 +1358,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141719,
+      "srcTgtColId" : 1141787,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "productalternatekey",
       "srcTrgColDataType" : "nvarchar",
@@ -1369,7 +1369,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141720,
+      "srcTgtColId" : 1141788,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "productsubcategorykey",
       "srcTrgColDataType" : "int",
@@ -1380,7 +1380,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141721,
+      "srcTgtColId" : 1141789,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "weightunitmeasurecode",
       "srcTrgColDataType" : "nchar",
@@ -1391,7 +1391,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141722,
+      "srcTgtColId" : 1141790,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "sizeunitmeasurecode",
       "srcTrgColDataType" : "nchar",
@@ -1402,7 +1402,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141723,
+      "srcTgtColId" : 1141791,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "englishproductname",
       "srcTrgColDataType" : "nvarchar",
@@ -1413,7 +1413,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141724,
+      "srcTgtColId" : 1141792,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "spanishproductname",
       "srcTrgColDataType" : "nvarchar",
@@ -1424,7 +1424,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141725,
+      "srcTgtColId" : 1141793,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "frenchproductname",
       "srcTrgColDataType" : "nvarchar",
@@ -1435,7 +1435,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141726,
+      "srcTgtColId" : 1141794,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "standardcost",
       "srcTrgColDataType" : "money",
@@ -1446,7 +1446,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141727,
+      "srcTgtColId" : 1141795,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "finishedgoodsflag",
       "srcTrgColDataType" : "bit",
@@ -1457,7 +1457,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141728,
+      "srcTgtColId" : 1141796,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "color",
       "srcTrgColDataType" : "nvarchar",
@@ -1468,7 +1468,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141729,
+      "srcTgtColId" : 1141797,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "safetystocklevel",
       "srcTrgColDataType" : "smallint",
@@ -1479,7 +1479,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141730,
+      "srcTgtColId" : 1141798,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "reorderpoint",
       "srcTrgColDataType" : "smallint",
@@ -1490,7 +1490,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141731,
+      "srcTgtColId" : 1141799,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "listprice",
       "srcTrgColDataType" : "money",
@@ -1501,7 +1501,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141732,
+      "srcTgtColId" : 1141800,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "size",
       "srcTrgColDataType" : "nvarchar",
@@ -1512,7 +1512,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141733,
+      "srcTgtColId" : 1141801,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "sizerange",
       "srcTrgColDataType" : "nvarchar",
@@ -1523,7 +1523,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141734,
+      "srcTgtColId" : 1141802,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "weight",
       "srcTrgColDataType" : "float",
@@ -1534,7 +1534,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141735,
+      "srcTgtColId" : 1141803,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "daystomanufacture",
       "srcTrgColDataType" : "int",
@@ -1545,7 +1545,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141736,
+      "srcTgtColId" : 1141804,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "productline",
       "srcTrgColDataType" : "nchar",
@@ -1556,7 +1556,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141737,
+      "srcTgtColId" : 1141805,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "dealerprice",
       "srcTrgColDataType" : "money",
@@ -1567,7 +1567,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141738,
+      "srcTgtColId" : 1141806,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "class",
       "srcTrgColDataType" : "nchar",
@@ -1578,7 +1578,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141739,
+      "srcTgtColId" : 1141807,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "style",
       "srcTrgColDataType" : "nchar",
@@ -1589,7 +1589,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141740,
+      "srcTgtColId" : 1141808,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "modelname",
       "srcTrgColDataType" : "nvarchar",
@@ -1600,7 +1600,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141741,
+      "srcTgtColId" : 1141809,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "largephoto",
       "srcTrgColDataType" : "varbinary",
@@ -1611,7 +1611,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141742,
+      "srcTgtColId" : 1141810,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "englishdescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1622,7 +1622,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141743,
+      "srcTgtColId" : 1141811,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "frenchdescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1633,7 +1633,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141744,
+      "srcTgtColId" : 1141812,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "chinesedescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1644,7 +1644,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141745,
+      "srcTgtColId" : 1141813,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "arabicdescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1655,7 +1655,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141746,
+      "srcTgtColId" : 1141814,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "hebrewdescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1666,7 +1666,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141747,
+      "srcTgtColId" : 1141815,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "thaidescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1677,7 +1677,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141748,
+      "srcTgtColId" : 1141816,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "germandescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1688,7 +1688,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141749,
+      "srcTgtColId" : 1141817,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "japanesedescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1699,7 +1699,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141750,
+      "srcTgtColId" : 1141818,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "turkishdescription",
       "srcTrgColDataType" : "nvarchar",
@@ -1710,7 +1710,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141751,
+      "srcTgtColId" : 1141819,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "startdate",
       "srcTrgColDataType" : "datetime",
@@ -1721,7 +1721,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141752,
+      "srcTgtColId" : 1141820,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "enddate",
       "srcTrgColDataType" : "datetime",
@@ -1732,7 +1732,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141753,
+      "srcTgtColId" : 1141821,
       "ruleClsPropId" : 1141562,
       "srcTrgColName" : "status",
       "srcTrgColDataType" : "nvarchar",
@@ -1744,15 +1744,15 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1141755,
-      "srcColId" : 1141693,
-      "trgColId" : 1141719,
+      "colMapId" : 1141823,
+      "srcColId" : 1141761,
+      "trgColId" : 1141787,
       "colMapType" : "join",
       "srcColName" : "productnumber",
       "tgtColName" : "productalternatekey",
       "colMapExpr" : "productalternatekey=productnumber",
       "srcTrgColMapVisible" : 1,
-      "displayIndex" : 3
+      "displayIndex" : 1
     } ],
     "objectVOList" : null,
     "srcCount" : null,
@@ -1771,29 +1771,6 @@
     "classCreateDate" : null,
     "classModifyDate" : null,
     "exprVOList" : [ {
-      "exprID" : 1141688,
-      "exprLogID" : 0,
-      "exprName" : "EXPR_L3HTHXG",
-      "expression" : "S.productid == T.productkey",
-      "result" : "Pass",
-      "exprType" : "5",
-      "exprVisible" : 1,
-      "exprIndex" : 0,
-      "ruleId" : 1141524,
-      "ruleInstanceId" : 0,
-      "ruleClassId" : 1141527,
-      "ruleName" : null,
-      "trueCount" : null,
-      "falseCount" : null,
-      "errCount" : null,
-      "exprOrg" : null,
-      "tc" : null,
-      "fc" : null,
-      "er" : null,
-      "name" : null,
-      "ve" : 0,
-      "exporg" : null
-    }, {
       "exprID" : 1141756,
       "exprLogID" : 0,
       "exprName" : "EXPR_UQ3ZPK7",
@@ -1801,7 +1778,7 @@
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
-      "exprIndex" : 1,
+      "exprIndex" : 0,
       "ruleId" : 1141524,
       "ruleInstanceId" : 0,
       "ruleClassId" : 1141527,
