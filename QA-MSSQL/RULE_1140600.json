@@ -22,7 +22,7 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2022-08-22 00:00:00",
-    "ruleModifiedDate" : "2022-08-22 00:00:00",
+    "ruleModifiedDate" : "2022-08-29 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -109,7 +109,7 @@
     "srcConn" : "AdventureWorks2019",
     "trgConn" : "AdventureWorksDW2019",
     "elapseTime" : 0,
-    "parameterId" : "",
+    "parameterId" : "Sneha_adv\\TableName",
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "sneha.s",
@@ -156,15 +156,15 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1140745,
-        "srcColId" : 1140733,
-        "trgColId" : 1140740,
+        "colMapId" : 1141955,
+        "srcColId" : 1141943,
+        "trgColId" : 1141950,
         "colMapType" : "join",
         "srcColName" : "empid",
         "tgtColName" : "empid",
         "colMapExpr" : "empid=empid",
         "srcTrgColMapVisible" : 1,
-        "displayIndex" : 0
+        "displayIndex" : 4
       } ],
       "exprlist" : [ {
         "exprID" : 1140728,
@@ -356,9 +356,9 @@
         "ruleClsPropID" : 1140604,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select * from TEMP.EmployeeRecord where EmpStatus='PE'",
+        "paramValue" : "select * from TEMP.#table# where EmpStatus='PE'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1140733,
+          "srcTgtColId" : 1141943,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -369,7 +369,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140734,
+          "srcTgtColId" : 1141944,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
@@ -380,7 +380,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140735,
+          "srcTgtColId" : 1141945,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
@@ -391,7 +391,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140736,
+          "srcTgtColId" : 1141946,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "salary",
           "srcTrgColDataType" : "int",
@@ -402,7 +402,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140737,
+          "srcTgtColId" : 1141947,
           "ruleClsPropId" : 1140604,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -491,9 +491,9 @@
         "ruleClsPropID" : 1140618,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select * from TEMP.EmployeeRecord",
+        "paramValue" : "select * from TEMP.#table#",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1140740,
+          "srcTgtColId" : 1141950,
           "ruleClsPropId" : 1140618,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -504,7 +504,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140741,
+          "srcTgtColId" : 1141951,
           "ruleClsPropId" : 1140618,
           "srcTrgColName" : "fullname",
           "srcTrgColDataType" : "varchar",
@@ -515,7 +515,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140742,
+          "srcTgtColId" : 1141952,
           "ruleClsPropId" : 1140618,
           "srcTrgColName" : "salary",
           "srcTrgColDataType" : "int",
@@ -526,7 +526,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1140743,
+          "srcTgtColId" : 1141953,
           "ruleClsPropId" : 1140618,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -583,7 +583,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1140733,
+      "srcTgtColId" : 1141943,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -594,7 +594,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140734,
+      "srcTgtColId" : 1141944,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
@@ -605,7 +605,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140735,
+      "srcTgtColId" : 1141945,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
@@ -616,7 +616,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140736,
+      "srcTgtColId" : 1141946,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "salary",
       "srcTrgColDataType" : "int",
@@ -627,7 +627,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140737,
+      "srcTgtColId" : 1141947,
       "ruleClsPropId" : 1140604,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -638,7 +638,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140740,
+      "srcTgtColId" : 1141950,
       "ruleClsPropId" : 1140618,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -649,7 +649,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140741,
+      "srcTgtColId" : 1141951,
       "ruleClsPropId" : 1140618,
       "srcTrgColName" : "fullname",
       "srcTrgColDataType" : "varchar",
@@ -660,7 +660,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140742,
+      "srcTgtColId" : 1141952,
       "ruleClsPropId" : 1140618,
       "srcTrgColName" : "salary",
       "srcTrgColDataType" : "int",
@@ -671,7 +671,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1140743,
+      "srcTgtColId" : 1141953,
       "ruleClsPropId" : 1140618,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -683,15 +683,15 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1140745,
-      "srcColId" : 1140733,
-      "trgColId" : 1140740,
+      "colMapId" : 1141955,
+      "srcColId" : 1141943,
+      "trgColId" : 1141950,
       "colMapType" : "join",
       "srcColName" : "empid",
       "tgtColName" : "empid",
       "colMapExpr" : "empid=empid",
       "srcTrgColMapVisible" : 1,
-      "displayIndex" : 0
+      "displayIndex" : 4
     } ],
     "objectVOList" : null,
     "srcCount" : null,
@@ -704,7 +704,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : "",
+    "ruleParameter" : "Sneha_adv\\TableName",
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
