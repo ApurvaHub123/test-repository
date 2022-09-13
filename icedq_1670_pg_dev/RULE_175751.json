@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 175797,
-        "srcColId" : 175790,
-        "trgColId" : 175795,
+        "colMapId" : 175830,
+        "srcColId" : 175823,
+        "trgColId" : 175828,
         "colMapType" : "join",
         "srcColName" : "department_id",
         "tgtColName" : "cnt",
@@ -107,14 +107,14 @@
         "displayIndex" : 0
       } ],
       "exprlist" : [ {
-        "exprID" : 175798,
+        "exprID" : 175810,
         "exprLogID" : 0,
-        "exprName" : "EXPR_Q3C4I3D",
-        "expression" : "S.department_id != 0",
+        "exprName" : "EXPR_RI28GKH",
+        "expression" : "S.department_name == 'Administration'",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
-        "exprIndex" : 1,
+        "exprIndex" : 0,
         "ruleId" : 175751,
         "ruleInstanceId" : 0,
         "ruleClassId" : 175754,
@@ -122,7 +122,7 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "S.department_id != 0",
+        "exprOrg" : "S.department_name == 'Administration'",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -266,7 +266,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 175795,
+          "srcTgtColId" : 175828,
           "ruleClsPropId" : 175768,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -357,7 +357,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 175790,
+          "srcTgtColId" : 175823,
           "ruleClsPropId" : 175755,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -366,20 +366,20 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 0
+          "displayIndex" : 1
         }, {
-          "srcTgtColId" : 175791,
+          "srcTgtColId" : 175824,
           "ruleClsPropId" : 175755,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
+          "srcTrgColVisible" : 1,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 0
+          "displayIndex" : 2
         }, {
-          "srcTgtColId" : 175792,
+          "srcTgtColId" : 175825,
           "ruleClsPropId" : 175755,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -390,7 +390,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 175793,
+          "srcTgtColId" : 175826,
           "ruleClsPropId" : 175755,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -412,7 +412,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 175790,
+      "srcTgtColId" : 175823,
       "ruleClsPropId" : 175755,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -421,20 +421,20 @@
       "joinList" : null,
       "mapColName" : "department_id",
       "colFormat" : "",
-      "displayIndex" : 0
+      "displayIndex" : 1
     }, {
-      "srcTgtColId" : 175791,
+      "srcTgtColId" : 175824,
       "ruleClsPropId" : 175755,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 0,
+      "srcTrgColVisible" : 1,
       "joinList" : null,
       "mapColName" : "department_name",
       "colFormat" : "",
-      "displayIndex" : 0
+      "displayIndex" : 2
     }, {
-      "srcTgtColId" : 175792,
+      "srcTgtColId" : 175825,
       "ruleClsPropId" : 175755,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -445,7 +445,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 175793,
+      "srcTgtColId" : 175826,
       "ruleClsPropId" : 175755,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -456,7 +456,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 175795,
+      "srcTgtColId" : 175828,
       "ruleClsPropId" : 175768,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -468,9 +468,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 175797,
-      "srcColId" : 175790,
-      "trgColId" : 175795,
+      "colMapId" : 175830,
+      "srcColId" : 175823,
+      "trgColId" : 175828,
       "colMapType" : "join",
       "srcColName" : "department_id",
       "tgtColName" : "cnt",
@@ -495,14 +495,14 @@
     "classCreateDate" : null,
     "classModifyDate" : null,
     "exprVOList" : [ {
-      "exprID" : 175798,
+      "exprID" : 175810,
       "exprLogID" : 0,
-      "exprName" : "EXPR_Q3C4I3D",
-      "expression" : "S.department_id != 0",
+      "exprName" : "EXPR_RI28GKH",
+      "expression" : "S.department_name == 'Administration'",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
-      "exprIndex" : 1,
+      "exprIndex" : 0,
       "ruleId" : 175751,
       "ruleInstanceId" : 0,
       "ruleClassId" : 175754,
