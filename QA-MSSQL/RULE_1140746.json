@@ -22,7 +22,7 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2022-08-23 00:00:00",
-    "ruleModifiedDate" : "2022-08-24 00:00:00",
+    "ruleModifiedDate" : "2022-09-20 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -96,21 +96,21 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1141430,
-        "srcColId" : 1141413,
-        "trgColId" : 1141422,
+        "colMapId" : 1142288,
+        "srcColId" : 1142271,
+        "trgColId" : 1142280,
         "colMapType" : "join",
         "srcColName" : "empid",
         "tgtColName" : "empid",
         "colMapExpr" : "empid=empid",
         "srcTrgColMapVisible" : 1,
-        "displayIndex" : 1
+        "displayIndex" : 0
       } ],
       "exprlist" : [ {
-        "exprID" : 1141431,
+        "exprID" : 1142289,
         "exprLogID" : 0,
-        "exprName" : "Empid check",
-        "expression" : "S.empid == T.empid",
+        "exprName" : "firstname",
+        "expression" : "S.firstname == T.firstname",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
@@ -122,7 +122,122 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "S.empid == T.empid",
+        "exprOrg" : "S.firstname == T.firstname",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      }, {
+        "exprID" : 1142290,
+        "exprLogID" : 0,
+        "exprName" : "lastname",
+        "expression" : "S.lastname == T.lastname",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 2,
+        "ruleId" : 1140746,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140749,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.lastname == T.lastname",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      }, {
+        "exprID" : 1142291,
+        "exprLogID" : 0,
+        "exprName" : "city",
+        "expression" : "S.city == T.city",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 3,
+        "ruleId" : 1140746,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140749,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.city == T.city",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      }, {
+        "exprID" : 1142292,
+        "exprLogID" : 0,
+        "exprName" : "country",
+        "expression" : "S.country == T.country",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 4,
+        "ruleId" : 1140746,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140749,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.country == T.country",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      }, {
+        "exprID" : 1142293,
+        "exprLogID" : 0,
+        "exprName" : "empstatus",
+        "expression" : "S.empstatus == T.empstatus",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 5,
+        "ruleId" : 1140746,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140749,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.empstatus == T.empstatus",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      }, {
+        "exprID" : 1142294,
+        "exprLogID" : 0,
+        "exprName" : "age",
+        "expression" : "S.age == T.age",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 6,
+        "ruleId" : 1140746,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 1140749,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.age == T.age",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -252,7 +367,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from ZEBRACO.EmpRecord\nwhere EmpStatus = 'Permanent'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1141413,
+          "srcTgtColId" : 1142271,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -263,7 +378,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141414,
+          "srcTgtColId" : 1142272,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
@@ -274,7 +389,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141415,
+          "srcTgtColId" : 1142273,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
@@ -285,7 +400,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141416,
+          "srcTgtColId" : 1142274,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "varchar",
@@ -296,7 +411,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141417,
+          "srcTgtColId" : 1142275,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "country",
           "srcTrgColDataType" : "varchar",
@@ -307,7 +422,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141418,
+          "srcTgtColId" : 1142276,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -318,7 +433,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141419,
+          "srcTgtColId" : 1142277,
           "ruleClsPropId" : 1140750,
           "srcTrgColName" : "age",
           "srcTrgColDataType" : "int",
@@ -409,7 +524,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from ZEBRACODW.EmpRecord\nwhere EmpStatus = 'Permanent'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1141422,
+          "srcTgtColId" : 1142280,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "empid",
           "srcTrgColDataType" : "int",
@@ -420,7 +535,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141423,
+          "srcTgtColId" : 1142281,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "varchar",
@@ -431,7 +546,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141424,
+          "srcTgtColId" : 1142282,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "varchar",
@@ -442,7 +557,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141425,
+          "srcTgtColId" : 1142283,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "varchar",
@@ -453,7 +568,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141426,
+          "srcTgtColId" : 1142284,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "country",
           "srcTrgColDataType" : "varchar",
@@ -464,7 +579,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141427,
+          "srcTgtColId" : 1142285,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "empstatus",
           "srcTrgColDataType" : "varchar",
@@ -475,7 +590,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1141428,
+          "srcTgtColId" : 1142286,
           "ruleClsPropId" : 1140766,
           "srcTrgColName" : "age",
           "srcTrgColDataType" : "int",
@@ -532,7 +647,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1141413,
+      "srcTgtColId" : 1142271,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -543,7 +658,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141414,
+      "srcTgtColId" : 1142272,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
@@ -554,7 +669,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141415,
+      "srcTgtColId" : 1142273,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
@@ -565,7 +680,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141416,
+      "srcTgtColId" : 1142274,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "varchar",
@@ -576,7 +691,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141417,
+      "srcTgtColId" : 1142275,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "country",
       "srcTrgColDataType" : "varchar",
@@ -587,7 +702,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141418,
+      "srcTgtColId" : 1142276,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -598,7 +713,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141419,
+      "srcTgtColId" : 1142277,
       "ruleClsPropId" : 1140750,
       "srcTrgColName" : "age",
       "srcTrgColDataType" : "int",
@@ -609,7 +724,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141422,
+      "srcTgtColId" : 1142280,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "empid",
       "srcTrgColDataType" : "int",
@@ -620,7 +735,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141423,
+      "srcTgtColId" : 1142281,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "varchar",
@@ -631,7 +746,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141424,
+      "srcTgtColId" : 1142282,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "varchar",
@@ -642,7 +757,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141425,
+      "srcTgtColId" : 1142283,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "varchar",
@@ -653,7 +768,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141426,
+      "srcTgtColId" : 1142284,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "country",
       "srcTrgColDataType" : "varchar",
@@ -664,7 +779,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141427,
+      "srcTgtColId" : 1142285,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "empstatus",
       "srcTrgColDataType" : "varchar",
@@ -675,7 +790,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1141428,
+      "srcTgtColId" : 1142286,
       "ruleClsPropId" : 1140766,
       "srcTrgColName" : "age",
       "srcTrgColDataType" : "int",
@@ -687,15 +802,15 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1141430,
-      "srcColId" : 1141413,
-      "trgColId" : 1141422,
+      "colMapId" : 1142288,
+      "srcColId" : 1142271,
+      "trgColId" : 1142280,
       "colMapType" : "join",
       "srcColName" : "empid",
       "tgtColName" : "empid",
       "colMapExpr" : "empid=empid",
       "srcTrgColMapVisible" : 1,
-      "displayIndex" : 1
+      "displayIndex" : 0
     } ],
     "objectVOList" : null,
     "srcCount" : null,
@@ -714,14 +829,129 @@
     "classCreateDate" : null,
     "classModifyDate" : null,
     "exprVOList" : [ {
-      "exprID" : 1141431,
+      "exprID" : 1142289,
       "exprLogID" : 0,
-      "exprName" : "Empid check",
-      "expression" : "S.empid == T.empid",
+      "exprName" : "firstname",
+      "expression" : "S.firstname == T.firstname",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 1,
+      "ruleId" : 1140746,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140749,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    }, {
+      "exprID" : 1142290,
+      "exprLogID" : 0,
+      "exprName" : "lastname",
+      "expression" : "S.lastname == T.lastname",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 2,
+      "ruleId" : 1140746,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140749,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    }, {
+      "exprID" : 1142291,
+      "exprLogID" : 0,
+      "exprName" : "city",
+      "expression" : "S.city == T.city",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 3,
+      "ruleId" : 1140746,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140749,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    }, {
+      "exprID" : 1142292,
+      "exprLogID" : 0,
+      "exprName" : "country",
+      "expression" : "S.country == T.country",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 4,
+      "ruleId" : 1140746,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140749,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    }, {
+      "exprID" : 1142293,
+      "exprLogID" : 0,
+      "exprName" : "empstatus",
+      "expression" : "S.empstatus == T.empstatus",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 5,
+      "ruleId" : 1140746,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 1140749,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    }, {
+      "exprID" : 1142294,
+      "exprLogID" : 0,
+      "exprName" : "age",
+      "expression" : "S.age == T.age",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 6,
       "ruleId" : 1140746,
       "ruleInstanceId" : 0,
       "ruleClassId" : 1140749,
