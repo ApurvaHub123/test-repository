@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1685912,
-        "srcColId" : 1685908,
-        "trgColId" : 1685911,
+        "colMapId" : 1686072,
+        "srcColId" : 1686068,
+        "trgColId" : 1686071,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -164,9 +164,9 @@
         "ruleClsPropID" : 1682828,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select count(*) as cnt from DBO.STAFF",
+        "paramValue" : "select count(*) as cnt from DBO.STAFF where jobcode='FA2'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1685908,
+          "srcTgtColId" : 1686068,
           "ruleClsPropId" : 1682828,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "int",
@@ -250,7 +250,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from DBO.Customer where gender='F'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1685911,
+          "srcTgtColId" : 1686071,
           "ruleClsPropId" : 1682838,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "int",
@@ -307,7 +307,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1685908,
+      "srcTgtColId" : 1686068,
       "ruleClsPropId" : 1682828,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "int",
@@ -318,7 +318,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1685911,
+      "srcTgtColId" : 1686071,
       "ruleClsPropId" : 1682838,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "int",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1685912,
-      "srcColId" : 1685908,
-      "trgColId" : 1685911,
+      "colMapId" : 1686072,
+      "srcColId" : 1686068,
+      "trgColId" : 1686071,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
