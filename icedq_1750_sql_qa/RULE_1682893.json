@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1686257,
-        "srcColId" : 1686253,
-        "trgColId" : 1686256,
+        "colMapId" : 1686291,
+        "srcColId" : 1686287,
+        "trgColId" : 1686290,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -166,7 +166,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "--select count(*) as cnt from DBO.Customer\n\nselect count(distinct customerid) as cnt from DBO.customer",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1686253,
+          "srcTgtColId" : 1686287,
           "ruleClsPropId" : 1682900,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "int",
@@ -248,9 +248,9 @@
         "ruleClsPropID" : 1682910,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "--select count(*) as cnt from DBO.Customer\n\nselect count(distinct customerid) as cnt from DBO.customer",
+        "paramValue" : "--select count(*) as cnt from DBO.Customer\n\nselect count(distinct id) as cnt from DBO.Employee",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1686256,
+          "srcTgtColId" : 1686290,
           "ruleClsPropId" : 1682910,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "int",
@@ -307,7 +307,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1686253,
+      "srcTgtColId" : 1686287,
       "ruleClsPropId" : 1682900,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "int",
@@ -318,7 +318,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1686256,
+      "srcTgtColId" : 1686290,
       "ruleClsPropId" : 1682910,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "int",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1686257,
-      "srcColId" : 1686253,
-      "trgColId" : 1686256,
+      "colMapId" : 1686291,
+      "srcColId" : 1686287,
+      "trgColId" : 1686290,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
