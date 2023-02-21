@@ -96,13 +96,13 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1686655,
-        "srcColId" : 1686651,
-        "trgColId" : 1686654,
+        "colMapId" : 1686801,
+        "srcColId" : 1686797,
+        "trgColId" : 1686800,
         "colMapType" : "join",
-        "srcColName" : "cnt",
+        "srcColName" : "avg",
         "tgtColName" : "avg",
-        "colMapExpr" : "avg=cnt",
+        "colMapExpr" : "avg=avg",
         "srcTrgColMapVisible" : 0,
         "displayIndex" : 0
       } ],
@@ -166,9 +166,9 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "---select count(*) as cnt from DBO.staff\n\nselect avg(bonus) as avg from DBO.staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1686651,
+          "srcTgtColId" : 1686797,
           "ruleClsPropId" : 1682928,
-          "srcTrgColName" : "cnt",
+          "srcTrgColName" : "avg",
           "srcTrgColDataType" : "float",
           "colFlagType" : "src",
           "srcTrgColVisible" : 0,
@@ -210,7 +210,7 @@
         "ruleClsPropID" : 1682935,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "cnt^~^8^~^float^~^15^~^1",
+        "paramValue" : "avg^~^8^~^float^~^15^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       } ],
@@ -250,7 +250,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "--select count(*) as cnt from DBO.Customer\n\nselect avg(customerid) as avg from DBO.Customer",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1686654,
+          "srcTgtColId" : 1686800,
           "ruleClsPropId" : 1682938,
           "srcTrgColName" : "avg",
           "srcTrgColDataType" : "int",
@@ -307,18 +307,18 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1686651,
+      "srcTgtColId" : 1686797,
       "ruleClsPropId" : 1682928,
-      "srcTrgColName" : "cnt",
+      "srcTrgColName" : "avg",
       "srcTrgColDataType" : "float",
       "colFlagType" : "src",
       "srcTrgColVisible" : 0,
       "joinList" : null,
-      "mapColName" : "cnt",
+      "mapColName" : "avg",
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1686654,
+      "srcTgtColId" : 1686800,
       "ruleClsPropId" : 1682938,
       "srcTrgColName" : "avg",
       "srcTrgColDataType" : "int",
@@ -330,13 +330,13 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1686655,
-      "srcColId" : 1686651,
-      "trgColId" : 1686654,
+      "colMapId" : 1686801,
+      "srcColId" : 1686797,
+      "trgColId" : 1686800,
       "colMapType" : "join",
-      "srcColName" : "cnt",
+      "srcColName" : "avg",
       "tgtColName" : "avg",
-      "colMapExpr" : "avg=cnt",
+      "colMapExpr" : "avg=avg",
       "srcTrgColMapVisible" : 0,
       "displayIndex" : 0
     } ],
