@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1686326,
-        "srcColId" : 1686322,
-        "trgColId" : 1686325,
+        "colMapId" : 1686354,
+        "srcColId" : 1686350,
+        "trgColId" : 1686353,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -166,7 +166,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from DBO.customer",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1686322,
+          "srcTgtColId" : 1686350,
           "ruleClsPropId" : 1682928,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "int",
@@ -248,9 +248,9 @@
         "ruleClsPropID" : 1682938,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select count(*) as cnt from DBO.Customer",
+        "paramValue" : "--select count(*) as cnt from DBO.Customer\n\nselect avg(id) from DBO.Customer",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1686325,
+          "srcTgtColId" : 1686353,
           "ruleClsPropId" : 1682938,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "int",
@@ -307,7 +307,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1686322,
+      "srcTgtColId" : 1686350,
       "ruleClsPropId" : 1682928,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "int",
@@ -318,7 +318,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1686325,
+      "srcTgtColId" : 1686353,
       "ruleClsPropId" : 1682938,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "int",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1686326,
-      "srcColId" : 1686322,
-      "trgColId" : 1686325,
+      "colMapId" : 1686354,
+      "srcColId" : 1686350,
+      "trgColId" : 1686353,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
