@@ -1,28 +1,28 @@
 {
   "ruleLogicalInfo" : {
-    "id" : 863568,
+    "id" : 865879,
     "ruleInstanceId" : 0,
-    "ruleDesc" : "To check the version id for imported rule",
-    "execMode" : "htrecon",
+    "ruleDesc" : "To check version for import export function",
+    "execMode" : "recon",
     "exitCode" : null,
     "folderId" : 863364,
     "projectId" : 80480,
-    "ruleCode" : "RC004",
+    "ruleCode" : "RC005",
     "folderName" : "GitHub_Versioning_Testing",
     "folderType" : "RULE",
     "startTime" : null,
     "endTime" : null,
-    "ruleName" : "RC004_XP",
+    "ruleName" : "RC005_XP",
     "displayName" : null,
     "rulePurpose" : null,
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 339217,
-    "ruleModifiedBy" : 339217,
+    "ruleModifiedBy" : 0,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-02-23 00:00:00",
-    "ruleModifiedDate" : "2023-02-23 00:00:00",
+    "ruleModifiedDate" : null,
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,8 +54,8 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "Samit-H",
     "projectName" : "WIP_Samit",
-    "ruleModifiedByName" : "Samit-H",
-    "ruleClassId" : 863569,
+    "ruleModifiedByName" : null,
+    "ruleClassId" : 865880,
     "successBody" : null,
     "failureBody" : null,
     "templateId" : 237,
@@ -72,15 +72,15 @@
   },
   "rulePhysicalInfo" : {
     "objectName" : null,
-    "ruleId" : 863568,
+    "ruleId" : 865879,
     "reportRuleClassId" : 0,
     "ruleCId" : 0,
     "classVOList" : [ {
       "classId" : 3,
       "name" : null,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "connType" : null,
-      "execMode" : "htrecon",
+      "execMode" : "recon",
       "index" : 1,
       "classRun" : "com.ice.bpel.CompareData",
       "vid" : "CompareData11",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 866012,
-        "srcColId" : 865974,
-        "trgColId" : 865993,
+        "colMapId" : 865949,
+        "srcColId" : 865915,
+        "trgColId" : 865932,
         "colMapType" : "join",
         "srcColName" : "staffid",
         "tgtColName" : "staffid",
@@ -107,7 +107,7 @@
         "displayIndex" : 17
       } ],
       "exprlist" : [ {
-        "exprID" : 863639,
+        "exprID" : 865950,
         "exprLogID" : 0,
         "exprName" : "comm",
         "expression" : "S.comm == T.comm",
@@ -115,9 +115,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 0,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -130,7 +130,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863640,
+        "exprID" : 865951,
         "exprLogID" : 0,
         "exprName" : "sex",
         "expression" : "S.sex == T.sex",
@@ -138,9 +138,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 1,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -153,7 +153,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863641,
+        "exprID" : 865952,
         "exprLogID" : 0,
         "exprName" : "jobcode",
         "expression" : "S.jobcode == T.jobcode",
@@ -161,9 +161,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 2,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -176,7 +176,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863642,
+        "exprID" : 865953,
         "exprLogID" : 0,
         "exprName" : "company",
         "expression" : "S.company == T.company",
@@ -184,9 +184,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 3,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -199,7 +199,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863643,
+        "exprID" : 865954,
         "exprLogID" : 0,
         "exprName" : "salary",
         "expression" : "S.salary == T.salary",
@@ -207,9 +207,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 4,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -222,7 +222,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863644,
+        "exprID" : 865955,
         "exprLogID" : 0,
         "exprName" : "bonus",
         "expression" : "S.bonus == T.bonus",
@@ -230,9 +230,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 5,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -245,7 +245,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863645,
+        "exprID" : 865956,
         "exprLogID" : 0,
         "exprName" : "totalsalary",
         "expression" : "S.totalsalary == T.totalsalary",
@@ -253,9 +253,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 6,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -268,7 +268,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863646,
+        "exprID" : 865957,
         "exprLogID" : 0,
         "exprName" : "birthd",
         "expression" : "S.birthd == T.birthd",
@@ -276,9 +276,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 7,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -291,7 +291,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863647,
+        "exprID" : 865958,
         "exprLogID" : 0,
         "exprName" : "hired",
         "expression" : "S.hired == T.hired",
@@ -299,9 +299,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 8,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -314,7 +314,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863648,
+        "exprID" : 865959,
         "exprLogID" : 0,
         "exprName" : "lname",
         "expression" : "S.lname == T.lname",
@@ -322,9 +322,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 9,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -337,7 +337,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863649,
+        "exprID" : 865960,
         "exprLogID" : 0,
         "exprName" : "fname",
         "expression" : "S.fname == T.fname",
@@ -345,9 +345,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 10,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -360,7 +360,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863650,
+        "exprID" : 865961,
         "exprLogID" : 0,
         "exprName" : "address",
         "expression" : "S.address == T.address",
@@ -368,9 +368,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 11,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -383,7 +383,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863651,
+        "exprID" : 865962,
         "exprLogID" : 0,
         "exprName" : "city",
         "expression" : "S.city == T.city",
@@ -391,9 +391,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 12,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -406,7 +406,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863652,
+        "exprID" : 865963,
         "exprLogID" : 0,
         "exprName" : "state",
         "expression" : "S.state == T.state",
@@ -414,9 +414,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 13,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -429,7 +429,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863653,
+        "exprID" : 865964,
         "exprLogID" : 0,
         "exprName" : "hphone",
         "expression" : "S.hphone == T.hphone",
@@ -437,9 +437,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 14,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -452,7 +452,7 @@
         "ve" : 0,
         "exporg" : null
       }, {
-        "exprID" : 863654,
+        "exprID" : 865965,
         "exprLogID" : 0,
         "exprName" : "ssn",
         "expression" : "S.ssn == T.ssn",
@@ -460,9 +460,9 @@
         "exprType" : "5",
         "exprVisible" : 1,
         "exprIndex" : 15,
-        "ruleId" : 863568,
+        "ruleId" : 865879,
         "ruleInstanceId" : 0,
-        "ruleClassId" : 863569,
+        "ruleClassId" : 865880,
         "ruleName" : null,
         "trueCount" : null,
         "falseCount" : null,
@@ -477,88 +477,81 @@
       } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 863572,
+        "ruleClsPropID" : 865883,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863573,
+        "ruleClsPropID" : 865884,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863574,
+        "ruleClsPropID" : 865885,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863575,
+        "ruleClsPropID" : 865886,
         "paramId" : 22,
         "paramMethod" : "setMaxRowCount",
         "paramValue" : "-1",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863576,
+        "ruleClsPropID" : 865887,
         "paramId" : 23,
         "paramMethod" : "setMaxErrorCount",
-        "paramValue" : "-1",
+        "paramValue" : null,
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863577,
+        "ruleClsPropID" : 865888,
         "paramId" : 24,
         "paramMethod" : "setShowErrorData",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863578,
+        "ruleClsPropID" : 865889,
         "paramId" : 72,
         "paramMethod" : "setTimeOut",
         "paramValue" : null,
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863579,
+        "ruleClsPropID" : 865890,
         "paramId" : 73,
         "paramMethod" : "setLoadDataFlag",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863580,
+        "ruleClsPropID" : 865891,
         "paramId" : 465,
         "paramMethod" : "setReportXlsx",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863581,
+        "ruleClsPropID" : 865892,
         "paramId" : 530,
         "paramMethod" : "setThresholdFlag",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863582,
+        "ruleClsPropID" : 865893,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 866010,
-        "paramId" : 487,
-        "paramMethod" : "setDegreeOfParallelism",
-        "paramValue" : "1",
-        "srcTrgTbllist" : null,
         "fileContent" : null
       } ],
       "bigDataExecMode" : null,
@@ -571,9 +564,9 @@
     }, {
       "classId" : 1,
       "name" : null,
-      "ruleClassId" : 863570,
+      "ruleClassId" : 865881,
       "connType" : "DATABASE",
-      "execMode" : "htrecon",
+      "execMode" : "recon",
       "index" : 0,
       "classRun" : "com.ice.bpel.GetData",
       "vid" : "GetData11",
@@ -592,13 +585,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 863583,
+        "ruleClsPropID" : 865895,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 865974,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865915,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "staffid",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -608,8 +601,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865975,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865916,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "sex",
           "srcTrgColDataType" : "CHAR",
           "colFlagType" : "src",
@@ -619,8 +612,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865976,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865917,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "jobcode",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -630,8 +623,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865977,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865918,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "company",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -641,8 +634,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865978,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865919,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "salary",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -652,8 +645,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865979,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865920,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "bonus",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -663,8 +656,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865980,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865921,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "comm",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -674,8 +667,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865981,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865922,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "totalsalary",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -685,8 +678,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865982,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865923,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "birthd",
           "srcTrgColDataType" : "DATE",
           "colFlagType" : "src",
@@ -696,8 +689,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865983,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865924,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "hired",
           "srcTrgColDataType" : "TIMESTAMP",
           "colFlagType" : "src",
@@ -707,8 +700,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865984,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865925,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "lname",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -718,8 +711,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865985,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865926,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "fname",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -729,8 +722,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865986,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865927,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "address",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -740,8 +733,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865987,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865928,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -751,8 +744,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865988,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865929,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "state",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -762,8 +755,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865989,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865930,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "hphone",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -773,8 +766,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865990,
-          "ruleClsPropId" : 863583,
+          "srcTgtColId" : 865931,
+          "ruleClsPropId" : 865895,
           "srcTrgColName" : "ssn",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -786,49 +779,49 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863584,
+        "ruleClsPropID" : 865897,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "3462",
+        "paramValue" : "96852",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863585,
+        "ruleClsPropID" : 865898,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863586,
+        "ruleClsPropID" : 865899,
         "paramId" : 491,
         "paramMethod" : "setDeferredSort",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863587,
+        "ruleClsPropID" : 865900,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863588,
+        "ruleClsPropID" : 865902,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "true",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863589,
+        "ruleClsPropID" : 865903,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "staffid^~^12^~^VARCHAR2^~^2000^~^1$~$sex^~^1^~^CHAR^~^1^~^2$~$jobcode^~^12^~^VARCHAR2^~^2000^~^3$~$company^~^12^~^VARCHAR2^~^2000^~^4$~$salary^~^2^~^NUMBER^~^0^~^5$~$bonus^~^2^~^NUMBER^~^20^~^6$~$comm^~^2^~^NUMBER^~^20^~^7$~$totalsalary^~^2^~^NUMBER^~^20^~^8$~$birthd^~^93^~^DATE^~^0^~^9$~$hired^~^93^~^TIMESTAMP^~^0^~^10$~$lname^~^12^~^VARCHAR2^~^2000^~^11$~$fname^~^12^~^VARCHAR2^~^2000^~^12$~$address^~^12^~^VARCHAR2^~^2000^~^13$~$city^~^12^~^VARCHAR2^~^2000^~^14$~$state^~^12^~^VARCHAR2^~^2000^~^15$~$hphone^~^12^~^VARCHAR2^~^2000^~^16$~$ssn^~^2^~^NUMBER^~^20^~^17",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863590,
+        "ruleClsPropID" : 865904,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
@@ -845,9 +838,9 @@
     }, {
       "classId" : 1,
       "name" : null,
-      "ruleClassId" : 863571,
+      "ruleClassId" : 865882,
       "connType" : "DATABASE",
-      "execMode" : "htrecon",
+      "execMode" : "recon",
       "index" : 0,
       "classRun" : "com.ice.bpel.GetData",
       "vid" : "GetData21",
@@ -866,13 +859,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 863591,
+        "ruleClsPropID" : 865905,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 865993,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865932,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "staffid",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -882,8 +875,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865994,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865933,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "sex",
           "srcTrgColDataType" : "CHAR",
           "colFlagType" : "tgt",
@@ -893,8 +886,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865995,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865934,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "jobcode",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -904,8 +897,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865996,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865935,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "company",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -915,8 +908,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865997,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865936,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "salary",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "tgt",
@@ -926,8 +919,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865998,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865937,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "bonus",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "tgt",
@@ -937,8 +930,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 865999,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865938,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "comm",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "tgt",
@@ -948,8 +941,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866000,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865939,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "totalsalary",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "tgt",
@@ -959,8 +952,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866001,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865940,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "birthd",
           "srcTrgColDataType" : "DATE",
           "colFlagType" : "tgt",
@@ -970,8 +963,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866002,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865941,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "hired",
           "srcTrgColDataType" : "TIMESTAMP",
           "colFlagType" : "tgt",
@@ -981,8 +974,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866003,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865942,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "lname",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -992,8 +985,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866004,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865943,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "fname",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -1003,8 +996,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866005,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865944,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "address",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -1014,8 +1007,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866006,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865945,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -1025,8 +1018,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866007,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865946,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "state",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -1036,8 +1029,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866008,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865947,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "hphone",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -1047,8 +1040,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 866009,
-          "ruleClsPropId" : 863591,
+          "srcTgtColId" : 865948,
+          "ruleClsPropId" : 865905,
           "srcTrgColName" : "ssn",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "tgt",
@@ -1060,53 +1053,53 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863592,
-        "paramId" : 16,
-        "paramMethod" : "setConnId",
-        "paramValue" : "3462",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 863593,
-        "paramId" : 337,
-        "paramMethod" : "setIsStoredProcedure",
-        "paramValue" : "false",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 863594,
-        "paramId" : 491,
-        "paramMethod" : "setDeferredSort",
-        "paramValue" : "false",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 863595,
-        "paramId" : 84,
-        "paramMethod" : "setOrderByStr",
-        "paramValue" : "1",
-        "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 863596,
+        "ruleClsPropID" : 865912,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "true",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863597,
+        "ruleClsPropID" : 865913,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "staffid^~^12^~^VARCHAR2^~^2000^~^1$~$sex^~^1^~^CHAR^~^1^~^2$~$jobcode^~^12^~^VARCHAR2^~^2000^~^3$~$company^~^12^~^VARCHAR2^~^2000^~^4$~$salary^~^2^~^NUMBER^~^0^~^5$~$bonus^~^2^~^NUMBER^~^20^~^6$~$comm^~^2^~^NUMBER^~^20^~^7$~$totalsalary^~^2^~^NUMBER^~^20^~^8$~$birthd^~^93^~^DATE^~^0^~^9$~$hired^~^93^~^TIMESTAMP^~^0^~^10$~$lname^~^12^~^VARCHAR2^~^2000^~^11$~$fname^~^12^~^VARCHAR2^~^2000^~^12$~$address^~^12^~^VARCHAR2^~^2000^~^13$~$city^~^12^~^VARCHAR2^~^2000^~^14$~$state^~^12^~^VARCHAR2^~^2000^~^15$~$hphone^~^12^~^VARCHAR2^~^2000^~^16$~$ssn^~^2^~^NUMBER^~^20^~^17",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 863598,
+        "ruleClsPropID" : 865914,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 865907,
+        "paramId" : 16,
+        "paramMethod" : "setConnId",
+        "paramValue" : "96852",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 865908,
+        "paramId" : 337,
+        "paramMethod" : "setIsStoredProcedure",
+        "paramValue" : "false",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 865909,
+        "paramId" : 491,
+        "paramMethod" : "setDeferredSort",
+        "paramValue" : "false",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 865910,
+        "paramId" : 84,
+        "paramMethod" : "setOrderByStr",
+        "paramValue" : "1",
+        "srcTrgTbllist" : [ ],
         "fileContent" : null
       } ],
       "bigDataExecMode" : null,
@@ -1118,8 +1111,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 865974,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865915,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "staffid",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1129,8 +1122,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865975,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865916,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "sex",
       "srcTrgColDataType" : "CHAR",
       "colFlagType" : "src",
@@ -1140,8 +1133,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865976,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865917,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "jobcode",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1151,8 +1144,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865977,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865918,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "company",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1162,8 +1155,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865978,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865919,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "salary",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -1173,8 +1166,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865979,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865920,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "bonus",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -1184,8 +1177,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865980,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865921,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "comm",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -1195,8 +1188,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865981,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865922,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "totalsalary",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -1206,8 +1199,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865982,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865923,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "birthd",
       "srcTrgColDataType" : "DATE",
       "colFlagType" : "src",
@@ -1217,8 +1210,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865983,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865924,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "hired",
       "srcTrgColDataType" : "TIMESTAMP",
       "colFlagType" : "src",
@@ -1228,8 +1221,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865984,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865925,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "lname",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1239,8 +1232,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865985,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865926,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "fname",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1250,8 +1243,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865986,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865927,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "address",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1261,8 +1254,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865987,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865928,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1272,8 +1265,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865988,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865929,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "state",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1283,8 +1276,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865989,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865930,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "hphone",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -1294,8 +1287,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865990,
-      "ruleClsPropId" : 863583,
+      "srcTgtColId" : 865931,
+      "ruleClsPropId" : 865895,
       "srcTrgColName" : "ssn",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -1305,8 +1298,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865993,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865932,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "staffid",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1316,8 +1309,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865994,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865933,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "sex",
       "srcTrgColDataType" : "CHAR",
       "colFlagType" : "tgt",
@@ -1327,8 +1320,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865995,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865934,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "jobcode",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1338,8 +1331,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865996,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865935,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "company",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1349,8 +1342,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865997,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865936,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "salary",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "tgt",
@@ -1360,8 +1353,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865998,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865937,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "bonus",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "tgt",
@@ -1371,8 +1364,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 865999,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865938,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "comm",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "tgt",
@@ -1382,8 +1375,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866000,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865939,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "totalsalary",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "tgt",
@@ -1393,8 +1386,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866001,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865940,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "birthd",
       "srcTrgColDataType" : "DATE",
       "colFlagType" : "tgt",
@@ -1404,8 +1397,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866002,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865941,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "hired",
       "srcTrgColDataType" : "TIMESTAMP",
       "colFlagType" : "tgt",
@@ -1415,8 +1408,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866003,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865942,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "lname",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1426,8 +1419,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866004,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865943,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "fname",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1437,8 +1430,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866005,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865944,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "address",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1448,8 +1441,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866006,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865945,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1459,8 +1452,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866007,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865946,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "state",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1470,8 +1463,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866008,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865947,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "hphone",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -1481,8 +1474,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 866009,
-      "ruleClsPropId" : 863591,
+      "srcTgtColId" : 865948,
+      "ruleClsPropId" : 865905,
       "srcTrgColName" : "ssn",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "tgt",
@@ -1493,9 +1486,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 866012,
-      "srcColId" : 865974,
-      "trgColId" : 865993,
+      "colMapId" : 865949,
+      "srcColId" : 865915,
+      "trgColId" : 865932,
       "colMapType" : "join",
       "srcColName" : "staffid",
       "tgtColName" : "staffid",
@@ -1520,7 +1513,7 @@
     "classCreateDate" : null,
     "classModifyDate" : null,
     "exprVOList" : [ {
-      "exprID" : 863639,
+      "exprID" : 865950,
       "exprLogID" : 0,
       "exprName" : "comm",
       "expression" : "S.comm == T.comm",
@@ -1528,9 +1521,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 0,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1543,7 +1536,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863640,
+      "exprID" : 865951,
       "exprLogID" : 0,
       "exprName" : "sex",
       "expression" : "S.sex == T.sex",
@@ -1551,9 +1544,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 1,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1566,7 +1559,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863641,
+      "exprID" : 865952,
       "exprLogID" : 0,
       "exprName" : "jobcode",
       "expression" : "S.jobcode == T.jobcode",
@@ -1574,9 +1567,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 2,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1589,7 +1582,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863642,
+      "exprID" : 865953,
       "exprLogID" : 0,
       "exprName" : "company",
       "expression" : "S.company == T.company",
@@ -1597,9 +1590,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 3,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1612,7 +1605,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863643,
+      "exprID" : 865954,
       "exprLogID" : 0,
       "exprName" : "salary",
       "expression" : "S.salary == T.salary",
@@ -1620,9 +1613,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 4,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1635,7 +1628,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863644,
+      "exprID" : 865955,
       "exprLogID" : 0,
       "exprName" : "bonus",
       "expression" : "S.bonus == T.bonus",
@@ -1643,9 +1636,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 5,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1658,7 +1651,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863645,
+      "exprID" : 865956,
       "exprLogID" : 0,
       "exprName" : "totalsalary",
       "expression" : "S.totalsalary == T.totalsalary",
@@ -1666,9 +1659,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 6,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1681,7 +1674,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863646,
+      "exprID" : 865957,
       "exprLogID" : 0,
       "exprName" : "birthd",
       "expression" : "S.birthd == T.birthd",
@@ -1689,9 +1682,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 7,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1704,7 +1697,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863647,
+      "exprID" : 865958,
       "exprLogID" : 0,
       "exprName" : "hired",
       "expression" : "S.hired == T.hired",
@@ -1712,9 +1705,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 8,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1727,7 +1720,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863648,
+      "exprID" : 865959,
       "exprLogID" : 0,
       "exprName" : "lname",
       "expression" : "S.lname == T.lname",
@@ -1735,9 +1728,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 9,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1750,7 +1743,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863649,
+      "exprID" : 865960,
       "exprLogID" : 0,
       "exprName" : "fname",
       "expression" : "S.fname == T.fname",
@@ -1758,9 +1751,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 10,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1773,7 +1766,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863650,
+      "exprID" : 865961,
       "exprLogID" : 0,
       "exprName" : "address",
       "expression" : "S.address == T.address",
@@ -1781,9 +1774,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 11,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1796,7 +1789,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863651,
+      "exprID" : 865962,
       "exprLogID" : 0,
       "exprName" : "city",
       "expression" : "S.city == T.city",
@@ -1804,9 +1797,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 12,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1819,7 +1812,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863652,
+      "exprID" : 865963,
       "exprLogID" : 0,
       "exprName" : "state",
       "expression" : "S.state == T.state",
@@ -1827,9 +1820,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 13,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1842,7 +1835,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863653,
+      "exprID" : 865964,
       "exprLogID" : 0,
       "exprName" : "hphone",
       "expression" : "S.hphone == T.hphone",
@@ -1850,9 +1843,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 14,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
@@ -1865,7 +1858,7 @@
       "ve" : 0,
       "exporg" : null
     }, {
-      "exprID" : 863654,
+      "exprID" : 865965,
       "exprLogID" : 0,
       "exprName" : "ssn",
       "expression" : "S.ssn == T.ssn",
@@ -1873,9 +1866,9 @@
       "exprType" : "5",
       "exprVisible" : 1,
       "exprIndex" : 15,
-      "ruleId" : 863568,
+      "ruleId" : 865879,
       "ruleInstanceId" : 0,
-      "ruleClassId" : 863569,
+      "ruleClassId" : 865880,
       "ruleName" : null,
       "trueCount" : null,
       "falseCount" : null,
