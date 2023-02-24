@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-02-24 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-02-24 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "process",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 9589,
     "successBody" : "",
     "failureBody" : "",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 9613,
-        "srcColId" : 9599,
-        "trgColId" : 9609,
+        "colMapId" : 9621,
+        "srcColId" : 9617,
+        "trgColId" : 9620,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -184,13 +184,6 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 9608,
-        "paramId" : 404,
-        "paramMethod" : "setIsMultipleOutVaiables",
-        "paramValue" : "false",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
         "ruleClsPropID" : 9607,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
@@ -231,7 +224,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 9609,
+          "srcTgtColId" : 9620,
           "ruleClsPropId" : 9600,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -242,6 +235,13 @@
           "colFormat" : "",
           "displayIndex" : 0
         } ],
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 9608,
+        "paramId" : 404,
+        "paramMethod" : "setIsMultipleOutVaiables",
+        "paramValue" : "false",
+        "srcTrgTbllist" : null,
         "fileContent" : null
       } ],
       "bigDataExecMode" : null,
@@ -322,7 +322,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 9599,
+          "srcTgtColId" : 9617,
           "ruleClsPropId" : 9590,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -344,7 +344,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 9599,
+      "srcTgtColId" : 9617,
       "ruleClsPropId" : 9590,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -355,7 +355,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 9609,
+      "srcTgtColId" : 9620,
       "ruleClsPropId" : 9600,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -367,9 +367,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 9613,
-      "srcColId" : 9599,
-      "trgColId" : 9609,
+      "colMapId" : 9621,
+      "srcColId" : 9617,
+      "trgColId" : 9620,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
