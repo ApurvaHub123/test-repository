@@ -49,7 +49,7 @@
     "srcConn" : "Sql_native_Ktc_01",
     "trgConn" : "Sql_native_Ktc_01",
     "elapseTime" : 0,
-    "parameterId" : "",
+    "parameterId" : "Para_Ktc_check/Parameter_01",
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 10752391,
-        "srcColId" : 10752366,
-        "trgColId" : 10752379,
+        "colMapId" : 10752486,
+        "srcColId" : 10752461,
+        "trgColId" : 10752474,
         "colMapType" : "join",
         "srcColName" : "customerid",
         "tgtColName" : "customerid",
@@ -473,9 +473,9 @@
         "ruleClsPropID" : 10752290,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select * from DBO.customers",
+        "paramValue" : "select * from #i1#",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 10752366,
+          "srcTgtColId" : 10752461,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "customerid",
           "srcTrgColDataType" : "char",
@@ -486,7 +486,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752367,
+          "srcTgtColId" : 10752462,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "companyname",
           "srcTrgColDataType" : "varchar",
@@ -497,7 +497,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752368,
+          "srcTgtColId" : 10752463,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "contactname",
           "srcTrgColDataType" : "varchar",
@@ -508,7 +508,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752369,
+          "srcTgtColId" : 10752464,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "contacttitle",
           "srcTrgColDataType" : "varchar",
@@ -519,7 +519,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752370,
+          "srcTgtColId" : 10752465,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "address",
           "srcTrgColDataType" : "varchar",
@@ -530,7 +530,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752371,
+          "srcTgtColId" : 10752466,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "varchar",
@@ -541,7 +541,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752372,
+          "srcTgtColId" : 10752467,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "region",
           "srcTrgColDataType" : "varchar",
@@ -552,7 +552,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752373,
+          "srcTgtColId" : 10752468,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "postalcode",
           "srcTrgColDataType" : "varchar",
@@ -563,7 +563,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752374,
+          "srcTgtColId" : 10752469,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "country",
           "srcTrgColDataType" : "varchar",
@@ -574,7 +574,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752375,
+          "srcTgtColId" : 10752470,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "phone",
           "srcTrgColDataType" : "varchar",
@@ -585,7 +585,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752376,
+          "srcTgtColId" : 10752471,
           "ruleClsPropId" : 10752290,
           "srcTrgColName" : "fax",
           "srcTrgColDataType" : "varchar",
@@ -674,9 +674,9 @@
         "ruleClsPropID" : 10752297,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select * from DBO.customers",
+        "paramValue" : "select * from #i1#",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 10752379,
+          "srcTgtColId" : 10752474,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "customerid",
           "srcTrgColDataType" : "char",
@@ -687,7 +687,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752380,
+          "srcTgtColId" : 10752475,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "companyname",
           "srcTrgColDataType" : "varchar",
@@ -698,7 +698,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752381,
+          "srcTgtColId" : 10752476,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "contactname",
           "srcTrgColDataType" : "varchar",
@@ -709,7 +709,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752382,
+          "srcTgtColId" : 10752477,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "contacttitle",
           "srcTrgColDataType" : "varchar",
@@ -720,7 +720,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752383,
+          "srcTgtColId" : 10752478,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "address",
           "srcTrgColDataType" : "varchar",
@@ -731,7 +731,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752384,
+          "srcTgtColId" : 10752479,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "varchar",
@@ -742,7 +742,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752385,
+          "srcTgtColId" : 10752480,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "region",
           "srcTrgColDataType" : "varchar",
@@ -753,7 +753,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752386,
+          "srcTgtColId" : 10752481,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "postalcode",
           "srcTrgColDataType" : "varchar",
@@ -764,7 +764,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752387,
+          "srcTgtColId" : 10752482,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "country",
           "srcTrgColDataType" : "varchar",
@@ -775,7 +775,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752388,
+          "srcTgtColId" : 10752483,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "phone",
           "srcTrgColDataType" : "varchar",
@@ -786,7 +786,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 10752389,
+          "srcTgtColId" : 10752484,
           "ruleClsPropId" : 10752297,
           "srcTrgColName" : "fax",
           "srcTrgColDataType" : "varchar",
@@ -850,7 +850,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 10752366,
+      "srcTgtColId" : 10752461,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "customerid",
       "srcTrgColDataType" : "char",
@@ -861,7 +861,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752367,
+      "srcTgtColId" : 10752462,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "companyname",
       "srcTrgColDataType" : "varchar",
@@ -872,7 +872,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752368,
+      "srcTgtColId" : 10752463,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "contactname",
       "srcTrgColDataType" : "varchar",
@@ -883,7 +883,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752369,
+      "srcTgtColId" : 10752464,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "contacttitle",
       "srcTrgColDataType" : "varchar",
@@ -894,7 +894,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752370,
+      "srcTgtColId" : 10752465,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "address",
       "srcTrgColDataType" : "varchar",
@@ -905,7 +905,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752371,
+      "srcTgtColId" : 10752466,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "varchar",
@@ -916,7 +916,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752372,
+      "srcTgtColId" : 10752467,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "region",
       "srcTrgColDataType" : "varchar",
@@ -927,7 +927,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752373,
+      "srcTgtColId" : 10752468,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "postalcode",
       "srcTrgColDataType" : "varchar",
@@ -938,7 +938,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752374,
+      "srcTgtColId" : 10752469,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "country",
       "srcTrgColDataType" : "varchar",
@@ -949,7 +949,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752375,
+      "srcTgtColId" : 10752470,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "phone",
       "srcTrgColDataType" : "varchar",
@@ -960,7 +960,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752376,
+      "srcTgtColId" : 10752471,
       "ruleClsPropId" : 10752290,
       "srcTrgColName" : "fax",
       "srcTrgColDataType" : "varchar",
@@ -971,7 +971,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752379,
+      "srcTgtColId" : 10752474,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "customerid",
       "srcTrgColDataType" : "char",
@@ -982,7 +982,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752380,
+      "srcTgtColId" : 10752475,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "companyname",
       "srcTrgColDataType" : "varchar",
@@ -993,7 +993,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752381,
+      "srcTgtColId" : 10752476,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "contactname",
       "srcTrgColDataType" : "varchar",
@@ -1004,7 +1004,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752382,
+      "srcTgtColId" : 10752477,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "contacttitle",
       "srcTrgColDataType" : "varchar",
@@ -1015,7 +1015,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752383,
+      "srcTgtColId" : 10752478,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "address",
       "srcTrgColDataType" : "varchar",
@@ -1026,7 +1026,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752384,
+      "srcTgtColId" : 10752479,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "varchar",
@@ -1037,7 +1037,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752385,
+      "srcTgtColId" : 10752480,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "region",
       "srcTrgColDataType" : "varchar",
@@ -1048,7 +1048,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752386,
+      "srcTgtColId" : 10752481,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "postalcode",
       "srcTrgColDataType" : "varchar",
@@ -1059,7 +1059,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752387,
+      "srcTgtColId" : 10752482,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "country",
       "srcTrgColDataType" : "varchar",
@@ -1070,7 +1070,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752388,
+      "srcTgtColId" : 10752483,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "phone",
       "srcTrgColDataType" : "varchar",
@@ -1081,7 +1081,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 10752389,
+      "srcTgtColId" : 10752484,
       "ruleClsPropId" : 10752297,
       "srcTrgColName" : "fax",
       "srcTrgColDataType" : "varchar",
@@ -1093,9 +1093,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 10752391,
-      "srcColId" : 10752366,
-      "trgColId" : 10752379,
+      "colMapId" : 10752486,
+      "srcColId" : 10752461,
+      "trgColId" : 10752474,
       "colMapType" : "join",
       "srcColName" : "customerid",
       "tgtColName" : "customerid",
@@ -1114,7 +1114,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : "",
+    "ruleParameter" : "Para_Ktc_check/Parameter_01",
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
