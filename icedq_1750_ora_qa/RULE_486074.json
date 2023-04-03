@@ -3,7 +3,7 @@
     "id" : 486074,
     "ruleInstanceId" : 0,
     "ruleDesc" : null,
-    "execMode" : "htreport",
+    "execMode" : "report",
     "exitCode" : null,
     "folderId" : 212024,
     "projectId" : 124162,
@@ -80,7 +80,7 @@
       "name" : null,
       "ruleClassId" : 486075,
       "connType" : "DATABASE",
-      "execMode" : "htreport",
+      "execMode" : "report",
       "index" : 0,
       "classRun" : "com.ice.bpel.GetData",
       "vid" : "GetData11",
@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1007548,
+          "srcTgtColId" : 1007559,
           "ruleClsPropId" : 486078,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -115,7 +115,7 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1007549,
+          "srcTgtColId" : 1007560,
           "ruleClsPropId" : 486078,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -126,7 +126,7 @@
           "colFormat" : null,
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 1007550,
+          "srcTgtColId" : 1007561,
           "ruleClsPropId" : 486078,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -137,7 +137,7 @@
           "colFormat" : null,
           "displayIndex" : 2
         }, {
-          "srcTgtColId" : 1007551,
+          "srcTgtColId" : 1007562,
           "ruleClsPropId" : 486078,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -204,7 +204,7 @@
       "name" : null,
       "ruleClassId" : 486076,
       "connType" : "DATABASE",
-      "execMode" : "htreport",
+      "execMode" : "report",
       "index" : 0,
       "classRun" : "com.ice.bpel.GetData",
       "vid" : "GetData21",
@@ -228,7 +228,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1007553,
+          "srcTgtColId" : 1007564,
           "ruleClsPropId" : 486091,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -274,7 +274,7 @@
       "name" : null,
       "ruleClassId" : 486077,
       "connType" : null,
-      "execMode" : "htreport",
+      "execMode" : "report",
       "index" : 1,
       "classRun" : "com.ice.bpel.CompareData",
       "vid" : "CompareData11",
@@ -290,9 +290,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1007556,
-        "srcColId" : 1007548,
-        "trgColId" : 1007553,
+        "colMapId" : 1007566,
+        "srcColId" : 1007559,
+        "trgColId" : 1007564,
         "colMapType" : "join",
         "srcColName" : "department_id",
         "tgtColName" : "cnt",
@@ -303,13 +303,6 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 1007554,
-        "paramId" : 487,
-        "paramMethod" : "setDegreeOfParallelism",
-        "paramValue" : "1",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
         "ruleClsPropID" : 486097,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
@@ -396,7 +389,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1007548,
+      "srcTgtColId" : 1007559,
       "ruleClsPropId" : 486078,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -407,7 +400,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1007549,
+      "srcTgtColId" : 1007560,
       "ruleClsPropId" : 486078,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -418,7 +411,7 @@
       "colFormat" : null,
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 1007550,
+      "srcTgtColId" : 1007561,
       "ruleClsPropId" : 486078,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -429,7 +422,7 @@
       "colFormat" : null,
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 1007551,
+      "srcTgtColId" : 1007562,
       "ruleClsPropId" : 486078,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -440,7 +433,7 @@
       "colFormat" : null,
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 1007553,
+      "srcTgtColId" : 1007564,
       "ruleClsPropId" : 486091,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -452,9 +445,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1007556,
-      "srcColId" : 1007548,
-      "trgColId" : 1007553,
+      "colMapId" : 1007566,
+      "srcColId" : 1007559,
+      "trgColId" : 1007564,
       "colMapType" : "join",
       "srcColName" : "department_id",
       "tgtColName" : "cnt",
