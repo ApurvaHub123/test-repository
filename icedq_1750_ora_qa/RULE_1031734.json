@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 205,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 205,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-04-10 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-04-10 00:00:00",
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "dhanashri",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 1031739,
     "successBody" : null,
     "failureBody" : null,
@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1031750,
+          "srcTgtColId" : 1031786,
           "ruleClsPropId" : 1031740,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -115,7 +115,7 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1031751,
+          "srcTgtColId" : 1031787,
           "ruleClsPropId" : 1031740,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -126,7 +126,7 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1031752,
+          "srcTgtColId" : 1031788,
           "ruleClsPropId" : 1031740,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -137,7 +137,7 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1031753,
+          "srcTgtColId" : 1031789,
           "ruleClsPropId" : 1031740,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -235,7 +235,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1031764,
+          "srcTgtColId" : 1031792,
           "ruleClsPropId" : 1031754,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -246,7 +246,7 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1031765,
+          "srcTgtColId" : 1031793,
           "ruleClsPropId" : 1031754,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -257,7 +257,7 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1031766,
+          "srcTgtColId" : 1031794,
           "ruleClsPropId" : 1031754,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -268,7 +268,7 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1031767,
+          "srcTgtColId" : 1031795,
           "ruleClsPropId" : 1031754,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -358,9 +358,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1031780,
-        "srcColId" : 1031750,
-        "trgColId" : 1031764,
+        "colMapId" : 1031797,
+        "srcColId" : 1031786,
+        "trgColId" : 1031792,
         "colMapType" : "join",
         "srcColName" : "department_id",
         "tgtColName" : "department_id",
@@ -368,9 +368,9 @@
         "srcTrgColMapVisible" : 1,
         "displayIndex" : 1
       }, {
-        "colMapId" : 1031781,
-        "srcColId" : 1031751,
-        "trgColId" : 1031765,
+        "colMapId" : 1031798,
+        "srcColId" : 1031787,
+        "trgColId" : 1031793,
         "colMapType" : "join",
         "srcColName" : "department_name",
         "tgtColName" : "department_name",
@@ -378,9 +378,9 @@
         "srcTrgColMapVisible" : 1,
         "displayIndex" : 2
       }, {
-        "colMapId" : 1031782,
-        "srcColId" : 1031752,
-        "trgColId" : 1031766,
+        "colMapId" : 1031799,
+        "srcColId" : 1031788,
+        "trgColId" : 1031794,
         "colMapType" : "join",
         "srcColName" : "manager_id",
         "tgtColName" : "manager_id",
@@ -388,9 +388,9 @@
         "srcTrgColMapVisible" : 1,
         "displayIndex" : 3
       }, {
-        "colMapId" : 1031783,
-        "srcColId" : 1031753,
-        "trgColId" : 1031767,
+        "colMapId" : 1031800,
+        "srcColId" : 1031789,
+        "trgColId" : 1031795,
         "colMapType" : "join",
         "srcColName" : "location_id",
         "tgtColName" : "location_id",
@@ -487,7 +487,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1031750,
+      "srcTgtColId" : 1031786,
       "ruleClsPropId" : 1031740,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -498,7 +498,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1031751,
+      "srcTgtColId" : 1031787,
       "ruleClsPropId" : 1031740,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -509,7 +509,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1031752,
+      "srcTgtColId" : 1031788,
       "ruleClsPropId" : 1031740,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -520,7 +520,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1031753,
+      "srcTgtColId" : 1031789,
       "ruleClsPropId" : 1031740,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -531,7 +531,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1031764,
+      "srcTgtColId" : 1031792,
       "ruleClsPropId" : 1031754,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -542,7 +542,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1031765,
+      "srcTgtColId" : 1031793,
       "ruleClsPropId" : 1031754,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -553,7 +553,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1031766,
+      "srcTgtColId" : 1031794,
       "ruleClsPropId" : 1031754,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -564,7 +564,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1031767,
+      "srcTgtColId" : 1031795,
       "ruleClsPropId" : 1031754,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -576,9 +576,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1031780,
-      "srcColId" : 1031750,
-      "trgColId" : 1031764,
+      "colMapId" : 1031797,
+      "srcColId" : 1031786,
+      "trgColId" : 1031792,
       "colMapType" : "join",
       "srcColName" : "department_id",
       "tgtColName" : "department_id",
@@ -586,9 +586,9 @@
       "srcTrgColMapVisible" : 1,
       "displayIndex" : 1
     }, {
-      "colMapId" : 1031781,
-      "srcColId" : 1031751,
-      "trgColId" : 1031765,
+      "colMapId" : 1031798,
+      "srcColId" : 1031787,
+      "trgColId" : 1031793,
       "colMapType" : "join",
       "srcColName" : "department_name",
       "tgtColName" : "department_name",
@@ -596,9 +596,9 @@
       "srcTrgColMapVisible" : 1,
       "displayIndex" : 2
     }, {
-      "colMapId" : 1031782,
-      "srcColId" : 1031752,
-      "trgColId" : 1031766,
+      "colMapId" : 1031799,
+      "srcColId" : 1031788,
+      "trgColId" : 1031794,
       "colMapType" : "join",
       "srcColName" : "manager_id",
       "tgtColName" : "manager_id",
@@ -606,9 +606,9 @@
       "srcTrgColMapVisible" : 1,
       "displayIndex" : 3
     }, {
-      "colMapId" : 1031783,
-      "srcColId" : 1031753,
-      "trgColId" : 1031767,
+      "colMapId" : 1031800,
+      "srcColId" : 1031789,
+      "trgColId" : 1031795,
       "colMapType" : "join",
       "srcColName" : "location_id",
       "tgtColName" : "location_id",
