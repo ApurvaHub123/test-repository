@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1577002,
-        "srcColId" : 1576987,
-        "trgColId" : 1577000,
+        "colMapId" : 1577132,
+        "srcColId" : 1577117,
+        "trgColId" : 1577130,
         "colMapType" : "join",
         "srcColName" : "rowid",
         "tgtColName" : "cnt",
@@ -110,7 +110,7 @@
         "exprID" : 1530409,
         "exprLogID" : 0,
         "exprName" : "Ternary_Operator",
-        "expression" : "S.customerid== (S.customerid == '11171') ? true:false || (S.customerid == 'K11171') ? true:false",
+        "expression" : "S.customerid != (S.customerid == '11168') ? true:false || (S.customerid == '11171') ? true:false",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
@@ -122,7 +122,7 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "S.customerid== (S.customerid == '11171') ? true:false || (S.customerid == 'K11171') ? true:false",
+        "exprOrg" : "S.customerid != (S.customerid == '11168') ? true:false || (S.customerid == '11171') ? true:false",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -266,7 +266,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1577000,
+          "srcTgtColId" : 1577130,
           "ruleClsPropId" : 1530389,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -385,7 +385,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from report1",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1576987,
+          "srcTgtColId" : 1577117,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "rowid",
           "srcTrgColDataType" : "INT",
@@ -396,7 +396,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576988,
+          "srcTgtColId" : 1577118,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "customerid",
           "srcTrgColDataType" : "VARCHAR",
@@ -407,7 +407,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576989,
+          "srcTgtColId" : 1577119,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "acctnumber",
           "srcTrgColDataType" : "VARCHAR",
@@ -418,7 +418,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576990,
+          "srcTgtColId" : 1577120,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "VARCHAR",
@@ -429,7 +429,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576991,
+          "srcTgtColId" : 1577121,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "VARCHAR",
@@ -440,7 +440,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576992,
+          "srcTgtColId" : 1577122,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "gender",
           "srcTrgColDataType" : "VARCHAR",
@@ -451,7 +451,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576993,
+          "srcTgtColId" : 1577123,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "birthdate",
           "srcTrgColDataType" : "VARCHAR",
@@ -462,7 +462,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576994,
+          "srcTgtColId" : 1577124,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "datefirstpurchase",
           "srcTrgColDataType" : "VARCHAR",
@@ -473,7 +473,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576995,
+          "srcTgtColId" : 1577125,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "phoneno",
           "srcTrgColDataType" : "VARCHAR",
@@ -484,7 +484,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576996,
+          "srcTgtColId" : 1577126,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "email",
           "srcTrgColDataType" : "VARCHAR",
@@ -495,7 +495,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576997,
+          "srcTgtColId" : 1577127,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "yearlyincome",
           "srcTrgColDataType" : "VARCHAR",
@@ -506,7 +506,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1576998,
+          "srcTgtColId" : 1577128,
           "ruleClsPropId" : 1530383,
           "srcTrgColName" : "addressid",
           "srcTrgColDataType" : "VARCHAR",
@@ -528,7 +528,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1576987,
+      "srcTgtColId" : 1577117,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "rowid",
       "srcTrgColDataType" : "INT",
@@ -539,7 +539,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576988,
+      "srcTgtColId" : 1577118,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "customerid",
       "srcTrgColDataType" : "VARCHAR",
@@ -550,7 +550,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576989,
+      "srcTgtColId" : 1577119,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "acctnumber",
       "srcTrgColDataType" : "VARCHAR",
@@ -561,7 +561,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576990,
+      "srcTgtColId" : 1577120,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "VARCHAR",
@@ -572,7 +572,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576991,
+      "srcTgtColId" : 1577121,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "VARCHAR",
@@ -583,7 +583,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576992,
+      "srcTgtColId" : 1577122,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "gender",
       "srcTrgColDataType" : "VARCHAR",
@@ -594,7 +594,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576993,
+      "srcTgtColId" : 1577123,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "birthdate",
       "srcTrgColDataType" : "VARCHAR",
@@ -605,7 +605,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576994,
+      "srcTgtColId" : 1577124,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "datefirstpurchase",
       "srcTrgColDataType" : "VARCHAR",
@@ -616,7 +616,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576995,
+      "srcTgtColId" : 1577125,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "phoneno",
       "srcTrgColDataType" : "VARCHAR",
@@ -627,7 +627,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576996,
+      "srcTgtColId" : 1577126,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "email",
       "srcTrgColDataType" : "VARCHAR",
@@ -638,7 +638,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576997,
+      "srcTgtColId" : 1577127,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "yearlyincome",
       "srcTrgColDataType" : "VARCHAR",
@@ -649,7 +649,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1576998,
+      "srcTgtColId" : 1577128,
       "ruleClsPropId" : 1530383,
       "srcTrgColName" : "addressid",
       "srcTrgColDataType" : "VARCHAR",
@@ -660,7 +660,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1577000,
+      "srcTgtColId" : 1577130,
       "ruleClsPropId" : 1530389,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -672,9 +672,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1577002,
-      "srcColId" : 1576987,
-      "trgColId" : 1577000,
+      "colMapId" : 1577132,
+      "srcColId" : 1577117,
+      "trgColId" : 1577130,
       "colMapType" : "join",
       "srcColName" : "rowid",
       "tgtColName" : "cnt",
@@ -702,7 +702,7 @@
       "exprID" : 1530409,
       "exprLogID" : 0,
       "exprName" : "Ternary_Operator",
-      "expression" : "S.customerid== (S.customerid == '11171') ? true:false || (S.customerid == 'K11171') ? true:false",
+      "expression" : "S.customerid != (S.customerid == '11168') ? true:false || (S.customerid == '11171') ? true:false",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
