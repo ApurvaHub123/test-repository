@@ -22,7 +22,7 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-05-19 00:00:00",
-    "ruleModifiedDate" : "2023-05-19 00:00:00",
+    "ruleModifiedDate" : "2023-05-22 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -87,7 +87,7 @@
       "classObjName" : "ICE_1684516914632",
       "queryBuilderXML" : null,
       "connId" : 0,
-      "resultType" : "a-b",
+      "resultType" : "a-b,expression",
       "connName" : null,
       "connUrl" : null,
       "connFullUrl" : null,
@@ -96,15 +96,15 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1185478,
-        "srcColId" : 1185449,
-        "trgColId" : 1185464,
+        "colMapId" : 1186216,
+        "srcColId" : 1186187,
+        "trgColId" : 1186202,
         "colMapType" : "join",
         "srcColName" : "businessentityid",
         "tgtColName" : "businessentityid",
         "colMapExpr" : "businessentityid=businessentityid",
         "srcTrgColMapVisible" : 1,
-        "displayIndex" : 35
+        "displayIndex" : 25
       } ],
       "exprlist" : [ {
         "exprID" : 1184831,
@@ -114,7 +114,7 @@
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
-        "exprIndex" : 38,
+        "exprIndex" : 24,
         "ruleId" : 1184686,
         "ruleInstanceId" : 0,
         "ruleClassId" : 1184731,
@@ -294,7 +294,7 @@
         "exprID" : 1184839,
         "exprLogID" : 0,
         "exprName" : "suffix",
-        "expression" : "S.suffix == T.suffix",
+        "expression" : "S.suffix.toString() == T.suffix.toString()",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
@@ -306,7 +306,7 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "S.suffix == T.suffix",
+        "exprOrg" : "S.suffix.toString() == T.suffix.toString()",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -321,7 +321,7 @@
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
-        "exprIndex" : 36,
+        "exprIndex" : 22,
         "ruleId" : 1184686,
         "ruleInstanceId" : 0,
         "ruleClassId" : 1184731,
@@ -340,11 +340,11 @@
         "exprID" : 1184841,
         "exprLogID" : 0,
         "exprName" : "additionalcontactinfo",
-        "expression" : "(T.additionalcontactinfo != null && S.additionalcontactinfo == T.additionalcontactinfo)",
+        "expression" : "S.additionalcontactinfo.toString() == T.additionalcontactinfo.toString()",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
-        "exprIndex" : 37,
+        "exprIndex" : 23,
         "ruleId" : 1184686,
         "ruleInstanceId" : 0,
         "ruleClassId" : 1184731,
@@ -352,7 +352,7 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "(T.additionalcontactinfo != null && S.additionalcontactinfo == T.additionalcontactinfo)",
+        "exprOrg" : "S.additionalcontactinfo.toString() == T.additionalcontactinfo.toString()",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -363,7 +363,7 @@
         "exprID" : 1184842,
         "exprLogID" : 0,
         "exprName" : "demographics",
-        "expression" : "S.demographics == T.demographics",
+        "expression" : "S.demographics.toString() == T.demographics.toString()",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
@@ -375,7 +375,7 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "S.demographics == T.demographics",
+        "exprOrg" : "S.demographics.toString() == T.demographics.toString()",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -411,7 +411,7 @@
         "ruleClsPropID" : 1184791,
         "paramId" : 24,
         "paramMethod" : "setShowErrorData",
-        "paramValue" : "No",
+        "paramValue" : "Yes",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -425,7 +425,7 @@
         "ruleClsPropID" : 1184788,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
-        "paramValue" : "Null",
+        "paramValue" : "V8",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -504,7 +504,7 @@
       "classObjName" : "ICE_1684516914632",
       "queryBuilderXML" : null,
       "connId" : 207901,
-      "resultType" : "a-b",
+      "resultType" : "a-b,expression",
       "connName" : null,
       "connUrl" : null,
       "connFullUrl" : null,
@@ -535,148 +535,148 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from Demographic_Info1",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1185449,
+          "srcTgtColId" : 1186187,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "businessentityid",
           "srcTrgColDataType" : "INT",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 11
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185450,
+          "srcTgtColId" : 1186188,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "persontype",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 12
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185451,
+          "srcTgtColId" : 1186189,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "namestyle",
           "srcTrgColDataType" : "BIT",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 13
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185452,
+          "srcTgtColId" : 1186190,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "title",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 14
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185453,
+          "srcTgtColId" : 1186191,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 15
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185454,
+          "srcTgtColId" : 1186192,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "middlename",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 16
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185455,
+          "srcTgtColId" : 1186193,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 17
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185456,
+          "srcTgtColId" : 1186194,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "suffix",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 18
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185457,
+          "srcTgtColId" : 1186195,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "emailpromotion",
           "srcTrgColDataType" : "INT",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 19
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185458,
+          "srcTgtColId" : 1186196,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "additionalcontactinfo",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 20
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185459,
+          "srcTgtColId" : 1186197,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "demographics",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 21
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185460,
+          "srcTgtColId" : 1186198,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "rowguid",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 22
+          "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1185461,
+          "srcTgtColId" : 1186199,
           "ruleClsPropId" : 1184732,
           "srcTrgColName" : "modifieddate",
           "srcTrgColDataType" : "DATE",
           "colFlagType" : "src",
-          "srcTrgColVisible" : 1,
+          "srcTrgColVisible" : 0,
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 23
+          "displayIndex" : 0
         } ],
         "fileContent" : null
       }, {
@@ -797,7 +797,7 @@
       "classObjName" : "ICE_1684516914632",
       "queryBuilderXML" : null,
       "connId" : 1140598,
-      "resultType" : "a-b",
+      "resultType" : "a-b,expression",
       "connName" : null,
       "connUrl" : null,
       "connFullUrl" : null,
@@ -814,7 +814,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from PERSON.Person",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1185464,
+          "srcTgtColId" : 1186202,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "businessentityid",
           "srcTrgColDataType" : "int",
@@ -823,9 +823,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 22
+          "displayIndex" : 9
         }, {
-          "srcTgtColId" : 1185465,
+          "srcTgtColId" : 1186203,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "persontype",
           "srcTrgColDataType" : "nchar",
@@ -834,9 +834,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 23
+          "displayIndex" : 10
         }, {
-          "srcTgtColId" : 1185466,
+          "srcTgtColId" : 1186204,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "namestyle",
           "srcTrgColDataType" : "bit",
@@ -845,9 +845,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 24
+          "displayIndex" : 11
         }, {
-          "srcTgtColId" : 1185467,
+          "srcTgtColId" : 1186205,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "title",
           "srcTrgColDataType" : "nvarchar",
@@ -856,9 +856,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 25
+          "displayIndex" : 12
         }, {
-          "srcTgtColId" : 1185468,
+          "srcTgtColId" : 1186206,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "nvarchar",
@@ -867,9 +867,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 26
+          "displayIndex" : 13
         }, {
-          "srcTgtColId" : 1185469,
+          "srcTgtColId" : 1186207,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "middlename",
           "srcTrgColDataType" : "nvarchar",
@@ -878,9 +878,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 27
+          "displayIndex" : 14
         }, {
-          "srcTgtColId" : 1185470,
+          "srcTgtColId" : 1186208,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "nvarchar",
@@ -889,9 +889,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 28
+          "displayIndex" : 15
         }, {
-          "srcTgtColId" : 1185471,
+          "srcTgtColId" : 1186209,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "suffix",
           "srcTrgColDataType" : "nvarchar",
@@ -900,9 +900,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 29
+          "displayIndex" : 16
         }, {
-          "srcTgtColId" : 1185472,
+          "srcTgtColId" : 1186210,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "emailpromotion",
           "srcTrgColDataType" : "int",
@@ -911,9 +911,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 30
+          "displayIndex" : 17
         }, {
-          "srcTgtColId" : 1185473,
+          "srcTgtColId" : 1186211,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "additionalcontactinfo",
           "srcTrgColDataType" : "xml",
@@ -922,9 +922,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 31
+          "displayIndex" : 18
         }, {
-          "srcTgtColId" : 1185474,
+          "srcTgtColId" : 1186212,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "demographics",
           "srcTrgColDataType" : "xml",
@@ -933,9 +933,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 32
+          "displayIndex" : 19
         }, {
-          "srcTgtColId" : 1185475,
+          "srcTgtColId" : 1186213,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "rowguid",
           "srcTrgColDataType" : "uniqueidentifier",
@@ -944,9 +944,9 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 33
+          "displayIndex" : 20
         }, {
-          "srcTgtColId" : 1185476,
+          "srcTgtColId" : 1186214,
           "ruleClsPropId" : 1184764,
           "srcTrgColName" : "modifieddate",
           "srcTrgColDataType" : "datetime",
@@ -955,7 +955,7 @@
           "joinList" : null,
           "mapColName" : null,
           "colFormat" : "",
-          "displayIndex" : 34
+          "displayIndex" : 21
         } ],
         "fileContent" : null
       }, {
@@ -1010,150 +1010,150 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1185449,
+      "srcTgtColId" : 1186187,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "businessentityid",
       "srcTrgColDataType" : "INT",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "businessentityid",
       "colFormat" : "",
-      "displayIndex" : 11
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185450,
+      "srcTgtColId" : 1186188,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "persontype",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "persontype",
       "colFormat" : "",
-      "displayIndex" : 12
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185451,
+      "srcTgtColId" : 1186189,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "namestyle",
       "srcTrgColDataType" : "BIT",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "namestyle",
       "colFormat" : "",
-      "displayIndex" : 13
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185452,
+      "srcTgtColId" : 1186190,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "title",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "title",
       "colFormat" : "",
-      "displayIndex" : 14
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185453,
+      "srcTgtColId" : 1186191,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "firstname",
       "colFormat" : "",
-      "displayIndex" : 15
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185454,
+      "srcTgtColId" : 1186192,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "middlename",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "middlename",
       "colFormat" : "",
-      "displayIndex" : 16
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185455,
+      "srcTgtColId" : 1186193,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "lastname",
       "colFormat" : "",
-      "displayIndex" : 17
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185456,
+      "srcTgtColId" : 1186194,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "suffix",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "suffix",
       "colFormat" : "",
-      "displayIndex" : 18
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185457,
+      "srcTgtColId" : 1186195,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "emailpromotion",
       "srcTrgColDataType" : "INT",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "emailpromotion",
       "colFormat" : "",
-      "displayIndex" : 19
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185458,
+      "srcTgtColId" : 1186196,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "additionalcontactinfo",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "additionalcontactinfo",
       "colFormat" : "",
-      "displayIndex" : 20
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185459,
+      "srcTgtColId" : 1186197,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "demographics",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "demographics",
       "colFormat" : "",
-      "displayIndex" : 21
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185460,
+      "srcTgtColId" : 1186198,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "rowguid",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "rowguid",
       "colFormat" : "",
-      "displayIndex" : 22
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185461,
+      "srcTgtColId" : 1186199,
       "ruleClsPropId" : 1184732,
       "srcTrgColName" : "modifieddate",
       "srcTrgColDataType" : "DATE",
       "colFlagType" : "src",
-      "srcTrgColVisible" : 1,
+      "srcTrgColVisible" : 0,
       "joinList" : null,
       "mapColName" : "modifieddate",
       "colFormat" : "",
-      "displayIndex" : 23
+      "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1185464,
+      "srcTgtColId" : 1186202,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "businessentityid",
       "srcTrgColDataType" : "int",
@@ -1162,9 +1162,9 @@
       "joinList" : null,
       "mapColName" : "businessentityid",
       "colFormat" : "",
-      "displayIndex" : 22
+      "displayIndex" : 9
     }, {
-      "srcTgtColId" : 1185465,
+      "srcTgtColId" : 1186203,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "persontype",
       "srcTrgColDataType" : "nchar",
@@ -1173,9 +1173,9 @@
       "joinList" : null,
       "mapColName" : "persontype",
       "colFormat" : "",
-      "displayIndex" : 23
+      "displayIndex" : 10
     }, {
-      "srcTgtColId" : 1185466,
+      "srcTgtColId" : 1186204,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "namestyle",
       "srcTrgColDataType" : "bit",
@@ -1184,9 +1184,9 @@
       "joinList" : null,
       "mapColName" : "namestyle",
       "colFormat" : "",
-      "displayIndex" : 24
+      "displayIndex" : 11
     }, {
-      "srcTgtColId" : 1185467,
+      "srcTgtColId" : 1186205,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "title",
       "srcTrgColDataType" : "nvarchar",
@@ -1195,9 +1195,9 @@
       "joinList" : null,
       "mapColName" : "title",
       "colFormat" : "",
-      "displayIndex" : 25
+      "displayIndex" : 12
     }, {
-      "srcTgtColId" : 1185468,
+      "srcTgtColId" : 1186206,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "nvarchar",
@@ -1206,9 +1206,9 @@
       "joinList" : null,
       "mapColName" : "firstname",
       "colFormat" : "",
-      "displayIndex" : 26
+      "displayIndex" : 13
     }, {
-      "srcTgtColId" : 1185469,
+      "srcTgtColId" : 1186207,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "middlename",
       "srcTrgColDataType" : "nvarchar",
@@ -1217,9 +1217,9 @@
       "joinList" : null,
       "mapColName" : "middlename",
       "colFormat" : "",
-      "displayIndex" : 27
+      "displayIndex" : 14
     }, {
-      "srcTgtColId" : 1185470,
+      "srcTgtColId" : 1186208,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "nvarchar",
@@ -1228,9 +1228,9 @@
       "joinList" : null,
       "mapColName" : "lastname",
       "colFormat" : "",
-      "displayIndex" : 28
+      "displayIndex" : 15
     }, {
-      "srcTgtColId" : 1185471,
+      "srcTgtColId" : 1186209,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "suffix",
       "srcTrgColDataType" : "nvarchar",
@@ -1239,9 +1239,9 @@
       "joinList" : null,
       "mapColName" : "suffix",
       "colFormat" : "",
-      "displayIndex" : 29
+      "displayIndex" : 16
     }, {
-      "srcTgtColId" : 1185472,
+      "srcTgtColId" : 1186210,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "emailpromotion",
       "srcTrgColDataType" : "int",
@@ -1250,9 +1250,9 @@
       "joinList" : null,
       "mapColName" : "emailpromotion",
       "colFormat" : "",
-      "displayIndex" : 30
+      "displayIndex" : 17
     }, {
-      "srcTgtColId" : 1185473,
+      "srcTgtColId" : 1186211,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "additionalcontactinfo",
       "srcTrgColDataType" : "xml",
@@ -1261,9 +1261,9 @@
       "joinList" : null,
       "mapColName" : "additionalcontactinfo",
       "colFormat" : "",
-      "displayIndex" : 31
+      "displayIndex" : 18
     }, {
-      "srcTgtColId" : 1185474,
+      "srcTgtColId" : 1186212,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "demographics",
       "srcTrgColDataType" : "xml",
@@ -1272,9 +1272,9 @@
       "joinList" : null,
       "mapColName" : "demographics",
       "colFormat" : "",
-      "displayIndex" : 32
+      "displayIndex" : 19
     }, {
-      "srcTgtColId" : 1185475,
+      "srcTgtColId" : 1186213,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "rowguid",
       "srcTrgColDataType" : "uniqueidentifier",
@@ -1283,9 +1283,9 @@
       "joinList" : null,
       "mapColName" : "rowguid",
       "colFormat" : "",
-      "displayIndex" : 33
+      "displayIndex" : 20
     }, {
-      "srcTgtColId" : 1185476,
+      "srcTgtColId" : 1186214,
       "ruleClsPropId" : 1184764,
       "srcTrgColName" : "modifieddate",
       "srcTrgColDataType" : "datetime",
@@ -1294,18 +1294,18 @@
       "joinList" : null,
       "mapColName" : "modifieddate",
       "colFormat" : "",
-      "displayIndex" : 34
+      "displayIndex" : 21
     } ],
     "colMapList" : [ {
-      "colMapId" : 1185478,
-      "srcColId" : 1185449,
-      "trgColId" : 1185464,
+      "colMapId" : 1186216,
+      "srcColId" : 1186187,
+      "trgColId" : 1186202,
       "colMapType" : "join",
       "srcColName" : "businessentityid",
       "tgtColName" : "businessentityid",
       "colMapExpr" : "businessentityid=businessentityid",
       "srcTrgColMapVisible" : 1,
-      "displayIndex" : 35
+      "displayIndex" : 25
     } ],
     "objectVOList" : null,
     "srcCount" : null,
@@ -1465,7 +1465,7 @@
       "exprID" : 1184839,
       "exprLogID" : 0,
       "exprName" : "suffix",
-      "expression" : "S.suffix == T.suffix",
+      "expression" : "S.suffix.toString() == T.suffix.toString()",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
@@ -1488,7 +1488,7 @@
       "exprID" : 1184842,
       "exprLogID" : 0,
       "exprName" : "demographics",
-      "expression" : "S.demographics == T.demographics",
+      "expression" : "S.demographics.toString() == T.demographics.toString()",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
@@ -1538,7 +1538,7 @@
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
-      "exprIndex" : 36,
+      "exprIndex" : 22,
       "ruleId" : 1184686,
       "ruleInstanceId" : 0,
       "ruleClassId" : 1184731,
@@ -1557,11 +1557,11 @@
       "exprID" : 1184841,
       "exprLogID" : 0,
       "exprName" : "additionalcontactinfo",
-      "expression" : "(T.additionalcontactinfo != null && S.additionalcontactinfo == T.additionalcontactinfo)",
+      "expression" : "S.additionalcontactinfo.toString() == T.additionalcontactinfo.toString()",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
-      "exprIndex" : 37,
+      "exprIndex" : 23,
       "ruleId" : 1184686,
       "ruleInstanceId" : 0,
       "ruleClassId" : 1184731,
@@ -1584,7 +1584,7 @@
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
-      "exprIndex" : 38,
+      "exprIndex" : 24,
       "ruleId" : 1184686,
       "ruleInstanceId" : 0,
       "ruleClassId" : 1184731,
