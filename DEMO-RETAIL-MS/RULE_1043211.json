@@ -96,13 +96,13 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 1043315,
-        "srcColId" : 1043307,
-        "trgColId" : 1043313,
+        "colMapId" : 1043472,
+        "srcColId" : 1043463,
+        "trgColId" : 1043470,
         "colMapType" : "join",
-        "srcColName" : "division code on fprs",
+        "srcColName" : "ind_typ",
         "tgtColName" : "cnt",
-        "colMapExpr" : "cnt=division code on fprs",
+        "colMapExpr" : "cnt=ind_typ",
         "srcTrgColMapVisible" : 0,
         "displayIndex" : 0
       } ],
@@ -111,29 +111,6 @@
         "exprLogID" : 0,
         "exprName" : "EXPR_8P2Y1UZ",
         "expression" : "IndicatorLookup.getIndicator(S.division code on fprs,S.division name on fprs,S.region name on fprs,S.ind_type,S.ud_seq_n.toString(),S.alph_5_c)",
-        "result" : "Pass",
-        "exprType" : "5",
-        "exprVisible" : 0,
-        "exprIndex" : 0,
-        "ruleId" : 1043211,
-        "ruleInstanceId" : 0,
-        "ruleClassId" : 1043214,
-        "ruleName" : null,
-        "trueCount" : null,
-        "falseCount" : null,
-        "errCount" : null,
-        "exprOrg" : "IndicatorLookup.getIndicator(S.division code on fprs,S.division name on fprs,S.region name on fprs,S.ind_type,S.ud_seq_n.toString(),S.alph_5_c)",
-        "tc" : null,
-        "fc" : null,
-        "er" : null,
-        "name" : null,
-        "ve" : 0,
-        "exporg" : null
-      }, {
-        "exprID" : 1043316,
-        "exprLogID" : 0,
-        "exprName" : "EXPR_ODK7W81",
-        "expression" : "def result= IndicatorLookup.getIndicator(S.division code on fprs,S.division name on fprs,S.region name on fprs,S.ind_type,S.ud_seq_n.toString(),S.alph_5_c);\n\nresult == S.alph_5_c",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
@@ -145,7 +122,7 @@
         "trueCount" : null,
         "falseCount" : null,
         "errCount" : null,
-        "exprOrg" : "def result= IndicatorLookup.getIndicator(S.division code on fprs,S.division name on fprs,S.region name on fprs,S.ind_type,S.ud_seq_n.toString(),S.alph_5_c);\n\nresult == S.alph_5_c",
+        "exprOrg" : "IndicatorLookup.getIndicator(S.division code on fprs,S.division name on fprs,S.region name on fprs,S.ind_type,S.ud_seq_n.toString(),S.alph_5_c)",
         "tc" : null,
         "fc" : null,
         "er" : null,
@@ -172,7 +149,7 @@
         "ruleClsPropID" : 1043236,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
-        "paramValue" : "V8",
+        "paramValue" : "Null",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -266,9 +243,20 @@
         "ruleClsPropID" : 1043215,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "Select * from tk7343",
+        "paramValue" : "Select 'FCC' IND_TYP,* from tk7343",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1043307,
+          "srcTgtColId" : 1043463,
+          "ruleClsPropId" : 1043215,
+          "srcTrgColName" : "ind_typ",
+          "srcTrgColDataType" : "varchar",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 1043464,
           "ruleClsPropId" : 1043215,
           "srcTrgColName" : "division code on fprs",
           "srcTrgColDataType" : "varchar",
@@ -279,7 +267,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1043308,
+          "srcTgtColId" : 1043465,
           "ruleClsPropId" : 1043215,
           "srcTrgColName" : "division name on fprs",
           "srcTrgColDataType" : "varchar",
@@ -290,7 +278,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1043309,
+          "srcTgtColId" : 1043466,
           "ruleClsPropId" : 1043215,
           "srcTrgColName" : "region name on fprs",
           "srcTrgColDataType" : "varchar",
@@ -301,7 +289,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1043310,
+          "srcTgtColId" : 1043467,
           "ruleClsPropId" : 1043215,
           "srcTrgColName" : "ud_seq_n",
           "srcTrgColDataType" : "varchar",
@@ -312,7 +300,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 1043311,
+          "srcTgtColId" : 1043468,
           "ruleClsPropId" : 1043215,
           "srcTrgColName" : "alph_5_c",
           "srcTrgColDataType" : "varchar",
@@ -356,7 +344,7 @@
         "ruleClsPropID" : 1043222,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "division code on fprs^~^12^~^varchar^~^150^~^1$~$division name on fprs^~^12^~^varchar^~^150^~^2$~$region name on fprs^~^12^~^varchar^~^150^~^3$~$ud_seq_n^~^12^~^varchar^~^150^~^4$~$alph_5_c^~^12^~^varchar^~^150^~^5",
+        "paramValue" : "ind_typ^~^12^~^varchar^~^3^~^1$~$division code on fprs^~^12^~^varchar^~^150^~^2$~$division name on fprs^~^12^~^varchar^~^150^~^3$~$region name on fprs^~^12^~^varchar^~^150^~^4$~$ud_seq_n^~^12^~^varchar^~^150^~^5$~$alph_5_c^~^12^~^varchar^~^150^~^6",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       } ],
@@ -396,7 +384,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 1043313,
+          "srcTgtColId" : 1043470,
           "ruleClsPropId" : 1043228,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -439,7 +427,18 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 1043307,
+      "srcTgtColId" : 1043463,
+      "ruleClsPropId" : 1043215,
+      "srcTrgColName" : "ind_typ",
+      "srcTrgColDataType" : "varchar",
+      "colFlagType" : "src",
+      "srcTrgColVisible" : 0,
+      "joinList" : null,
+      "mapColName" : "ind_typ",
+      "colFormat" : "",
+      "displayIndex" : 0
+    }, {
+      "srcTgtColId" : 1043464,
       "ruleClsPropId" : 1043215,
       "srcTrgColName" : "division code on fprs",
       "srcTrgColDataType" : "varchar",
@@ -450,7 +449,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1043308,
+      "srcTgtColId" : 1043465,
       "ruleClsPropId" : 1043215,
       "srcTrgColName" : "division name on fprs",
       "srcTrgColDataType" : "varchar",
@@ -461,7 +460,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1043309,
+      "srcTgtColId" : 1043466,
       "ruleClsPropId" : 1043215,
       "srcTrgColName" : "region name on fprs",
       "srcTrgColDataType" : "varchar",
@@ -472,7 +471,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1043310,
+      "srcTgtColId" : 1043467,
       "ruleClsPropId" : 1043215,
       "srcTrgColName" : "ud_seq_n",
       "srcTrgColDataType" : "varchar",
@@ -483,7 +482,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1043311,
+      "srcTgtColId" : 1043468,
       "ruleClsPropId" : 1043215,
       "srcTrgColName" : "alph_5_c",
       "srcTrgColDataType" : "varchar",
@@ -494,7 +493,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 1043313,
+      "srcTgtColId" : 1043470,
       "ruleClsPropId" : 1043228,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -506,13 +505,13 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 1043315,
-      "srcColId" : 1043307,
-      "trgColId" : 1043313,
+      "colMapId" : 1043472,
+      "srcColId" : 1043463,
+      "trgColId" : 1043470,
       "colMapType" : "join",
-      "srcColName" : "division code on fprs",
+      "srcColName" : "ind_typ",
       "tgtColName" : "cnt",
-      "colMapExpr" : "cnt=division code on fprs",
+      "colMapExpr" : "cnt=ind_typ",
       "srcTrgColMapVisible" : 0,
       "displayIndex" : 0
     } ],
@@ -533,10 +532,10 @@
     "classCreateDate" : null,
     "classModifyDate" : null,
     "exprVOList" : [ {
-      "exprID" : 1043316,
+      "exprID" : 1043248,
       "exprLogID" : 0,
-      "exprName" : "EXPR_ODK7W81",
-      "expression" : "def result= IndicatorLookup.getIndicator(S.division code on fprs,S.division name on fprs,S.region name on fprs,S.ind_type,S.ud_seq_n.toString(),S.alph_5_c);\n\nresult == S.alph_5_c",
+      "exprName" : "EXPR_8P2Y1UZ",
+      "expression" : "IndicatorLookup.getIndicator(S.division code on fprs,S.division name on fprs,S.region name on fprs,S.ind_type,S.ud_seq_n.toString(),S.alph_5_c)",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
