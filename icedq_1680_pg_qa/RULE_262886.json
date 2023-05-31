@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 4144,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 4144,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-05-31 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-05-31 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "Samit",
     "projectName" : "WIP_Samit",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "Samit",
     "ruleClassId" : 262889,
     "successBody" : "",
     "failureBody" : "",
@@ -95,9 +95,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 262913,
-        "srcColId" : 262899,
-        "trgColId" : 262909,
+        "colMapId" : 262920,
+        "srcColId" : 262916,
+        "trgColId" : 262919,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -207,7 +207,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from HR.JOBS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 262909,
+          "srcTgtColId" : 262919,
           "ruleClsPropId" : 262900,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -251,13 +251,6 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 262898,
-        "paramId" : 404,
-        "paramMethod" : "setIsMultipleOutVaiables",
-        "paramValue" : "false",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
         "ruleClsPropID" : 262897,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
@@ -298,7 +291,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from HR.JOBS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 262899,
+          "srcTgtColId" : 262916,
           "ruleClsPropId" : 262890,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -310,6 +303,13 @@
           "displayIndex" : 0
         } ],
         "fileContent" : null
+      }, {
+        "ruleClsPropID" : 262898,
+        "paramId" : 404,
+        "paramMethod" : "setIsMultipleOutVaiables",
+        "paramValue" : "false",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
       } ],
       "bigDataExecMode" : null,
       "srcConnServer" : null,
@@ -320,7 +320,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 262899,
+      "srcTgtColId" : 262916,
       "ruleClsPropId" : 262890,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -331,7 +331,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 262909,
+      "srcTgtColId" : 262919,
       "ruleClsPropId" : 262900,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -343,9 +343,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 262913,
-      "srcColId" : 262899,
-      "trgColId" : 262909,
+      "colMapId" : 262920,
+      "srcColId" : 262916,
+      "trgColId" : 262919,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
