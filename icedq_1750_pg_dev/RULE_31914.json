@@ -99,62 +99,62 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 41443,
+        "ruleClsPropID" : 41632,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41442,
+        "ruleClsPropID" : 41631,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "true",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41441,
+        "ruleClsPropID" : 41630,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41440,
+        "ruleClsPropID" : 41629,
         "paramId" : 491,
         "paramMethod" : "setDeferredSort",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41439,
+        "ruleClsPropID" : 41628,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41438,
+        "ruleClsPropID" : 41627,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "14707283",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41437,
+        "ruleClsPropID" : 41626,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "npi^~^12^~^VARCHAR2^~^10^~^1$~$prov_org_fed_tax_id^~^12^~^VARCHAR2^~^9^~^2$~$prov_org_spclty_cd^~^12^~^VARCHAR2^~^10^~^3$~$prov_data_ownr_cd^~^12^~^VARCHAR2^~^10^~^4$~$to_char(poa.padrs_trmntn_dt,'mm/dd/yyyy')^~^12^~^VARCHAR2^~^10^~^5$~$padrs_trmntn_rsn_cd^~^12^~^VARCHAR2^~^10^~^6$~$md5_chksm_type_1_txt^~^12^~^VARCHAR2^~^32^~^7",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41436,
+        "ruleClsPropID" : 41625,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "Select Distinct Prov.Npi,\t\n\tProv.Prov_Org_Fed_Tax_Id,\t\n\tPROV.PROV_ORG_SPCLTY_CD,\t\n\tPROV.PROV_DATA_OWNR_CD,to_char(poa.PADRS_TRMNTN_DT,'MM/DD/YYYY'),POA.PADRS_TRMNTN_RSN_CD,\n\tSA.MD5_CHKSM_TYPE_1_TXT\n\n\tFrom SPSMDMRW.LN_Prov Prov Inner Join SPSMDMRW.LN_Poa POA On Prov.PROV_SRC_PK = Poa.PROV_SRC_PK\t\n\tINNER JOIN SPSMDMRW.ln_STNDRDZD_ADRS SA ON POA.STNDRDZD_ADRS_SRC_PK = SA.STNDRDZD_ADRS_SRC_PK\t\n\twhere PROV.PROV_CTGRY_CD in ('182') \t\n  AND POA.LAST_UPDT_USER_ID LIKE '%BL%'",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 41467,
-          "ruleClsPropId" : 41436,
+          "srcTgtColId" : 41656,
+          "ruleClsPropId" : 41625,
           "srcTrgColName" : "npi",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -164,8 +164,8 @@
           "colFormat" : null,
           "displayIndex" : 22
         }, {
-          "srcTgtColId" : 41468,
-          "ruleClsPropId" : 41436,
+          "srcTgtColId" : 41657,
+          "ruleClsPropId" : 41625,
           "srcTrgColName" : "prov_org_fed_tax_id",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -175,8 +175,8 @@
           "colFormat" : null,
           "displayIndex" : 22
         }, {
-          "srcTgtColId" : 41469,
-          "ruleClsPropId" : 41436,
+          "srcTgtColId" : 41658,
+          "ruleClsPropId" : 41625,
           "srcTrgColName" : "prov_org_spclty_cd",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -186,8 +186,8 @@
           "colFormat" : null,
           "displayIndex" : 22
         }, {
-          "srcTgtColId" : 41470,
-          "ruleClsPropId" : 41436,
+          "srcTgtColId" : 41659,
+          "ruleClsPropId" : 41625,
           "srcTrgColName" : "prov_data_ownr_cd",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -197,8 +197,8 @@
           "colFormat" : null,
           "displayIndex" : 22
         }, {
-          "srcTgtColId" : 41471,
-          "ruleClsPropId" : 41436,
+          "srcTgtColId" : 41660,
+          "ruleClsPropId" : 41625,
           "srcTrgColName" : "to_char(poa.padrs_trmntn_dt,'mm/dd/yyyy')",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -208,8 +208,8 @@
           "colFormat" : null,
           "displayIndex" : 20
         }, {
-          "srcTgtColId" : 41472,
-          "ruleClsPropId" : 41436,
+          "srcTgtColId" : 41661,
+          "ruleClsPropId" : 41625,
           "srcTrgColName" : "padrs_trmntn_rsn_cd",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -219,8 +219,8 @@
           "colFormat" : null,
           "displayIndex" : 21
         }, {
-          "srcTgtColId" : 41473,
-          "ruleClsPropId" : 41436,
+          "srcTgtColId" : 41662,
+          "ruleClsPropId" : 41625,
           "srcTrgColName" : "md5_chksm_type_1_txt",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
@@ -263,41 +263,41 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 41435,
+        "ruleClsPropID" : 41624,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41434,
+        "ruleClsPropID" : 41623,
         "paramId" : 491,
         "paramMethod" : "setDeferredSort",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41433,
+        "ruleClsPropID" : 41622,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41432,
+        "ruleClsPropID" : 41621,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "14707283",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41431,
+        "ruleClsPropID" : 41620,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "SELECT DISTINCT A.Npi,\t\n\t    A.Tax_Id_Number,\t\n\t\t  a.PROV_ORG_SPCLTY_CD,\n\t    a.PROV_DATA_OWNR_CD,a.ADDRESS_TRMNTN_DT,A.ADDRESS_TRMNTN_RSN_CD,\t\n  \t  B.MD5_CHKSM_TYPE_1_TXT\t\n\tFROM SPSMDMRW.SPS_MDM_BLK_LD_DRVR A\t\n\tLEFT JOIN SPSMDMRW.ln_STNDRDZD_ADRS B\t\n\tON UPPER(REPLACE(A.ADDRESS_STREET,' ','')) = UPPER(REPLACE(B.SRC_ADRS_LINE_1_TXT,' ' ,''))\t\n\t  ||UPPER(REPLACE(B.SRC_ADRS_LINE_2_TXT,' ','') )\t\n\tAND SUBSTR(A.ADDRESS_ZIP_PLUS_4,1,5)      = SUBSTR(B.SRC_POSTL_CD,1,5)\t\n\tand UPPER(replace(a.ADDRESS_CITY,' ','')) = UPPER(replace(B.SRC_ADRS_CITY_NM,' ' ,''))\t\nwhere a.ENTITY_TYPE in ('G','F') \t\nAnd   A.Err_Ind <> 'Y'\t\nand a.PROV_ORG_SPCLTY_CD is not null\nand a.ADDRESS_TRMNTN_DT <> '12/31/9999' and a.ADDRESS_TRMNTN_RSN_CD is not null",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 41460,
-          "ruleClsPropId" : 41431,
+          "srcTgtColId" : 41649,
+          "ruleClsPropId" : 41620,
           "srcTrgColName" : "npi",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -307,8 +307,8 @@
           "colFormat" : null,
           "displayIndex" : 20
         }, {
-          "srcTgtColId" : 41461,
-          "ruleClsPropId" : 41431,
+          "srcTgtColId" : 41650,
+          "ruleClsPropId" : 41620,
           "srcTrgColName" : "tax_id_number",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -318,8 +318,8 @@
           "colFormat" : null,
           "displayIndex" : 20
         }, {
-          "srcTgtColId" : 41462,
-          "ruleClsPropId" : 41431,
+          "srcTgtColId" : 41651,
+          "ruleClsPropId" : 41620,
           "srcTrgColName" : "prov_org_spclty_cd",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -329,8 +329,8 @@
           "colFormat" : null,
           "displayIndex" : 20
         }, {
-          "srcTgtColId" : 41463,
-          "ruleClsPropId" : 41431,
+          "srcTgtColId" : 41652,
+          "ruleClsPropId" : 41620,
           "srcTrgColName" : "prov_data_ownr_cd",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -340,8 +340,8 @@
           "colFormat" : null,
           "displayIndex" : 20
         }, {
-          "srcTgtColId" : 41464,
-          "ruleClsPropId" : 41431,
+          "srcTgtColId" : 41653,
+          "ruleClsPropId" : 41620,
           "srcTrgColName" : "address_trmntn_dt",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -351,8 +351,8 @@
           "colFormat" : null,
           "displayIndex" : 18
         }, {
-          "srcTgtColId" : 41465,
-          "ruleClsPropId" : 41431,
+          "srcTgtColId" : 41654,
+          "ruleClsPropId" : 41620,
           "srcTrgColName" : "address_trmntn_rsn_cd",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -362,8 +362,8 @@
           "colFormat" : null,
           "displayIndex" : 19
         }, {
-          "srcTgtColId" : 41466,
-          "ruleClsPropId" : 41431,
+          "srcTgtColId" : 41655,
+          "ruleClsPropId" : 41620,
           "srcTrgColName" : "md5_chksm_type_1_txt",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -375,21 +375,21 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41430,
+        "ruleClsPropID" : 41619,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41429,
+        "ruleClsPropID" : 41618,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "npi^~^12^~^VARCHAR2^~^255^~^1$~$tax_id_number^~^12^~^VARCHAR2^~^255^~^2$~$prov_org_spclty_cd^~^12^~^VARCHAR2^~^255^~^3$~$prov_data_ownr_cd^~^12^~^VARCHAR2^~^255^~^4$~$address_trmntn_dt^~^12^~^VARCHAR2^~^255^~^5$~$address_trmntn_rsn_cd^~^12^~^VARCHAR2^~^255^~^6$~$md5_chksm_type_1_txt^~^12^~^VARCHAR2^~^32^~^7",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41428,
+        "ruleClsPropID" : 41617,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "true",
@@ -424,9 +424,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 41474,
-        "srcColId" : 41460,
-        "trgColId" : 41467,
+        "colMapId" : 41663,
+        "srcColId" : 41649,
+        "trgColId" : 41656,
         "colMapType" : "join",
         "srcColName" : "npi",
         "tgtColName" : "npi",
@@ -598,77 +598,77 @@
       } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 41454,
+        "ruleClsPropID" : 41643,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41453,
+        "ruleClsPropID" : 41642,
         "paramId" : 530,
         "paramMethod" : "setThresholdFlag",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41452,
+        "ruleClsPropID" : 41641,
         "paramId" : 465,
         "paramMethod" : "setReportXlsx",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41451,
+        "ruleClsPropID" : 41640,
         "paramId" : 73,
         "paramMethod" : "setLoadDataFlag",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41450,
+        "ruleClsPropID" : 41639,
         "paramId" : 72,
         "paramMethod" : "setTimeOut",
         "paramValue" : null,
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41449,
+        "ruleClsPropID" : 41638,
         "paramId" : 24,
         "paramMethod" : "setShowErrorData",
         "paramValue" : "Yes",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41448,
+        "ruleClsPropID" : 41637,
         "paramId" : 23,
         "paramMethod" : "setMaxErrorCount",
         "paramValue" : "500",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41447,
+        "ruleClsPropID" : 41636,
         "paramId" : 22,
         "paramMethod" : "setMaxRowCount",
         "paramValue" : "-1",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41446,
+        "ruleClsPropID" : 41635,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "Null",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41445,
+        "ruleClsPropID" : 41634,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 41444,
+        "ruleClsPropID" : 41633,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
@@ -684,8 +684,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 41460,
-      "ruleClsPropId" : 41431,
+      "srcTgtColId" : 41649,
+      "ruleClsPropId" : 41620,
       "srcTrgColName" : "npi",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -695,8 +695,8 @@
       "colFormat" : null,
       "displayIndex" : 20
     }, {
-      "srcTgtColId" : 41461,
-      "ruleClsPropId" : 41431,
+      "srcTgtColId" : 41650,
+      "ruleClsPropId" : 41620,
       "srcTrgColName" : "tax_id_number",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -706,8 +706,8 @@
       "colFormat" : null,
       "displayIndex" : 20
     }, {
-      "srcTgtColId" : 41462,
-      "ruleClsPropId" : 41431,
+      "srcTgtColId" : 41651,
+      "ruleClsPropId" : 41620,
       "srcTrgColName" : "prov_org_spclty_cd",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -717,8 +717,8 @@
       "colFormat" : null,
       "displayIndex" : 20
     }, {
-      "srcTgtColId" : 41463,
-      "ruleClsPropId" : 41431,
+      "srcTgtColId" : 41652,
+      "ruleClsPropId" : 41620,
       "srcTrgColName" : "prov_data_ownr_cd",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -728,8 +728,8 @@
       "colFormat" : null,
       "displayIndex" : 20
     }, {
-      "srcTgtColId" : 41464,
-      "ruleClsPropId" : 41431,
+      "srcTgtColId" : 41653,
+      "ruleClsPropId" : 41620,
       "srcTrgColName" : "address_trmntn_dt",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -739,8 +739,8 @@
       "colFormat" : null,
       "displayIndex" : 18
     }, {
-      "srcTgtColId" : 41465,
-      "ruleClsPropId" : 41431,
+      "srcTgtColId" : 41654,
+      "ruleClsPropId" : 41620,
       "srcTrgColName" : "address_trmntn_rsn_cd",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -750,8 +750,8 @@
       "colFormat" : null,
       "displayIndex" : 19
     }, {
-      "srcTgtColId" : 41466,
-      "ruleClsPropId" : 41431,
+      "srcTgtColId" : 41655,
+      "ruleClsPropId" : 41620,
       "srcTrgColName" : "md5_chksm_type_1_txt",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -761,8 +761,8 @@
       "colFormat" : null,
       "displayIndex" : 22
     }, {
-      "srcTgtColId" : 41467,
-      "ruleClsPropId" : 41436,
+      "srcTgtColId" : 41656,
+      "ruleClsPropId" : 41625,
       "srcTrgColName" : "npi",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -772,8 +772,8 @@
       "colFormat" : null,
       "displayIndex" : 22
     }, {
-      "srcTgtColId" : 41468,
-      "ruleClsPropId" : 41436,
+      "srcTgtColId" : 41657,
+      "ruleClsPropId" : 41625,
       "srcTrgColName" : "prov_org_fed_tax_id",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -783,8 +783,8 @@
       "colFormat" : null,
       "displayIndex" : 22
     }, {
-      "srcTgtColId" : 41469,
-      "ruleClsPropId" : 41436,
+      "srcTgtColId" : 41658,
+      "ruleClsPropId" : 41625,
       "srcTrgColName" : "prov_org_spclty_cd",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -794,8 +794,8 @@
       "colFormat" : null,
       "displayIndex" : 22
     }, {
-      "srcTgtColId" : 41470,
-      "ruleClsPropId" : 41436,
+      "srcTgtColId" : 41659,
+      "ruleClsPropId" : 41625,
       "srcTrgColName" : "prov_data_ownr_cd",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -805,8 +805,8 @@
       "colFormat" : null,
       "displayIndex" : 22
     }, {
-      "srcTgtColId" : 41471,
-      "ruleClsPropId" : 41436,
+      "srcTgtColId" : 41660,
+      "ruleClsPropId" : 41625,
       "srcTrgColName" : "to_char(poa.padrs_trmntn_dt,'mm/dd/yyyy')",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -816,8 +816,8 @@
       "colFormat" : null,
       "displayIndex" : 20
     }, {
-      "srcTgtColId" : 41472,
-      "ruleClsPropId" : 41436,
+      "srcTgtColId" : 41661,
+      "ruleClsPropId" : 41625,
       "srcTrgColName" : "padrs_trmntn_rsn_cd",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -827,8 +827,8 @@
       "colFormat" : null,
       "displayIndex" : 21
     }, {
-      "srcTgtColId" : 41473,
-      "ruleClsPropId" : 41436,
+      "srcTgtColId" : 41662,
+      "ruleClsPropId" : 41625,
       "srcTrgColName" : "md5_chksm_type_1_txt",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
@@ -839,9 +839,9 @@
       "displayIndex" : 24
     } ],
     "colMapList" : [ {
-      "colMapId" : 41474,
-      "srcColId" : 41460,
-      "trgColId" : 41467,
+      "colMapId" : 41663,
+      "srcColId" : 41649,
+      "trgColId" : 41656,
       "colMapType" : "join",
       "srcColName" : "npi",
       "tgtColName" : "npi",
