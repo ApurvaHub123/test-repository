@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-06-02 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-06-02 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "Riya",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 44021,
     "successBody" : "",
     "failureBody" : "",
@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 44051,
+          "srcTgtColId" : 44062,
           "ruleClsPropId" : 44049,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
@@ -115,7 +115,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 44052,
+          "srcTgtColId" : 44063,
           "ruleClsPropId" : 44049,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -126,7 +126,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 44053,
+          "srcTgtColId" : 44064,
           "ruleClsPropId" : 44049,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
@@ -217,7 +217,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 44041,
+          "srcTgtColId" : 44066,
           "ruleClsPropId" : 44039,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -279,9 +279,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 44054,
-        "srcColId" : 44051,
-        "trgColId" : 44041,
+        "colMapId" : 44068,
+        "srcColId" : 44062,
+        "trgColId" : 44066,
         "colMapType" : "join",
         "srcColName" : "country_id",
         "tgtColName" : "cnt",
@@ -292,7 +292,7 @@
       "exprlist" : [ {
         "exprID" : 44055,
         "exprLogID" : 0,
-        "exprName" : "test-",
+        "exprName" : "test'",
         "expression" : "S.country_id  != 0",
         "result" : "Pass",
         "exprType" : "5",
@@ -315,7 +315,7 @@
       }, {
         "exprID" : 44056,
         "exprLogID" : 0,
-        "exprName" : "-test",
+        "exprName" : "'test",
         "expression" : "S.region_id  != 0",
         "result" : "Pass",
         "exprType" : "5",
@@ -338,7 +338,7 @@
       }, {
         "exprID" : 44057,
         "exprLogID" : 0,
-        "exprName" : "te-st",
+        "exprName" : "te'st",
         "expression" : "S.country_name  == null",
         "result" : "Pass",
         "exprType" : "5",
@@ -361,7 +361,7 @@
       }, {
         "exprID" : 44058,
         "exprLogID" : 0,
-        "exprName" : "-test-",
+        "exprName" : "'test'",
         "expression" : "S.country_name  != 'test'",
         "result" : "Pass",
         "exprType" : "5",
@@ -384,7 +384,7 @@
       }, {
         "exprID" : 44059,
         "exprLogID" : 0,
-        "exprName" : "-te-st-",
+        "exprName" : "'te'st'",
         "expression" : "S.country_id  != S.region_id",
         "result" : "Pass",
         "exprType" : "5",
@@ -473,7 +473,7 @@
         "ruleClsPropID" : 44025,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
-        "paramValue" : "[test-.success] == 25 || [-test.success]  == 25 || [te-st.failure]== 25 ",
+        "paramValue" : "[test'.success] == 25 || ['test.success] == 25 || [te'st.failure] == 25 ||    ",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -493,18 +493,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 44041,
-      "ruleClsPropId" : 44039,
-      "srcTrgColName" : "cnt",
-      "srcTrgColDataType" : "String",
-      "colFlagType" : "tgt",
-      "srcTrgColVisible" : 0,
-      "joinList" : null,
-      "mapColName" : "cnt",
-      "colFormat" : "",
-      "displayIndex" : 0
-    }, {
-      "srcTgtColId" : 44051,
+      "srcTgtColId" : 44062,
       "ruleClsPropId" : 44049,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
@@ -515,7 +504,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 44052,
+      "srcTgtColId" : 44063,
       "ruleClsPropId" : 44049,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -526,7 +515,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 44053,
+      "srcTgtColId" : 44064,
       "ruleClsPropId" : 44049,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
@@ -536,11 +525,22 @@
       "mapColName" : "region_id",
       "colFormat" : "",
       "displayIndex" : 0
+    }, {
+      "srcTgtColId" : 44066,
+      "ruleClsPropId" : 44039,
+      "srcTrgColName" : "cnt",
+      "srcTrgColDataType" : "String",
+      "colFlagType" : "tgt",
+      "srcTrgColVisible" : 0,
+      "joinList" : null,
+      "mapColName" : "cnt",
+      "colFormat" : "",
+      "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 44054,
-      "srcColId" : 44051,
-      "trgColId" : 44041,
+      "colMapId" : 44068,
+      "srcColId" : 44062,
+      "trgColId" : 44066,
       "colMapType" : "join",
       "srcColName" : "country_id",
       "tgtColName" : "cnt",
@@ -567,7 +567,7 @@
     "exprVOList" : [ {
       "exprID" : 44056,
       "exprLogID" : 0,
-      "exprName" : "-test",
+      "exprName" : "'test",
       "expression" : "S.region_id  != 0",
       "result" : "Pass",
       "exprType" : "5",
@@ -590,7 +590,7 @@
     }, {
       "exprID" : 44055,
       "exprLogID" : 0,
-      "exprName" : "test-",
+      "exprName" : "test'",
       "expression" : "S.country_id  != 0",
       "result" : "Pass",
       "exprType" : "5",
@@ -613,7 +613,7 @@
     }, {
       "exprID" : 44057,
       "exprLogID" : 0,
-      "exprName" : "te-st",
+      "exprName" : "te'st",
       "expression" : "S.country_name  == null",
       "result" : "Pass",
       "exprType" : "5",
@@ -636,7 +636,7 @@
     }, {
       "exprID" : 44058,
       "exprLogID" : 0,
-      "exprName" : "-test-",
+      "exprName" : "'test'",
       "expression" : "S.country_name  != 'test'",
       "result" : "Pass",
       "exprType" : "5",
@@ -659,7 +659,7 @@
     }, {
       "exprID" : 44059,
       "exprLogID" : 0,
-      "exprName" : "-te-st-",
+      "exprName" : "'te'st'",
       "expression" : "S.country_id  != S.region_id",
       "result" : "Pass",
       "exprType" : "5",
