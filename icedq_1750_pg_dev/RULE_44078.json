@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 44112,
-        "srcColId" : 44091,
-        "trgColId" : 44099,
+        "colMapId" : 44126,
+        "srcColId" : 44120,
+        "trgColId" : 44124,
         "colMapType" : "join",
         "srcColName" : "country_id",
         "tgtColName" : "cnt",
@@ -109,7 +109,7 @@
       "exprlist" : [ {
         "exprID" : 44113,
         "exprLogID" : 0,
-        "exprName" : "test'",
+        "exprName" : "test(",
         "expression" : "S.country_id  != 0",
         "result" : "Pass",
         "exprType" : "5",
@@ -132,7 +132,7 @@
       }, {
         "exprID" : 44114,
         "exprLogID" : 0,
-        "exprName" : "'test",
+        "exprName" : "(test",
         "expression" : "S.region_id  != 0",
         "result" : "Pass",
         "exprType" : "5",
@@ -155,7 +155,7 @@
       }, {
         "exprID" : 44115,
         "exprLogID" : 0,
-        "exprName" : "te'st",
+        "exprName" : "te(st",
         "expression" : "S.country_name  == null",
         "result" : "Pass",
         "exprType" : "5",
@@ -178,7 +178,7 @@
       }, {
         "exprID" : 44116,
         "exprLogID" : 0,
-        "exprName" : "'test'",
+        "exprName" : "(test(",
         "expression" : "S.country_name  != 'test'",
         "result" : "Pass",
         "exprType" : "5",
@@ -201,7 +201,7 @@
       }, {
         "exprID" : 44117,
         "exprLogID" : 0,
-        "exprName" : "'te'st'",
+        "exprName" : "(te(st(",
         "expression" : "S.country_id  != S.region_id",
         "result" : "Pass",
         "exprType" : "5",
@@ -224,17 +224,10 @@
       } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 44111,
-        "paramId" : 9,
-        "paramMethod" : "setSourceObject",
-        "paramValue" : "GetData11",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
         "ruleClsPropID" : 44109,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
-        "paramValue" : "[test'.success] == 25 || ['test.success] == 25 || [te'st.failure] == 25",
+        "paramValue" : "[test(.success] == 25 || [(test.success] == 25 ||[ te(st.failure] == 25    ",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -291,6 +284,13 @@
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 44111,
+        "paramId" : 9,
+        "paramMethod" : "setSourceObject",
+        "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -358,7 +358,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 44099,
+          "srcTgtColId" : 44124,
           "ruleClsPropId" : 44094,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -449,7 +449,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 44091,
+          "srcTgtColId" : 44120,
           "ruleClsPropId" : 44082,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
@@ -460,7 +460,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 44092,
+          "srcTgtColId" : 44121,
           "ruleClsPropId" : 44082,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -471,7 +471,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 44093,
+          "srcTgtColId" : 44122,
           "ruleClsPropId" : 44082,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
@@ -493,7 +493,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 44091,
+      "srcTgtColId" : 44120,
       "ruleClsPropId" : 44082,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
@@ -504,7 +504,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 44092,
+      "srcTgtColId" : 44121,
       "ruleClsPropId" : 44082,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -515,7 +515,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 44093,
+      "srcTgtColId" : 44122,
       "ruleClsPropId" : 44082,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
@@ -526,7 +526,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 44099,
+      "srcTgtColId" : 44124,
       "ruleClsPropId" : 44094,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -538,9 +538,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 44112,
-      "srcColId" : 44091,
-      "trgColId" : 44099,
+      "colMapId" : 44126,
+      "srcColId" : 44120,
+      "trgColId" : 44124,
       "colMapType" : "join",
       "srcColName" : "country_id",
       "tgtColName" : "cnt",
@@ -567,7 +567,7 @@
     "exprVOList" : [ {
       "exprID" : 44114,
       "exprLogID" : 0,
-      "exprName" : "'test",
+      "exprName" : "(test",
       "expression" : "S.region_id  != 0",
       "result" : "Pass",
       "exprType" : "5",
@@ -590,7 +590,7 @@
     }, {
       "exprID" : 44113,
       "exprLogID" : 0,
-      "exprName" : "test'",
+      "exprName" : "test(",
       "expression" : "S.country_id  != 0",
       "result" : "Pass",
       "exprType" : "5",
@@ -613,7 +613,7 @@
     }, {
       "exprID" : 44115,
       "exprLogID" : 0,
-      "exprName" : "te'st",
+      "exprName" : "te(st",
       "expression" : "S.country_name  == null",
       "result" : "Pass",
       "exprType" : "5",
@@ -636,7 +636,7 @@
     }, {
       "exprID" : 44116,
       "exprLogID" : 0,
-      "exprName" : "'test'",
+      "exprName" : "(test(",
       "expression" : "S.country_name  != 'test'",
       "result" : "Pass",
       "exprType" : "5",
@@ -659,7 +659,7 @@
     }, {
       "exprID" : 44117,
       "exprLogID" : 0,
-      "exprName" : "'te'st'",
+      "exprName" : "(te(st(",
       "expression" : "S.country_id  != S.region_id",
       "result" : "Pass",
       "exprType" : "5",
