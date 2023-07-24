@@ -22,7 +22,7 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-07-24 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-07-24 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -49,7 +49,7 @@
     "srcConn" : "00_ORACLE",
     "trgConn" : "00_ORACLE",
     "elapseTime" : 0,
-    "parameterId" : null,
+    "parameterId" : "",
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "Samit",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 86037,
-        "srcColId" : 86026,
-        "trgColId" : 86036,
+        "colMapId" : 86044,
+        "srcColId" : 86040,
+        "trgColId" : 86043,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -171,7 +171,7 @@
         "ruleClsPropID" : 86018,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "49788",
+        "paramValue" : "60001",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -180,7 +180,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(Salary) as cnt from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 86026,
+          "srcTgtColId" : 86040,
           "ruleClsPropId" : 86019,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -262,7 +262,7 @@
         "ruleClsPropID" : 86028,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "49788",
+        "paramValue" : "60001",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -271,7 +271,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(Salary) as cnt from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 86036,
+          "srcTgtColId" : 86043,
           "ruleClsPropId" : 86029,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -321,7 +321,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 86026,
+      "srcTgtColId" : 86040,
       "ruleClsPropId" : 86019,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -332,7 +332,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 86036,
+      "srcTgtColId" : 86043,
       "ruleClsPropId" : 86029,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -344,9 +344,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 86037,
-      "srcColId" : 86026,
-      "trgColId" : 86036,
+      "colMapId" : 86044,
+      "srcColId" : 86040,
+      "trgColId" : 86043,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
@@ -365,7 +365,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : null,
+    "ruleParameter" : "",
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
