@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 86044,
-        "srcColId" : 86040,
-        "trgColId" : 86043,
+        "colMapId" : 86051,
+        "srcColId" : 86047,
+        "trgColId" : 86050,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -106,7 +106,30 @@
         "srcTrgColMapVisible" : 0,
         "displayIndex" : 0
       } ],
-      "exprlist" : [ ],
+      "exprlist" : [ {
+        "exprID" : 86052,
+        "exprLogID" : 0,
+        "exprName" : "_@#&'()$-:.*/%^\"'.",
+        "expression" : "S.cnt == T.cnt",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 0,
+        "ruleId" : 85979,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 85980,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.cnt == T.cnt",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
         "ruleClsPropID" : 86014,
@@ -180,7 +203,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(Salary) as cnt from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 86040,
+          "srcTgtColId" : 86047,
           "ruleClsPropId" : 86019,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -271,7 +294,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(Salary) as cnt from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 86043,
+          "srcTgtColId" : 86050,
           "ruleClsPropId" : 86029,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
@@ -321,7 +344,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 86040,
+      "srcTgtColId" : 86047,
       "ruleClsPropId" : 86019,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -332,7 +355,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 86043,
+      "srcTgtColId" : 86050,
       "ruleClsPropId" : 86029,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
@@ -344,9 +367,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 86044,
-      "srcColId" : 86040,
-      "trgColId" : 86043,
+      "colMapId" : 86051,
+      "srcColId" : 86047,
+      "trgColId" : 86050,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
@@ -370,7 +393,30 @@
     "classModifydBy" : 0,
     "classCreateDate" : null,
     "classModifyDate" : null,
-    "exprVOList" : [ ],
+    "exprVOList" : [ {
+      "exprID" : 86052,
+      "exprLogID" : 0,
+      "exprName" : "_@#&'()$-:.*/%^\"'.",
+      "expression" : "S.cnt == T.cnt",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 0,
+      "ruleId" : 85979,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 85980,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    } ],
     "derivedvariablelist" : null
   }
 }
