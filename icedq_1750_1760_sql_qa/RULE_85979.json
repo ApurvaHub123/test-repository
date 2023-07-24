@@ -22,39 +22,13 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-07-24 00:00:00",
-    "ruleModifiedDate" : "2023-07-24 00:00:00",
+    "ruleModifiedDate" : null,
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
     "execNode" : "",
     "children" : null,
-    "objVOList" : [ {
-      "iceObjectId" : 81711,
-      "iceObjectName" : "Tag_1",
-      "iceObjectApp" : null,
-      "iceObjectType" : "Type_1",
-      "iceObjCount" : 0,
-      "projectName" : null,
-      "folderName" : null,
-      "projectId" : 0,
-      "folderId" : 0,
-      "name" : null,
-      "id" : 0,
-      "iceObjectTypeId" : 81710
-    }, {
-      "iceObjectId" : 81707,
-      "iceObjectName" : "Tag_2",
-      "iceObjectApp" : null,
-      "iceObjectType" : "Class_1",
-      "iceObjCount" : 0,
-      "projectName" : null,
-      "folderName" : null,
-      "projectId" : 0,
-      "folderId" : 0,
-      "name" : null,
-      "id" : 0,
-      "iceObjectTypeId" : 81705
-    } ],
+    "objVOList" : [ ],
     "tagVOList" : [ ],
     "ruleFlowList" : null,
     "ruleType" : "Warning",
@@ -64,8 +38,8 @@
     "comments" : null,
     "successMailUsers" : [ ],
     "failureMailUsers" : [ ],
-    "successHeader" : "",
-    "failureHeader" : "",
+    "successHeader" : null,
+    "failureHeader" : null,
     "failureAttFlag" : 0,
     "successAttFlag" : 0,
     "srcConnId" : 60001,
@@ -75,15 +49,15 @@
     "srcConn" : "00_ORACLE",
     "trgConn" : "00_ORACLE",
     "elapseTime" : 0,
-    "parameterId" : "",
+    "parameterId" : null,
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "Samit",
     "projectName" : "WIP_Samit",
     "ruleModifiedByName" : "Samit",
     "ruleClassId" : 85980,
-    "successBody" : "",
-    "failureBody" : "",
+    "successBody" : null,
+    "failureBody" : null,
     "templateId" : 207,
     "templateIdFail" : 207,
     "reportIdList" : [ ],
@@ -122,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 86006,
-        "srcColId" : 86004,
-        "trgColId" : 86005,
+        "colMapId" : 86037,
+        "srcColId" : 86026,
+        "trgColId" : 86036,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -135,21 +109,21 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 86002,
+        "ruleClsPropID" : 86014,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 86003,
+        "ruleClsPropID" : 86015,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 86001,
+        "ruleClsPropID" : 86016,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
@@ -187,27 +161,27 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 85991,
+        "ruleClsPropID" : 86017,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85985,
+        "ruleClsPropID" : 86018,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "49788",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85983,
+        "ruleClsPropID" : 86019,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(Salary) as cnt from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 86004,
-          "ruleClsPropId" : 85983,
+          "srcTgtColId" : 86026,
+          "ruleClsPropId" : 86019,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -219,28 +193,28 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85989,
+        "ruleClsPropID" : 86021,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85987,
+        "ruleClsPropID" : 86022,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85990,
+        "ruleClsPropID" : 86024,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "cnt^~^2^~^NUMBER^~^0^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85986,
+        "ruleClsPropID" : 86025,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
@@ -278,27 +252,27 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 86000,
+        "ruleClsPropID" : 86027,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85994,
+        "ruleClsPropID" : 86028,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "49788",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85992,
+        "ruleClsPropID" : 86029,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(Salary) as cnt from staff",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 86005,
-          "ruleClsPropId" : 85992,
+          "srcTgtColId" : 86036,
+          "ruleClsPropId" : 86029,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "tgt",
@@ -310,28 +284,28 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85998,
+        "ruleClsPropID" : 86031,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85996,
+        "ruleClsPropID" : 86032,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85999,
+        "ruleClsPropID" : 86034,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "cnt^~^2^~^NUMBER^~^0^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 85995,
+        "ruleClsPropID" : 86035,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
@@ -347,8 +321,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 86004,
-      "ruleClsPropId" : 85983,
+      "srcTgtColId" : 86026,
+      "ruleClsPropId" : 86019,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -358,8 +332,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 86005,
-      "ruleClsPropId" : 85992,
+      "srcTgtColId" : 86036,
+      "ruleClsPropId" : 86029,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "tgt",
@@ -370,9 +344,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 86006,
-      "srcColId" : 86004,
-      "trgColId" : 86005,
+      "colMapId" : 86037,
+      "srcColId" : 86026,
+      "trgColId" : 86036,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
@@ -391,7 +365,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : "",
+    "ruleParameter" : null,
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
