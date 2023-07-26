@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 102250,
-        "srcColId" : 102246,
-        "trgColId" : 102249,
+        "colMapId" : 102257,
+        "srcColId" : 102253,
+        "trgColId" : 102256,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -178,7 +178,7 @@
         "ruleClsPropID" : 91815,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "cnt^~^2^~^NUMBER^~^0^~^1",
+        "paramValue" : "cnt^~^12^~^VARCHAR2^~^10^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -199,12 +199,12 @@
         "ruleClsPropID" : 91818,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select count(*) as cnt from REGRESSION_DATABASE.CUSTOMER",
+        "paramValue" : "select min(yearlyincome) as cnt from REGRESSION_DATABASE.CUSTOMER",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 102246,
+          "srcTgtColId" : 102253,
           "ruleClsPropId" : 91818,
           "srcTrgColName" : "cnt",
-          "srcTrgColDataType" : "NUMBER",
+          "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
           "srcTrgColVisible" : 0,
           "joinList" : null,
@@ -269,7 +269,7 @@
         "ruleClsPropID" : 91825,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "cnt^~^2^~^NUMBER^~^0^~^1",
+        "paramValue" : "cnt^~^12^~^VARCHAR2^~^10^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -290,12 +290,12 @@
         "ruleClsPropID" : 91828,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select count(*) as cnt from REGRESSION_DATABASE.CUSTOMER",
+        "paramValue" : "select min(yearlyincome) as cnt from REGRESSION_DATABASE.CUSTOMER",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 102249,
+          "srcTgtColId" : 102256,
           "ruleClsPropId" : 91828,
           "srcTrgColName" : "cnt",
-          "srcTrgColDataType" : "NUMBER",
+          "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "tgt",
           "srcTrgColVisible" : 0,
           "joinList" : null,
@@ -321,10 +321,10 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 102246,
+      "srcTgtColId" : 102253,
       "ruleClsPropId" : 91818,
       "srcTrgColName" : "cnt",
-      "srcTrgColDataType" : "NUMBER",
+      "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
       "srcTrgColVisible" : 0,
       "joinList" : null,
@@ -332,10 +332,10 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 102249,
+      "srcTgtColId" : 102256,
       "ruleClsPropId" : 91828,
       "srcTrgColName" : "cnt",
-      "srcTrgColDataType" : "NUMBER",
+      "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "tgt",
       "srcTrgColVisible" : 0,
       "joinList" : null,
@@ -344,9 +344,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 102250,
-      "srcColId" : 102246,
-      "trgColId" : 102249,
+      "colMapId" : 102257,
+      "srcColId" : 102253,
+      "trgColId" : 102256,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
