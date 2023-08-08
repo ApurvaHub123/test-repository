@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-08-08 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-08-08 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "Xray_cloud_17.6.1",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 4654989,
     "successBody" : "",
     "failureBody" : "",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 4655028,
-        "srcColId" : 4655000,
-        "trgColId" : 4655013,
+        "colMapId" : 4655042,
+        "srcColId" : 4655033,
+        "trgColId" : 4655038,
         "colMapType" : "join",
         "srcColName" : "country_id",
         "tgtColName" : "country_id",
@@ -106,9 +106,9 @@
         "srcTrgColMapVisible" : 1,
         "displayIndex" : 1
       }, {
-        "colMapId" : 4655029,
-        "srcColId" : 4655001,
-        "trgColId" : 4655014,
+        "colMapId" : 4655043,
+        "srcColId" : 4655034,
+        "trgColId" : 4655039,
         "colMapType" : "join",
         "srcColName" : "country_name",
         "tgtColName" : "country_name",
@@ -116,9 +116,9 @@
         "srcTrgColMapVisible" : 1,
         "displayIndex" : 2
       }, {
-        "colMapId" : 4655030,
-        "srcColId" : 4655002,
-        "trgColId" : 4655015,
+        "colMapId" : 4655044,
+        "srcColId" : 4655035,
+        "trgColId" : 4655040,
         "colMapType" : "join",
         "srcColName" : "region_id",
         "tgtColName" : "region_id",
@@ -242,7 +242,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4655000,
+          "srcTgtColId" : 4655033,
           "ruleClsPropId" : 4654990,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
@@ -253,7 +253,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4655001,
+          "srcTgtColId" : 4655034,
           "ruleClsPropId" : 4654990,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -264,7 +264,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4655002,
+          "srcTgtColId" : 4655035,
           "ruleClsPropId" : 4654990,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
@@ -362,7 +362,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4655013,
+          "srcTgtColId" : 4655038,
           "ruleClsPropId" : 4655003,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
@@ -373,7 +373,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4655014,
+          "srcTgtColId" : 4655039,
           "ruleClsPropId" : 4655003,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -384,7 +384,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4655015,
+          "srcTgtColId" : 4655040,
           "ruleClsPropId" : 4655003,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
@@ -455,7 +455,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 4655000,
+      "srcTgtColId" : 4655033,
       "ruleClsPropId" : 4654990,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
@@ -466,7 +466,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4655001,
+      "srcTgtColId" : 4655034,
       "ruleClsPropId" : 4654990,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -477,7 +477,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4655002,
+      "srcTgtColId" : 4655035,
       "ruleClsPropId" : 4654990,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
@@ -488,7 +488,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4655013,
+      "srcTgtColId" : 4655038,
       "ruleClsPropId" : 4655003,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
@@ -499,7 +499,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4655014,
+      "srcTgtColId" : 4655039,
       "ruleClsPropId" : 4655003,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -510,7 +510,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4655015,
+      "srcTgtColId" : 4655040,
       "ruleClsPropId" : 4655003,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
@@ -522,9 +522,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 4655028,
-      "srcColId" : 4655000,
-      "trgColId" : 4655013,
+      "colMapId" : 4655042,
+      "srcColId" : 4655033,
+      "trgColId" : 4655038,
       "colMapType" : "join",
       "srcColName" : "country_id",
       "tgtColName" : "country_id",
@@ -532,9 +532,9 @@
       "srcTrgColMapVisible" : 1,
       "displayIndex" : 1
     }, {
-      "colMapId" : 4655029,
-      "srcColId" : 4655001,
-      "trgColId" : 4655014,
+      "colMapId" : 4655043,
+      "srcColId" : 4655034,
+      "trgColId" : 4655039,
       "colMapType" : "join",
       "srcColName" : "country_name",
       "tgtColName" : "country_name",
@@ -542,9 +542,9 @@
       "srcTrgColMapVisible" : 1,
       "displayIndex" : 2
     }, {
-      "colMapId" : 4655030,
-      "srcColId" : 4655002,
-      "trgColId" : 4655015,
+      "colMapId" : 4655044,
+      "srcColId" : 4655035,
+      "trgColId" : 4655040,
       "colMapType" : "join",
       "srcColName" : "region_id",
       "tgtColName" : "region_id",
@@ -573,19 +573,19 @@
       "derivedExpressionName" : "xray_generate_test",
       "derivedExpression" : "xray_generate_test = yes",
       "derivedExpressionResult" : "true",
-      "derivedExpressionIndex" : 1,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "xray_project_name",
       "derivedExpression" : "xray_project_name = 'Xray AB'",
       "derivedExpressionResult" : "Xray AB",
-      "derivedExpressionIndex" : 1,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "xray_project_key",
       "derivedExpression" : "xray_project_key = 'XA'",
       "derivedExpressionResult" : "XA",
-      "derivedExpressionIndex" : 2,
+      "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     } ]
   }
