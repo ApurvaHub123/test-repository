@@ -42,12 +42,12 @@
     "failureHeader" : "",
     "failureAttFlag" : 0,
     "successAttFlag" : 0,
-    "srcConnId" : 1711768,
-    "trgConnId" : 1711768,
+    "srcConnId" : 4611871,
+    "trgConnId" : 4611871,
     "srcSysGroupId" : 0,
     "trgSysGroupId" : 0,
-    "srcConn" : "ExasolConn",
-    "trgConn" : "ExasolConn",
+    "srcConn" : "ExasolConn_UserConn",
+    "trgConn" : "ExasolConn_UserConn",
     "elapseTime" : 0,
     "parameterId" : "",
     "type" : null,
@@ -62,8 +62,8 @@
     "templateIdFail" : 206,
     "reportIdList" : [ ],
     "contextInstanceId" : 0,
-    "srcConnFlag" : "REGULAR",
-    "trgConnFlag" : "REGULAR",
+    "srcConnFlag" : "PROXY",
+    "trgConnFlag" : "PROXY",
     "degreeOfParallelism" : 0,
     "userComments" : null,
     "templateName" : "Rule Template-Default",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 4654162,
-        "srcColId" : 4654143,
-        "trgColId" : 4654159,
+        "colMapId" : 4654189,
+        "srcColId" : 4654176,
+        "trgColId" : 4654185,
         "colMapType" : "join",
         "srcColName" : "company_name",
         "tgtColName" : "company_name",
@@ -372,7 +372,7 @@
       "vid" : "GetData11",
       "classObjName" : "ICE_1691471852082",
       "queryBuilderXML" : null,
-      "connId" : 1711768,
+      "connId" : 4611871,
       "resultType" : "a-b,b-a,expression",
       "connName" : null,
       "connUrl" : null,
@@ -390,7 +390,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from \"icedq\".CUSTOMER",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4654139,
+          "srcTgtColId" : 4654172,
           "ruleClsPropId" : 4654130,
           "srcTrgColName" : "email",
           "srcTrgColDataType" : "VARCHAR",
@@ -401,7 +401,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654140,
+          "srcTgtColId" : 4654173,
           "ruleClsPropId" : 4654130,
           "srcTrgColName" : "first_name",
           "srcTrgColDataType" : "VARCHAR",
@@ -412,7 +412,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654141,
+          "srcTgtColId" : 4654174,
           "ruleClsPropId" : 4654130,
           "srcTrgColName" : "middle_name",
           "srcTrgColDataType" : "VARCHAR",
@@ -423,7 +423,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654142,
+          "srcTgtColId" : 4654175,
           "ruleClsPropId" : 4654130,
           "srcTrgColName" : "last_name",
           "srcTrgColDataType" : "VARCHAR",
@@ -434,7 +434,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654143,
+          "srcTgtColId" : 4654176,
           "ruleClsPropId" : 4654130,
           "srcTrgColName" : "company_name",
           "srcTrgColDataType" : "VARCHAR",
@@ -445,7 +445,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654144,
+          "srcTgtColId" : 4654177,
           "ruleClsPropId" : 4654130,
           "srcTrgColName" : "is_company",
           "srcTrgColDataType" : "BIGINT",
@@ -456,7 +456,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654145,
+          "srcTgtColId" : 4654178,
           "ruleClsPropId" : 4654130,
           "srcTrgColName" : "phone",
           "srcTrgColDataType" : "VARCHAR",
@@ -472,7 +472,7 @@
         "ruleClsPropID" : 4654132,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "1711768",
+        "paramValue" : "4611871",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -529,7 +529,7 @@
       "vid" : "GetData21",
       "classObjName" : "ICE_1691471852082",
       "queryBuilderXML" : null,
-      "connId" : 1711768,
+      "connId" : 4611871,
       "resultType" : "a-b,b-a,expression",
       "connName" : null,
       "connUrl" : null,
@@ -547,7 +547,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from \"icedq\".CUSTOMER",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4654155,
+          "srcTgtColId" : 4654181,
           "ruleClsPropId" : 4654146,
           "srcTrgColName" : "email",
           "srcTrgColDataType" : "VARCHAR",
@@ -558,7 +558,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654156,
+          "srcTgtColId" : 4654182,
           "ruleClsPropId" : 4654146,
           "srcTrgColName" : "first_name",
           "srcTrgColDataType" : "VARCHAR",
@@ -569,7 +569,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654157,
+          "srcTgtColId" : 4654183,
           "ruleClsPropId" : 4654146,
           "srcTrgColName" : "middle_name",
           "srcTrgColDataType" : "VARCHAR",
@@ -580,7 +580,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654158,
+          "srcTgtColId" : 4654184,
           "ruleClsPropId" : 4654146,
           "srcTrgColName" : "last_name",
           "srcTrgColDataType" : "VARCHAR",
@@ -591,7 +591,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654159,
+          "srcTgtColId" : 4654185,
           "ruleClsPropId" : 4654146,
           "srcTrgColName" : "company_name",
           "srcTrgColDataType" : "VARCHAR",
@@ -602,7 +602,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654160,
+          "srcTgtColId" : 4654186,
           "ruleClsPropId" : 4654146,
           "srcTrgColName" : "is_company",
           "srcTrgColDataType" : "BIGINT",
@@ -613,7 +613,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4654161,
+          "srcTgtColId" : 4654187,
           "ruleClsPropId" : 4654146,
           "srcTrgColName" : "phone",
           "srcTrgColDataType" : "VARCHAR",
@@ -629,7 +629,7 @@
         "ruleClsPropID" : 4654148,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "1711768",
+        "paramValue" : "4611871",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -677,7 +677,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 4654139,
+      "srcTgtColId" : 4654172,
       "ruleClsPropId" : 4654130,
       "srcTrgColName" : "email",
       "srcTrgColDataType" : "VARCHAR",
@@ -688,7 +688,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654140,
+      "srcTgtColId" : 4654173,
       "ruleClsPropId" : 4654130,
       "srcTrgColName" : "first_name",
       "srcTrgColDataType" : "VARCHAR",
@@ -699,7 +699,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654141,
+      "srcTgtColId" : 4654174,
       "ruleClsPropId" : 4654130,
       "srcTrgColName" : "middle_name",
       "srcTrgColDataType" : "VARCHAR",
@@ -710,7 +710,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654142,
+      "srcTgtColId" : 4654175,
       "ruleClsPropId" : 4654130,
       "srcTrgColName" : "last_name",
       "srcTrgColDataType" : "VARCHAR",
@@ -721,7 +721,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654143,
+      "srcTgtColId" : 4654176,
       "ruleClsPropId" : 4654130,
       "srcTrgColName" : "company_name",
       "srcTrgColDataType" : "VARCHAR",
@@ -732,7 +732,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654144,
+      "srcTgtColId" : 4654177,
       "ruleClsPropId" : 4654130,
       "srcTrgColName" : "is_company",
       "srcTrgColDataType" : "BIGINT",
@@ -743,7 +743,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654145,
+      "srcTgtColId" : 4654178,
       "ruleClsPropId" : 4654130,
       "srcTrgColName" : "phone",
       "srcTrgColDataType" : "VARCHAR",
@@ -754,7 +754,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654155,
+      "srcTgtColId" : 4654181,
       "ruleClsPropId" : 4654146,
       "srcTrgColName" : "email",
       "srcTrgColDataType" : "VARCHAR",
@@ -765,7 +765,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654156,
+      "srcTgtColId" : 4654182,
       "ruleClsPropId" : 4654146,
       "srcTrgColName" : "first_name",
       "srcTrgColDataType" : "VARCHAR",
@@ -776,7 +776,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654157,
+      "srcTgtColId" : 4654183,
       "ruleClsPropId" : 4654146,
       "srcTrgColName" : "middle_name",
       "srcTrgColDataType" : "VARCHAR",
@@ -787,7 +787,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654158,
+      "srcTgtColId" : 4654184,
       "ruleClsPropId" : 4654146,
       "srcTrgColName" : "last_name",
       "srcTrgColDataType" : "VARCHAR",
@@ -798,7 +798,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654159,
+      "srcTgtColId" : 4654185,
       "ruleClsPropId" : 4654146,
       "srcTrgColName" : "company_name",
       "srcTrgColDataType" : "VARCHAR",
@@ -809,7 +809,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654160,
+      "srcTgtColId" : 4654186,
       "ruleClsPropId" : 4654146,
       "srcTrgColName" : "is_company",
       "srcTrgColDataType" : "BIGINT",
@@ -820,7 +820,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654161,
+      "srcTgtColId" : 4654187,
       "ruleClsPropId" : 4654146,
       "srcTrgColName" : "phone",
       "srcTrgColDataType" : "VARCHAR",
@@ -832,9 +832,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 4654162,
-      "srcColId" : 4654143,
-      "trgColId" : 4654159,
+      "colMapId" : 4654189,
+      "srcColId" : 4654176,
+      "trgColId" : 4654185,
       "colMapType" : "join",
       "srcColName" : "company_name",
       "tgtColName" : "company_name",
