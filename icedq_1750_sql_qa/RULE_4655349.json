@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-08-08 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-08-08 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "Xray_cloud_17.6.1",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 4655352,
     "successBody" : "",
     "failureBody" : "",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 4655383,
-        "srcColId" : 4655362,
-        "trgColId" : 4655370,
+        "colMapId" : 4655392,
+        "srcColId" : 4655386,
+        "trgColId" : 4655390,
         "colMapType" : "join",
         "srcColName" : "country_id",
         "tgtColName" : "cnt",
@@ -222,7 +222,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.COUNTRIESgg",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4655362,
+          "srcTgtColId" : 4655386,
           "ruleClsPropId" : 4655353,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
@@ -233,7 +233,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4655363,
+          "srcTgtColId" : 4655387,
           "ruleClsPropId" : 4655353,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -244,7 +244,7 @@
           "colFormat" : "",
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 4655364,
+          "srcTgtColId" : 4655388,
           "ruleClsPropId" : 4655353,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
@@ -335,7 +335,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4655370,
+          "srcTgtColId" : 4655390,
           "ruleClsPropId" : 4655365,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -378,7 +378,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 4655362,
+      "srcTgtColId" : 4655386,
       "ruleClsPropId" : 4655353,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
@@ -389,7 +389,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4655363,
+      "srcTgtColId" : 4655387,
       "ruleClsPropId" : 4655353,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -400,7 +400,7 @@
       "colFormat" : "",
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 4655364,
+      "srcTgtColId" : 4655388,
       "ruleClsPropId" : 4655353,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
@@ -411,7 +411,7 @@
       "colFormat" : "",
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 4655370,
+      "srcTgtColId" : 4655390,
       "ruleClsPropId" : 4655365,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -423,9 +423,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 4655383,
-      "srcColId" : 4655362,
-      "trgColId" : 4655370,
+      "colMapId" : 4655392,
+      "srcColId" : 4655386,
+      "trgColId" : 4655390,
       "colMapType" : "join",
       "srcColName" : "country_id",
       "tgtColName" : "cnt",
@@ -461,6 +461,12 @@
       "derivedExpression" : "xray_project_name = 'Xray_DW'",
       "derivedExpressionResult" : "Xray_DW",
       "derivedExpressionIndex" : 1,
+      "derivedExpressionVisibleFlag" : 1
+    }, {
+      "derivedExpressionName" : "xray_generate_subtest_execution",
+      "derivedExpression" : "xray_generate_subtest_execution = yes",
+      "derivedExpressionResult" : "true",
+      "derivedExpressionIndex" : 2,
       "derivedExpressionVisibleFlag" : 1
     } ]
   }
