@@ -42,12 +42,12 @@
     "failureHeader" : "",
     "failureAttFlag" : 0,
     "successAttFlag" : 0,
-    "srcConnId" : 4611990,
-    "trgConnId" : 4612276,
+    "srcConnId" : 4654705,
+    "trgConnId" : 4654706,
     "srcSysGroupId" : 0,
     "trgSysGroupId" : 0,
-    "srcConn" : "ExasolConn_FullUrl",
-    "trgConn" : "ExasolConn_FullUrl_Userconn",
+    "srcConn" : "ExasolConn_FullUrl_withoutschema",
+    "trgConn" : "ExasolConn_FullUrl_withoutschema_UserConn",
     "elapseTime" : 0,
     "parameterId" : "",
     "type" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 4654839,
-        "srcColId" : 4654829,
-        "trgColId" : 4654838,
+        "colMapId" : 4654846,
+        "srcColId" : 4654842,
+        "trgColId" : 4654845,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -148,7 +148,7 @@
       "vid" : "GetData11",
       "classObjName" : "ICE_1691474882192",
       "queryBuilderXML" : null,
-      "connId" : 4611990,
+      "connId" : 4654705,
       "resultType" : "",
       "connName" : null,
       "connUrl" : null,
@@ -164,9 +164,9 @@
         "ruleClsPropID" : 4654821,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select count(*) as cnt from \"icedq\".STAFF",
+        "paramValue" : "select count(*) as cnt from \"SCHEMA_TEST\".CUSTOMER_1",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4654829,
+          "srcTgtColId" : 4654842,
           "ruleClsPropId" : 4654821,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "BIGINT",
@@ -182,7 +182,7 @@
         "ruleClsPropID" : 4654823,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "4611990",
+        "paramValue" : "4654705",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -232,7 +232,7 @@
       "vid" : "GetData21",
       "classObjName" : "ICE_1691474882192",
       "queryBuilderXML" : null,
-      "connId" : 4612276,
+      "connId" : 4654706,
       "resultType" : "",
       "connName" : null,
       "connUrl" : null,
@@ -248,9 +248,9 @@
         "ruleClsPropID" : 4654830,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select count(*) as cnt from \"icedq\".STAFF",
+        "paramValue" : "select count(*) as cnt from \"SCHEMA_TEST\".STAFF_1",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4654838,
+          "srcTgtColId" : 4654845,
           "ruleClsPropId" : 4654830,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "BIGINT",
@@ -266,7 +266,7 @@
         "ruleClsPropID" : 4654832,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "4612276",
+        "paramValue" : "4654706",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -307,7 +307,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 4654829,
+      "srcTgtColId" : 4654842,
       "ruleClsPropId" : 4654821,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "BIGINT",
@@ -318,7 +318,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4654838,
+      "srcTgtColId" : 4654845,
       "ruleClsPropId" : 4654830,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "BIGINT",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 4654839,
-      "srcColId" : 4654829,
-      "trgColId" : 4654838,
+      "colMapId" : 4654846,
+      "srcColId" : 4654842,
+      "trgColId" : 4654845,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
