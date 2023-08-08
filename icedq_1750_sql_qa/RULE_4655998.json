@@ -102,7 +102,7 @@
         "ruleClsPropID" : 4656000,
         "paramId" : 231,
         "paramMethod" : "setGroovyScript",
-        "paramValue" : "//Define Variables\ndef userName ='admin';\ndef repoName='icedq_1750_sql_qa';\ndef ruleCode = 'ICE_1662461374576';\ndef folderName='X-ray Folder Dependency';\ndef folderGroupName='Xray_cloud_17.6.1';\n\n\n\n//Execute Rule\ndef result = BpelRule.RunRuleByCode(userName,repoName,ruleCode,folderName,folderGroupName,\"\");\n\n\n\n\n//Print Log\ninstanceLog.info(\"Rule is executed successfully using default connections with an exit code of \" + result);\n\n\n\n//Return Result\nreturn result;",
+        "paramValue" : "//Define Variables\ndef userName ='admin';\ndef repoName='icedq_1750_sql_qa';\ndef ruleCode = 'ICE_1685082974816';\ndef folderName='X-ray Folder Dependency';\ndef folderGroupName='Xray_cloud_17.6.1';\n\n\n\n//Execute Rule\ndef result = BpelRule.RunRuleByCode(userName,repoName,ruleCode,folderName,folderGroupName,\"\");\n\n\n\n\n//Print Log\ninstanceLog.info(\"Rule is executed successfully using default connections with an exit code of \" + result);\n\n\n\n//Return Result\nreturn result;",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -147,6 +147,12 @@
     "classCreateDate" : null,
     "classModifyDate" : null,
     "exprVOList" : [ ],
-    "derivedvariablelist" : null
+    "derivedvariablelist" : [ {
+      "derivedExpressionName" : "xray_project_name",
+      "derivedExpression" : "xray_project_name = 'Amar_1'",
+      "derivedExpressionResult" : "Amar_1",
+      "derivedExpressionIndex" : 1,
+      "derivedExpressionVisibleFlag" : 1
+    } ]
   }
 }
