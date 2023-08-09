@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-08-09 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-08-09 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "WIP_Mridula",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 4656530,
     "successBody" : "",
     "failureBody" : "",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 4656568,
-        "srcColId" : 4656559,
-        "trgColId" : 4656567,
+        "colMapId" : 4656724,
+        "srcColId" : 4656718,
+        "trgColId" : 4656722,
         "colMapType" : "join",
         "srcColName" : "rowid",
         "tgtColName" : "cnt",
@@ -165,13 +165,6 @@
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4656541,
-        "paramId" : 487,
-        "paramMethod" : "setDegreeOfParallelism",
-        "paramValue" : "1",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
         "ruleClsPropID" : 4656542,
         "paramId" : 465,
         "paramMethod" : "setReportXlsx",
@@ -229,7 +222,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from sheet1",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4656559,
+          "srcTgtColId" : 4656718,
           "ruleClsPropId" : 4656546,
           "srcTrgColName" : "rowid",
           "srcTrgColDataType" : "INT",
@@ -240,10 +233,10 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4656560,
+          "srcTgtColId" : 4656719,
           "ruleClsPropId" : 4656546,
           "srcTrgColName" : "current_units",
-          "srcTrgColDataType" : "FLOAT",
+          "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
           "srcTrgColVisible" : 1,
           "joinList" : null,
@@ -251,10 +244,10 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4656561,
+          "srcTgtColId" : 4656720,
           "ruleClsPropId" : 4656546,
           "srcTrgColName" : "drig_units",
-          "srcTrgColDataType" : "FLOAT",
+          "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
           "srcTrgColVisible" : 1,
           "joinList" : null,
@@ -295,14 +288,14 @@
         "ruleClsPropID" : 4656553,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "rowid^~^4^~^INT^~^10^~^1$~$current_units^~^8^~^FLOAT^~^15^~^2$~$drig_units^~^8^~^FLOAT^~^15^~^3",
+        "paramValue" : "rowid^~^4^~^INT^~^10^~^1$~$current_units^~^12^~^VARCHAR^~^2000^~^2$~$drig_units^~^12^~^VARCHAR^~^2000^~^3",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
         "ruleClsPropID" : 4656554,
         "paramId" : 8,
         "paramMethod" : "setFileName",
-        "paramValue" : "\\clientfile\\clientfile_17742.xlsx",
+        "paramValue" : "\\clientfile\\client2.xlsx",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -330,7 +323,7 @@
         "ruleClsPropID" : 4656558,
         "paramId" : 500,
         "paramMethod" : "setPushAttribute",
-        "paramValue" : "RowScan",
+        "paramValue" : "None",
         "srcTrgTbllist" : null,
         "fileContent" : null
       } ],
@@ -370,7 +363,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4656567,
+          "srcTgtColId" : 4656722,
           "ruleClsPropId" : 4656562,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -413,7 +406,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 4656559,
+      "srcTgtColId" : 4656718,
       "ruleClsPropId" : 4656546,
       "srcTrgColName" : "rowid",
       "srcTrgColDataType" : "INT",
@@ -424,10 +417,10 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4656560,
+      "srcTgtColId" : 4656719,
       "ruleClsPropId" : 4656546,
       "srcTrgColName" : "current_units",
-      "srcTrgColDataType" : "FLOAT",
+      "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
       "srcTrgColVisible" : 1,
       "joinList" : null,
@@ -435,10 +428,10 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4656561,
+      "srcTgtColId" : 4656720,
       "ruleClsPropId" : 4656546,
       "srcTrgColName" : "drig_units",
-      "srcTrgColDataType" : "FLOAT",
+      "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
       "srcTrgColVisible" : 1,
       "joinList" : null,
@@ -446,7 +439,7 @@
       "colFormat" : "",
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 4656567,
+      "srcTgtColId" : 4656722,
       "ruleClsPropId" : 4656562,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -458,9 +451,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 4656568,
-      "srcColId" : 4656559,
-      "trgColId" : 4656567,
+      "colMapId" : 4656724,
+      "srcColId" : 4656718,
+      "trgColId" : 4656722,
       "colMapType" : "join",
       "srcColName" : "rowid",
       "tgtColName" : "cnt",
