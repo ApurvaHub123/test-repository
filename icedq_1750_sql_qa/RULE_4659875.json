@@ -99,24 +99,24 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 4659903,
+        "ruleClsPropID" : 4659908,
         "paramId" : 231,
         "paramMethod" : "setGroovyScript",
         "paramValue" : "//Define Variables\ndef userName='Samit';\ndef srcConn='';\ndef trgConn='';\ndef repoName='icedq_1750_sql_qa';\ndef ruleCode = 'RC001'\ndef folderName='Versioning_Proxy_Testing';\ndef folderGroupName='17.6.1_Hotfix';\ndef paramValues='';\ndef sendEmail=true;\nfor (int i=0;i<5;i++)\n{\ndef result=\nBpelRule.RunRuleByCode(userName,repoName,ruleCode,folderName,folderGroupName,srcConn,trgConn,paramValues,sendEmail);\n\n//Print Log\ninstanceLog.info(\"Rule is executed successfully using default connections with an exit code of \" + result);\n\n//Return Result\nreturn result;\n}\n",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4659905,
+        "ruleClsPropID" : 4659910,
         "paramId" : 293,
         "paramMethod" : "setGroovyHeader",
         "paramValue" : "import groovy.sql.*; import java.sql.*; import com.ice.bpel.*; import com.ice.bpel.Parameter; import com.ice.object.ParametersVO; import com.ice.object.ParameterKeyValueVO; import com.ice.iqa.*; ",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4659906,
+        "ruleClsPropID" : 4659911,
         "paramId" : 272,
         "paramMethod" : "setGroovyCon",
-        "paramValue" : "",
+        "paramValue" : "1844943",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       } ],
