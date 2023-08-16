@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3023,
+          "srcTgtColId" : 3033,
           "ruleClsPropId" : 2988,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -115,7 +115,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 3024,
+          "srcTgtColId" : 3034,
           "ruleClsPropId" : 2988,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -126,7 +126,7 @@
           "colFormat" : "",
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 3025,
+          "srcTgtColId" : 3035,
           "ruleClsPropId" : 2988,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -137,7 +137,7 @@
           "colFormat" : "",
           "displayIndex" : 2
         }, {
-          "srcTgtColId" : 3026,
+          "srcTgtColId" : 3036,
           "ruleClsPropId" : 2988,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -228,7 +228,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3028,
+          "srcTgtColId" : 3038,
           "ruleClsPropId" : 3001,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -290,9 +290,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 3030,
-        "srcColId" : 3023,
-        "trgColId" : 3028,
+        "colMapId" : 3040,
+        "srcColId" : 3033,
+        "trgColId" : 3038,
         "colMapType" : "join",
         "srcColName" : "department_id",
         "tgtColName" : "cnt",
@@ -412,7 +412,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 3023,
+      "srcTgtColId" : 3033,
       "ruleClsPropId" : 2988,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -423,7 +423,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 3024,
+      "srcTgtColId" : 3034,
       "ruleClsPropId" : 2988,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -434,7 +434,7 @@
       "colFormat" : "",
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 3025,
+      "srcTgtColId" : 3035,
       "ruleClsPropId" : 2988,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -445,7 +445,7 @@
       "colFormat" : "",
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 3026,
+      "srcTgtColId" : 3036,
       "ruleClsPropId" : 2988,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -456,7 +456,7 @@
       "colFormat" : "",
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 3028,
+      "srcTgtColId" : 3038,
       "ruleClsPropId" : 3001,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -468,9 +468,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 3030,
-      "srcColId" : 3023,
-      "trgColId" : 3028,
+      "colMapId" : 3040,
+      "srcColId" : 3033,
+      "trgColId" : 3038,
       "colMapType" : "join",
       "srcColName" : "department_id",
       "tgtColName" : "cnt",
@@ -518,6 +518,12 @@
       "ve" : 0,
       "exporg" : null
     } ],
-    "derivedvariablelist" : null
+    "derivedvariablelist" : [ {
+      "derivedExpressionName" : "DVAR_C332XA8",
+      "derivedExpression" : "EXPR_OIFW1X3.success  > 0",
+      "derivedExpressionResult" : "",
+      "derivedExpressionIndex" : 1,
+      "derivedExpressionVisibleFlag" : 1
+    } ]
   }
 }
