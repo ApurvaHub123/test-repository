@@ -116,7 +116,7 @@
         "ruleClsPropID" : 35273,
         "paramId" : 231,
         "paramMethod" : "setGroovyScript",
-        "paramValue" : "instanceLog.info(\" Loading Transaction Codes\");\n def S =   \" select  customerid, acctnumber, firstname from PUBLIC.CUSTOMER where customerid  = 11012.0\".stripMargin();\n instanceLog.info(\" Loading Transaction Codes\" + S);\n\ndef list= sqlServer.rows(S) \n\ninstanceLog.info(\"lookup value\"+list.size())\n\n return list.size();",
+        "paramValue" : "instanceLog.info(\" Loading Transaction Codes\");\n def S =   \" select  customerid, acctnumber, firstname from CUSTOMER where customerid  = 11012.0\".stripMargin();\n instanceLog.info(\" Loading Transaction Codes\" + S);\n\ndef list= sqlServer.rows(S) \n\ninstanceLog.info(\"lookup value\"+list.size())\n\n return list.size();",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       } ],
