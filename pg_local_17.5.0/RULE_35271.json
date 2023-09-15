@@ -116,7 +116,7 @@
         "ruleClsPropID" : 35309,
         "paramId" : 231,
         "paramMethod" : "setGroovyScript",
-        "paramValue" : "import groovy.json.JsonOutput;\n def requestBody = [:]\n  requestBody['ENV'] = 'ENV';\n  requestBody['EXECUTION_DATE'] = 'EXECUTION_DATE';\n  requestBody['IDN_RFB'] = 'IDN_RFB';\n  requestBody['RAG_STATUS'] = null;\n  requestBody['STEP'] = 'stepdata';\n  def json_str = JsonOutput.toJson(requestBody)\n  def json_beauty = JsonOutput.prettyPrint(json_str)",
+        "paramValue" : "import groovy.json.JsonOutput;\n def requestBody = [:]\n  requestBody['ENV'] = 'ENV';\n  requestBody['EXECUTION_DATE'] = 'EXECUTION_DATE';\n  requestBody['IDN_RFB'] = 'IDN_RFB';\n  requestBody['RAG_STATUS'] = '';\n  requestBody['STEP'] = 'stepdata';\n  def json_str = JsonOutput.toJson(requestBody)\n  def json_beauty = JsonOutput.prettyPrint(json_str)",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       } ],
