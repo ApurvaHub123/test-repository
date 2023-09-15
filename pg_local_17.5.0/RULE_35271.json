@@ -49,7 +49,7 @@
     "srcConn" : null,
     "trgConn" : null,
     "elapseTime" : 0,
-    "parameterId" : "",
+    "parameterId" : null,
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
@@ -99,21 +99,21 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 35276,
+        "ruleClsPropID" : 35311,
         "paramId" : 272,
         "paramMethod" : "setGroovyCon",
         "paramValue" : "34725",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 35275,
+        "ruleClsPropID" : 35310,
         "paramId" : 293,
         "paramMethod" : "setGroovyHeader",
         "paramValue" : "import groovy.sql.*; import java.sql.*; import com.ice.bpel.*; import com.ice.bpel.Parameter; import com.ice.object.ParametersVO; import com.ice.object.ParameterKeyValueVO; import com.ice.iqa.*; ",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 35273,
+        "ruleClsPropID" : 35309,
         "paramId" : 231,
         "paramMethod" : "setGroovyScript",
         "paramValue" : "instanceLog.info(\" Loading Transaction Codes\");\n def S =   \" select  customerid, acctnumber, firstname from CUSTOMER where customerid  = 11012.0\".stripMargin();\n instanceLog.info(\" Loading Transaction Codes\" + S);\n\ndef list= sqlServer.rows(S) \n\ninstanceLog.info(\"lookup value\"+list.size())\n\n return list.size();",
@@ -141,7 +141,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : "",
+    "ruleParameter" : null,
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
