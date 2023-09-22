@@ -22,7 +22,7 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-09-21 00:00:00",
-    "ruleModifiedDate" : "2023-09-21 00:00:00",
+    "ruleModifiedDate" : "2023-09-22 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -99,21 +99,21 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 36933,
+        "ruleClsPropID" : 37020,
         "paramId" : 272,
         "paramMethod" : "setGroovyCon",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 36932,
+        "ruleClsPropID" : 37019,
         "paramId" : 293,
         "paramMethod" : "setGroovyHeader",
         "paramValue" : "import groovy.sql.*; import java.sql.*; import com.ice.bpel.*; import com.ice.bpel.Parameter; import com.ice.object.ParametersVO; import com.ice.object.ParameterKeyValueVO; import com.ice.iqa.*; ",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 36931,
+        "ruleClsPropID" : 37018,
         "paramId" : 231,
         "paramMethod" : "setGroovyScript",
         "paramValue" : "//Define Variables\ndef repoName='icedq_1750_sql_qa';\ndef  batchCode = 'RP10';\ndef folderName='ADO';\ndef folderGroupName='17.6.3_Hotfix';\n\n//Execute Rule\ndef result =  IceTestCase.RunBatchByCode(repoName,batchCode,folderName,folderGroupName,\"\",\"\",\"\");\n\n//Print Log\ninstanceLog.info(\"Batch is executed successfully with an exit code of \" + result);\n\n//Return Result\nreturn result;",
