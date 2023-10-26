@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-10-26 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-10-26 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "17.6.4_hotfix_Xray",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 46804,
     "successBody" : "",
     "failureBody" : "",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 46836,
-        "srcColId" : 46814,
-        "trgColId" : 46823,
+        "colMapId" : 46846,
+        "srcColId" : 46839,
+        "trgColId" : 46844,
         "colMapType" : "join",
         "srcColName" : "department_id",
         "tgtColName" : "cnt",
@@ -243,7 +243,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 46823,
+          "srcTgtColId" : 46844,
           "ruleClsPropId" : 46818,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -334,7 +334,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.DEPARTMENTS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 46814,
+          "srcTgtColId" : 46839,
           "ruleClsPropId" : 46805,
           "srcTrgColName" : "department_id",
           "srcTrgColDataType" : "NUMBER",
@@ -345,7 +345,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 46815,
+          "srcTgtColId" : 46840,
           "ruleClsPropId" : 46805,
           "srcTrgColName" : "department_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -356,7 +356,7 @@
           "colFormat" : "",
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 46816,
+          "srcTgtColId" : 46841,
           "ruleClsPropId" : 46805,
           "srcTrgColName" : "manager_id",
           "srcTrgColDataType" : "NUMBER",
@@ -367,7 +367,7 @@
           "colFormat" : "",
           "displayIndex" : 2
         }, {
-          "srcTgtColId" : 46817,
+          "srcTgtColId" : 46842,
           "ruleClsPropId" : 46805,
           "srcTrgColName" : "location_id",
           "srcTrgColDataType" : "NUMBER",
@@ -389,7 +389,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 46814,
+      "srcTgtColId" : 46839,
       "ruleClsPropId" : 46805,
       "srcTrgColName" : "department_id",
       "srcTrgColDataType" : "NUMBER",
@@ -400,7 +400,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 46815,
+      "srcTgtColId" : 46840,
       "ruleClsPropId" : 46805,
       "srcTrgColName" : "department_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -411,7 +411,7 @@
       "colFormat" : "",
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 46816,
+      "srcTgtColId" : 46841,
       "ruleClsPropId" : 46805,
       "srcTrgColName" : "manager_id",
       "srcTrgColDataType" : "NUMBER",
@@ -422,7 +422,7 @@
       "colFormat" : "",
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 46817,
+      "srcTgtColId" : 46842,
       "ruleClsPropId" : 46805,
       "srcTrgColName" : "location_id",
       "srcTrgColDataType" : "NUMBER",
@@ -433,7 +433,7 @@
       "colFormat" : "",
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 46823,
+      "srcTgtColId" : 46844,
       "ruleClsPropId" : 46818,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -445,9 +445,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 46836,
-      "srcColId" : 46814,
-      "trgColId" : 46823,
+      "colMapId" : 46846,
+      "srcColId" : 46839,
+      "trgColId" : 46844,
       "colMapType" : "join",
       "srcColName" : "department_id",
       "tgtColName" : "cnt",
@@ -486,9 +486,15 @@
       "derivedExpressionVisibleFlag" : 1
     }, {
       "derivedExpressionName" : "DW_Cascading_Dropdown",
-      "derivedExpression" : "DW_Cascading_Dropdown = 'QA01:fdgfd'",
-      "derivedExpressionResult" : "QA01:Functional",
+      "derivedExpression" : "DW_Cascading_Dropdown = 'QA04:fdgfd'",
+      "derivedExpressionResult" : "DW_Cascading_Dropdown = 'QA04:fdgfd'",
       "derivedExpressionIndex" : 2,
+      "derivedExpressionVisibleFlag" : 1
+    }, {
+      "derivedExpressionName" : "Automation-status",
+      "derivedExpression" : "DW_Automation-status = gdtr",
+      "derivedExpressionResult" : "gdtr",
+      "derivedExpressionIndex" : 3,
       "derivedExpressionVisibleFlag" : 1
     } ]
   }
