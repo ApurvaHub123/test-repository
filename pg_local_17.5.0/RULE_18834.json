@@ -22,7 +22,7 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-07-04 00:00:00",
-    "ruleModifiedDate" : "2023-10-09 00:00:00",
+    "ruleModifiedDate" : "2023-11-03 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 38972,
-        "srcColId" : 38912,
-        "trgColId" : 38970,
+        "colMapId" : 49970,
+        "srcColId" : 49910,
+        "trgColId" : 49968,
         "colMapType" : "join",
         "srcColName" : "rowid",
         "tgtColName" : "cnt",
@@ -243,7 +243,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 38970,
+          "srcTgtColId" : 49968,
           "ruleClsPropId" : 36225,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -287,668 +287,6 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 36161,
-        "paramId" : 82,
-        "paramMethod" : "setAppendOrderBy",
-        "paramValue" : "true",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 36155,
-        "paramId" : 6,
-        "paramMethod" : "setQueryString",
-        "paramValue" : "select * from \"V1 Stories\"",
-        "srcTrgTbllist" : [ {
-          "srcTgtColId" : 38912,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "rowid",
-          "srcTrgColDataType" : "INT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38913,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "number",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38914,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "title",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38915,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "oid",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38916,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "application / ci name",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38917,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "team name",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38918,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "status",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38919,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "iteration",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38920,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "estimate",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38921,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "planned estimate pts.",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38922,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "priority",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38923,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent type",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38924,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent number (feature #)",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38925,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent title (feature)",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38926,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent 1 type (epic)",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38927,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent 1 no. (epic #)",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38928,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent 1 name (epic)",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38929,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent 2 type (initiative)",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38930,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent 2 no. (init #)",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38931,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "parent 2 name (initiative)",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38932,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "planning level",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38933,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "effective asset state",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38934,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "change date",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38935,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "requested by",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38936,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "due date",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38937,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "reference",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38938,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "class of service",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38939,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "owners",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38940,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "tags",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38941,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "upstream depedencies number",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38942,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "upstream depedencies name",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38943,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "downstream depedencies number",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38944,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "downstream depedencies name",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38945,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "-",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38946,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "plutora",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38947,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "v1 title",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38948,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "v1 status",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38949,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "v1 iteration",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38950,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "v1 team",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38951,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "v1 planning level",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38952,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "planned estimate",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38953,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "feature id",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38954,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "feature title",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38955,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "epic id",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38956,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "priority1",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38957,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "class of service1",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38958,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "owner",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38959,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "reference1",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38960,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "requested by1",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38961,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "due date1",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38962,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "epic name",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38963,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "initiative name",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38964,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "application",
-          "srcTrgColDataType" : "FLOAT",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38965,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "name",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38966,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "estimated points",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38967,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "tags1",
-          "srcTrgColDataType" : "VARCHAR",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        }, {
-          "srcTgtColId" : 38968,
-          "ruleClsPropId" : 36155,
-          "srcTrgColName" : "last plutora update",
-          "srcTrgColDataType" : "TIMESTAMP",
-          "colFlagType" : "src",
-          "srcTrgColVisible" : 0,
-          "joinList" : null,
-          "mapColName" : null,
-          "colFormat" : "",
-          "displayIndex" : 0
-        } ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 36159,
-        "paramId" : 84,
-        "paramMethod" : "setOrderByStr",
-        "paramValue" : "",
-        "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 36158,
-        "paramId" : 337,
-        "paramMethod" : "setIsStoredProcedure",
-        "paramValue" : "false",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 36157,
-        "paramId" : 16,
-        "paramMethod" : "setConnId",
-        "paramValue" : "20284",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
         "ruleClsPropID" : 36167,
         "paramId" : 500,
         "paramMethod" : "setPushAttribute",
@@ -990,6 +328,668 @@
         "paramValue" : "rowid^~^4^~^INT^~^10^~^1$~$number^~^12^~^VARCHAR^~^2000^~^2$~$title^~^12^~^VARCHAR^~^2000^~^3$~$oid^~^8^~^FLOAT^~^15^~^4$~$application / ci name^~^12^~^VARCHAR^~^2000^~^5$~$team name^~^12^~^VARCHAR^~^2000^~^6$~$status^~^12^~^VARCHAR^~^2000^~^7$~$iteration^~^12^~^VARCHAR^~^2000^~^8$~$estimate^~^8^~^FLOAT^~^15^~^9$~$planned estimate pts.^~^8^~^FLOAT^~^15^~^10$~$priority^~^12^~^VARCHAR^~^2000^~^11$~$parent type^~^12^~^VARCHAR^~^2000^~^12$~$parent number (feature #)^~^12^~^VARCHAR^~^2000^~^13$~$parent title (feature)^~^12^~^VARCHAR^~^2000^~^14$~$parent 1 type (epic)^~^12^~^VARCHAR^~^2000^~^15$~$parent 1 no. (epic #)^~^12^~^VARCHAR^~^2000^~^16$~$parent 1 name (epic)^~^12^~^VARCHAR^~^2000^~^17$~$parent 2 type (initiative)^~^12^~^VARCHAR^~^2000^~^18$~$parent 2 no. (init #)^~^12^~^VARCHAR^~^2000^~^19$~$parent 2 name (initiative)^~^12^~^VARCHAR^~^2000^~^20$~$planning level^~^12^~^VARCHAR^~^2000^~^21$~$effective asset state^~^8^~^FLOAT^~^15^~^22$~$change date^~^12^~^VARCHAR^~^2000^~^23$~$requested by^~^12^~^VARCHAR^~^2000^~^24$~$due date^~^12^~^VARCHAR^~^2000^~^25$~$reference^~^12^~^VARCHAR^~^2000^~^26$~$class of service^~^12^~^VARCHAR^~^2000^~^27$~$owners^~^12^~^VARCHAR^~^2000^~^28$~$tags^~^12^~^VARCHAR^~^2000^~^29$~$upstream depedencies number^~^12^~^VARCHAR^~^2000^~^30$~$upstream depedencies name^~^12^~^VARCHAR^~^2000^~^31$~$downstream depedencies number^~^12^~^VARCHAR^~^2000^~^32$~$downstream depedencies name^~^12^~^VARCHAR^~^2000^~^33$~$-^~^12^~^VARCHAR^~^2000^~^34$~$plutora^~^12^~^VARCHAR^~^2000^~^35$~$v1 title^~^12^~^VARCHAR^~^2000^~^36$~$v1 status^~^8^~^FLOAT^~^15^~^37$~$v1 iteration^~^12^~^VARCHAR^~^2000^~^38$~$v1 team^~^12^~^VARCHAR^~^2000^~^39$~$v1 planning level^~^12^~^VARCHAR^~^2000^~^40$~$planned estimate^~^12^~^VARCHAR^~^2000^~^41$~$feature id^~^12^~^VARCHAR^~^2000^~^42$~$feature title^~^8^~^FLOAT^~^15^~^43$~$epic id^~^12^~^VARCHAR^~^2000^~^44$~$priority1^~^12^~^VARCHAR^~^2000^~^45$~$class of service1^~^12^~^VARCHAR^~^2000^~^46$~$owner^~^12^~^VARCHAR^~^2000^~^47$~$reference1^~^12^~^VARCHAR^~^2000^~^48$~$requested by1^~^12^~^VARCHAR^~^2000^~^49$~$due date1^~^12^~^VARCHAR^~^2000^~^50$~$epic name^~^8^~^FLOAT^~^15^~^51$~$initiative name^~^8^~^FLOAT^~^15^~^52$~$application^~^8^~^FLOAT^~^15^~^53$~$name^~^12^~^VARCHAR^~^2000^~^54$~$estimated points^~^12^~^VARCHAR^~^2000^~^55$~$tags1^~^12^~^VARCHAR^~^2000^~^56$~$last plutora update^~^93^~^TIMESTAMP^~^8^~^57",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
+      }, {
+        "ruleClsPropID" : 36161,
+        "paramId" : 82,
+        "paramMethod" : "setAppendOrderBy",
+        "paramValue" : "true",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 36155,
+        "paramId" : 6,
+        "paramMethod" : "setQueryString",
+        "paramValue" : "select * from \"V1 Stories\"",
+        "srcTrgTbllist" : [ {
+          "srcTgtColId" : 49910,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "rowid",
+          "srcTrgColDataType" : "INT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49911,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "number",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49912,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "title",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49913,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "oid",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49914,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "application / ci name",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49915,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "team name",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49916,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "status",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49917,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "iteration",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49918,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "estimate",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49919,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "planned estimate pts.",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49920,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "priority",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49921,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent type",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49922,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent number (feature #)",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49923,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent title (feature)",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49924,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent 1 type (epic)",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49925,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent 1 no. (epic #)",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49926,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent 1 name (epic)",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49927,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent 2 type (initiative)",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49928,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent 2 no. (init #)",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49929,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "parent 2 name (initiative)",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49930,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "planning level",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49931,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "effective asset state",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49932,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "change date",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49933,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "requested by",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49934,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "due date",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49935,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "reference",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49936,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "class of service",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49937,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "owners",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49938,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "tags",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49939,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "upstream depedencies number",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49940,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "upstream depedencies name",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49941,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "downstream depedencies number",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49942,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "downstream depedencies name",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49943,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "-",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49944,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "plutora",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49945,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "v1 title",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49946,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "v1 status",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49947,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "v1 iteration",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49948,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "v1 team",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49949,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "v1 planning level",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49950,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "planned estimate",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49951,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "feature id",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49952,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "feature title",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49953,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "epic id",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49954,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "priority1",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49955,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "class of service1",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49956,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "owner",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49957,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "reference1",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49958,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "requested by1",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49959,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "due date1",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49960,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "epic name",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49961,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "initiative name",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49962,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "application",
+          "srcTrgColDataType" : "FLOAT",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49963,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "name",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49964,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "estimated points",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49965,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "tags1",
+          "srcTrgColDataType" : "VARCHAR",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        }, {
+          "srcTgtColId" : 49966,
+          "ruleClsPropId" : 36155,
+          "srcTrgColName" : "last plutora update",
+          "srcTrgColDataType" : "TIMESTAMP",
+          "colFlagType" : "src",
+          "srcTrgColVisible" : 0,
+          "joinList" : null,
+          "mapColName" : null,
+          "colFormat" : "",
+          "displayIndex" : 0
+        } ],
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 36159,
+        "paramId" : 84,
+        "paramMethod" : "setOrderByStr",
+        "paramValue" : "",
+        "srcTrgTbllist" : [ ],
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 36158,
+        "paramId" : 337,
+        "paramMethod" : "setIsStoredProcedure",
+        "paramValue" : "false",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 36157,
+        "paramId" : 16,
+        "paramMethod" : "setConnId",
+        "paramValue" : "20284",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
       } ],
       "bigDataExecMode" : null,
       "srcConnServer" : null,
@@ -1000,7 +1000,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 38912,
+      "srcTgtColId" : 49910,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "rowid",
       "srcTrgColDataType" : "INT",
@@ -1011,7 +1011,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38913,
+      "srcTgtColId" : 49911,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "number",
       "srcTrgColDataType" : "VARCHAR",
@@ -1022,7 +1022,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38914,
+      "srcTgtColId" : 49912,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "title",
       "srcTrgColDataType" : "VARCHAR",
@@ -1033,7 +1033,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38915,
+      "srcTgtColId" : 49913,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "oid",
       "srcTrgColDataType" : "FLOAT",
@@ -1044,7 +1044,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38916,
+      "srcTgtColId" : 49914,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "application / ci name",
       "srcTrgColDataType" : "VARCHAR",
@@ -1055,7 +1055,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38917,
+      "srcTgtColId" : 49915,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "team name",
       "srcTrgColDataType" : "VARCHAR",
@@ -1066,7 +1066,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38918,
+      "srcTgtColId" : 49916,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "status",
       "srcTrgColDataType" : "VARCHAR",
@@ -1077,7 +1077,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38919,
+      "srcTgtColId" : 49917,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "iteration",
       "srcTrgColDataType" : "VARCHAR",
@@ -1088,7 +1088,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38920,
+      "srcTgtColId" : 49918,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "estimate",
       "srcTrgColDataType" : "FLOAT",
@@ -1099,7 +1099,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38921,
+      "srcTgtColId" : 49919,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "planned estimate pts.",
       "srcTrgColDataType" : "FLOAT",
@@ -1110,7 +1110,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38922,
+      "srcTgtColId" : 49920,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "priority",
       "srcTrgColDataType" : "VARCHAR",
@@ -1121,7 +1121,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38923,
+      "srcTgtColId" : 49921,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent type",
       "srcTrgColDataType" : "VARCHAR",
@@ -1132,7 +1132,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38924,
+      "srcTgtColId" : 49922,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent number (feature #)",
       "srcTrgColDataType" : "VARCHAR",
@@ -1143,7 +1143,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38925,
+      "srcTgtColId" : 49923,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent title (feature)",
       "srcTrgColDataType" : "VARCHAR",
@@ -1154,7 +1154,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38926,
+      "srcTgtColId" : 49924,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent 1 type (epic)",
       "srcTrgColDataType" : "VARCHAR",
@@ -1165,7 +1165,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38927,
+      "srcTgtColId" : 49925,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent 1 no. (epic #)",
       "srcTrgColDataType" : "VARCHAR",
@@ -1176,7 +1176,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38928,
+      "srcTgtColId" : 49926,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent 1 name (epic)",
       "srcTrgColDataType" : "VARCHAR",
@@ -1187,7 +1187,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38929,
+      "srcTgtColId" : 49927,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent 2 type (initiative)",
       "srcTrgColDataType" : "VARCHAR",
@@ -1198,7 +1198,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38930,
+      "srcTgtColId" : 49928,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent 2 no. (init #)",
       "srcTrgColDataType" : "VARCHAR",
@@ -1209,7 +1209,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38931,
+      "srcTgtColId" : 49929,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "parent 2 name (initiative)",
       "srcTrgColDataType" : "VARCHAR",
@@ -1220,7 +1220,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38932,
+      "srcTgtColId" : 49930,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "planning level",
       "srcTrgColDataType" : "VARCHAR",
@@ -1231,7 +1231,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38933,
+      "srcTgtColId" : 49931,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "effective asset state",
       "srcTrgColDataType" : "FLOAT",
@@ -1242,7 +1242,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38934,
+      "srcTgtColId" : 49932,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "change date",
       "srcTrgColDataType" : "VARCHAR",
@@ -1253,7 +1253,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38935,
+      "srcTgtColId" : 49933,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "requested by",
       "srcTrgColDataType" : "VARCHAR",
@@ -1264,7 +1264,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38936,
+      "srcTgtColId" : 49934,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "due date",
       "srcTrgColDataType" : "VARCHAR",
@@ -1275,7 +1275,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38937,
+      "srcTgtColId" : 49935,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "reference",
       "srcTrgColDataType" : "VARCHAR",
@@ -1286,7 +1286,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38938,
+      "srcTgtColId" : 49936,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "class of service",
       "srcTrgColDataType" : "VARCHAR",
@@ -1297,7 +1297,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38939,
+      "srcTgtColId" : 49937,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "owners",
       "srcTrgColDataType" : "VARCHAR",
@@ -1308,7 +1308,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38940,
+      "srcTgtColId" : 49938,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "tags",
       "srcTrgColDataType" : "VARCHAR",
@@ -1319,7 +1319,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38941,
+      "srcTgtColId" : 49939,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "upstream depedencies number",
       "srcTrgColDataType" : "VARCHAR",
@@ -1330,7 +1330,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38942,
+      "srcTgtColId" : 49940,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "upstream depedencies name",
       "srcTrgColDataType" : "VARCHAR",
@@ -1341,7 +1341,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38943,
+      "srcTgtColId" : 49941,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "downstream depedencies number",
       "srcTrgColDataType" : "VARCHAR",
@@ -1352,7 +1352,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38944,
+      "srcTgtColId" : 49942,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "downstream depedencies name",
       "srcTrgColDataType" : "VARCHAR",
@@ -1363,7 +1363,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38945,
+      "srcTgtColId" : 49943,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "-",
       "srcTrgColDataType" : "VARCHAR",
@@ -1374,7 +1374,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38946,
+      "srcTgtColId" : 49944,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "plutora",
       "srcTrgColDataType" : "VARCHAR",
@@ -1385,7 +1385,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38947,
+      "srcTgtColId" : 49945,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "v1 title",
       "srcTrgColDataType" : "VARCHAR",
@@ -1396,7 +1396,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38948,
+      "srcTgtColId" : 49946,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "v1 status",
       "srcTrgColDataType" : "FLOAT",
@@ -1407,7 +1407,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38949,
+      "srcTgtColId" : 49947,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "v1 iteration",
       "srcTrgColDataType" : "VARCHAR",
@@ -1418,7 +1418,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38950,
+      "srcTgtColId" : 49948,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "v1 team",
       "srcTrgColDataType" : "VARCHAR",
@@ -1429,7 +1429,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38951,
+      "srcTgtColId" : 49949,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "v1 planning level",
       "srcTrgColDataType" : "VARCHAR",
@@ -1440,7 +1440,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38952,
+      "srcTgtColId" : 49950,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "planned estimate",
       "srcTrgColDataType" : "VARCHAR",
@@ -1451,7 +1451,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38953,
+      "srcTgtColId" : 49951,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "feature id",
       "srcTrgColDataType" : "VARCHAR",
@@ -1462,7 +1462,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38954,
+      "srcTgtColId" : 49952,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "feature title",
       "srcTrgColDataType" : "FLOAT",
@@ -1473,7 +1473,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38955,
+      "srcTgtColId" : 49953,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "epic id",
       "srcTrgColDataType" : "VARCHAR",
@@ -1484,7 +1484,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38956,
+      "srcTgtColId" : 49954,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "priority1",
       "srcTrgColDataType" : "VARCHAR",
@@ -1495,7 +1495,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38957,
+      "srcTgtColId" : 49955,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "class of service1",
       "srcTrgColDataType" : "VARCHAR",
@@ -1506,7 +1506,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38958,
+      "srcTgtColId" : 49956,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "owner",
       "srcTrgColDataType" : "VARCHAR",
@@ -1517,7 +1517,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38959,
+      "srcTgtColId" : 49957,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "reference1",
       "srcTrgColDataType" : "VARCHAR",
@@ -1528,7 +1528,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38960,
+      "srcTgtColId" : 49958,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "requested by1",
       "srcTrgColDataType" : "VARCHAR",
@@ -1539,7 +1539,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38961,
+      "srcTgtColId" : 49959,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "due date1",
       "srcTrgColDataType" : "VARCHAR",
@@ -1550,7 +1550,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38962,
+      "srcTgtColId" : 49960,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "epic name",
       "srcTrgColDataType" : "FLOAT",
@@ -1561,7 +1561,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38963,
+      "srcTgtColId" : 49961,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "initiative name",
       "srcTrgColDataType" : "FLOAT",
@@ -1572,7 +1572,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38964,
+      "srcTgtColId" : 49962,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "application",
       "srcTrgColDataType" : "FLOAT",
@@ -1583,7 +1583,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38965,
+      "srcTgtColId" : 49963,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "name",
       "srcTrgColDataType" : "VARCHAR",
@@ -1594,7 +1594,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38966,
+      "srcTgtColId" : 49964,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "estimated points",
       "srcTrgColDataType" : "VARCHAR",
@@ -1605,7 +1605,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38967,
+      "srcTgtColId" : 49965,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "tags1",
       "srcTrgColDataType" : "VARCHAR",
@@ -1616,7 +1616,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38968,
+      "srcTgtColId" : 49966,
       "ruleClsPropId" : 36155,
       "srcTrgColName" : "last plutora update",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -1627,7 +1627,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 38970,
+      "srcTgtColId" : 49968,
       "ruleClsPropId" : 36225,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -1639,9 +1639,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 38972,
-      "srcColId" : 38912,
-      "trgColId" : 38970,
+      "colMapId" : 49970,
+      "srcColId" : 49910,
+      "trgColId" : 49968,
       "colMapType" : "join",
       "srcColName" : "rowid",
       "tgtColName" : "cnt",
@@ -1669,7 +1669,7 @@
     "derivedvariablelist" : [ {
       "derivedExpressionName" : "testcustomfield",
       "derivedExpression" : "testcustomfield='test1=test3'",
-      "derivedExpressionResult" : "test1",
+      "derivedExpressionResult" : "test1=test3",
       "derivedExpressionIndex" : 0,
       "derivedExpressionVisibleFlag" : 1
     }, {
@@ -1683,6 +1683,12 @@
       "derivedExpression" : "xray-project-name='QA_Xray'",
       "derivedExpressionResult" : "QA_Xray",
       "derivedExpressionIndex" : 0,
+      "derivedExpressionVisibleFlag" : 1
+    }, {
+      "derivedExpressionName" : "DVAR_WMFM44M",
+      "derivedExpression" : "=",
+      "derivedExpressionResult" : "",
+      "derivedExpressionIndex" : 3,
       "derivedExpressionVisibleFlag" : 1
     } ]
   }
