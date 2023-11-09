@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 2398232,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 2398232,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2023-11-09 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2023-11-09 00:00:00",
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "dhanashriw01",
     "projectName" : "17.8.0",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "dhanashriw01",
     "ruleClassId" : 5088540,
     "successBody" : null,
     "failureBody" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 5088564,
-        "srcColId" : 5088562,
-        "trgColId" : 5088563,
+        "colMapId" : 5092898,
+        "srcColId" : 5092896,
+        "trgColId" : 5092897,
         "colMapType" : "join",
         "srcColName" : "sum_cnt",
         "tgtColName" : "sum_cnt",
@@ -109,21 +109,21 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 5088555,
+        "ruleClsPropID" : 5092889,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088556,
+        "ruleClsPropID" : 5092890,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088557,
+        "ruleClsPropID" : 5092891,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
@@ -161,13 +161,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 5088543,
+        "ruleClsPropID" : 5092877,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "--select count(*) as cnt from REGRESSION_DATABASE.\"CUSTOMER\"\n\nselect sum (cast(yearlyincome as int)) as sum_cnt from REGRESSION_DATABASE.\"CUSTOMER\"",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 5088562,
-          "ruleClsPropId" : 5088543,
+          "srcTgtColId" : 5092896,
+          "ruleClsPropId" : 5092877,
           "srcTrgColName" : "sum_cnt",
           "srcTrgColDataType" : "INTEGER",
           "colFlagType" : "src",
@@ -179,35 +179,35 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088544,
+        "ruleClsPropID" : 5092878,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "1971003",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088545,
+        "ruleClsPropID" : 5092879,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088546,
+        "ruleClsPropID" : 5092880,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088547,
+        "ruleClsPropID" : 5092881,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088548,
+        "ruleClsPropID" : 5092882,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "sum_cnt^~^4^~^INTEGER^~^10^~^1",
@@ -245,13 +245,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 5088549,
+        "ruleClsPropID" : 5092883,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "--select count(*) as cnt from REGRESSION_DATABASE.\"REG_EMPLOYEE\"\n\nselect sum (cast (salary as int )) as sum_cnt from REGRESSION_DATABASE.\"REG_EMPLOYEE\"",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 5088563,
-          "ruleClsPropId" : 5088549,
+          "srcTgtColId" : 5092897,
+          "ruleClsPropId" : 5092883,
           "srcTrgColName" : "sum_cnt",
           "srcTrgColDataType" : "INTEGER",
           "colFlagType" : "tgt",
@@ -263,35 +263,35 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088550,
+        "ruleClsPropID" : 5092884,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "1950471",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088551,
+        "ruleClsPropID" : 5092885,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088552,
+        "ruleClsPropID" : 5092886,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088553,
+        "ruleClsPropID" : 5092887,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 5088554,
+        "ruleClsPropID" : 5092888,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "sum_cnt^~^4^~^INTEGER^~^10^~^1",
@@ -307,8 +307,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 5088562,
-      "ruleClsPropId" : 5088543,
+      "srcTgtColId" : 5092896,
+      "ruleClsPropId" : 5092877,
       "srcTrgColName" : "sum_cnt",
       "srcTrgColDataType" : "INTEGER",
       "colFlagType" : "src",
@@ -318,8 +318,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 5088563,
-      "ruleClsPropId" : 5088549,
+      "srcTgtColId" : 5092897,
+      "ruleClsPropId" : 5092883,
       "srcTrgColName" : "sum_cnt",
       "srcTrgColDataType" : "INTEGER",
       "colFlagType" : "tgt",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 5088564,
-      "srcColId" : 5088562,
-      "trgColId" : 5088563,
+      "colMapId" : 5092898,
+      "srcColId" : 5092896,
+      "trgColId" : 5092897,
       "colMapType" : "join",
       "srcColName" : "sum_cnt",
       "tgtColName" : "sum_cnt",
