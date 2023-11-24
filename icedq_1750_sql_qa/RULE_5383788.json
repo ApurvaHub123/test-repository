@@ -168,7 +168,7 @@
         "ruleClsPropID" : 5383854,
         "paramId" : 231,
         "paramMethod" : "setGroovyScript",
-        "paramValue" : "//Define Variables\ndef userName ='Yashashree';\ndef repoName='icedq_1750_sql_qa';\ndef  batchCode = '1700824376696'\ndef folderName='QA_Yashashree';\ndef folderGroupName='17.8.0';\ndef srcConnection='';\ndef tgtConnection='';\ndef param=\"\";\n \n//Execute Regressionpack\ndef result =  IceTestCase.RunBatchByCode(repoName,batchCode,folderName,folderGroupName,srcConnection,tgtConnection,param,true);\n \n//Print Log\ninstanceLog.info(\"Batch is executed successfully using connection override option with an exit code of \" + result);\n \n//Return Result\nreturn result;\n \n ",
+        "paramValue" : "//Define Variables\ndef userName ='Yashashree';\ndef repoName='icedq_1750_sql_qa';\ndef  batchCode = '1700824376696'\ndef folderName='QA_Yashashree';\ndef folderGroupName='17.8.0';\ndef srcConnection='';\ndef tgtConnection='';\ndef param=\"\";\n \n//Execute Regressionpack\ndef result =  IceTestCase.RunBatchByCode(repoName,batchCode,folderName,folderGroupName,srcConnection,tgtConnection,param,false);\n \n//Print Log\ninstanceLog.info(\"Batch is executed successfully using connection override option with an exit code of \" + result);\n \n//Return Result\nreturn result;\n \n ",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
