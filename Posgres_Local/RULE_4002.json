@@ -99,76 +99,76 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 4065,
+        "ruleClsPropID" : 4878,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "acctnumber^~^12^~^VARCHAR^~^2000^~^1$~$addressid^~^12^~^VARCHAR^~^2000^~^2$~$birthdate^~^91^~^DATE^~^3^~^3$~$customerid^~^12^~^VARCHAR^~^2000^~^4$~$datefirstpurchase^~^91^~^DATE^~^3^~^5$~$email^~^12^~^VARCHAR^~^2000^~^6$~$firstname^~^12^~^VARCHAR^~^2000^~^7$~$gender^~^12^~^VARCHAR^~^2000^~^8$~$lastname^~^12^~^VARCHAR^~^2000^~^9$~$phoneno^~^12^~^VARCHAR^~^2000^~^10$~$yearlyincome^~^12^~^VARCHAR^~^2000^~^11$~$json:_id^~^12^~^VARCHAR^~^255^~^12",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4066,
+        "ruleClsPropID" : 4879,
         "paramId" : 8,
         "paramMethod" : "setFileName",
         "paramValue" : "/compressed_files/Customer.json",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4067,
+        "ruleClsPropID" : 4880,
         "paramId" : 466,
         "paramMethod" : "setXMLRSDSchema",
         "paramValue" : "<api:script xmlns:api=\"http://apiscript.com/ns?v1\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\n\n  <!-- See Column Definitions to specify column behavior and use XPaths to extract column values from JSON. -->\n  <api:info title=\"Customer\" desc=\"Generated schema file.\" xmlns:other=\"http://apiscript.com/ns?v1\">\n    <!-- You can modify the name, type, and column size here. -->\n    <attr name=\"AcctNumber\"        xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/AcctNumber\"        />\n    <attr name=\"AddressID\"         xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/AddressID\"         />\n    <attr name=\"BirthDate\"         xs:type=\"date\"   readonly=\"false\"              other:xPath=\"/json/BirthDate\"         />\n    <attr name=\"CustomerID\"        xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/CustomerID\"        />\n    <attr name=\"DateFirstPurchase\" xs:type=\"date\"   readonly=\"false\"              other:xPath=\"/json/DateFirstPurchase\" />\n    <attr name=\"Email\"             xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/Email\"             />\n    <attr name=\"FirstName\"         xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/FirstName\"         />\n    <attr name=\"Gender\"            xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/Gender\"            />\n    <attr name=\"LastName\"          xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/LastName\"          />\n    <attr name=\"PhoneNo\"           xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/PhoneNo\"           />\n    <attr name=\"YearlyIncome\"      xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/YearlyIncome\"      />\n    <attr name=\"json:_id\"          xs:type=\"string\" readonly=\"false\"  key=\"true\"  other:xPath=\"/json/_id\"               />\n  </api:info>\n\n  <api:set attr=\"DataModel\" value=\"FLATTENEDDOCUMENTS\" />\n  <api:set attr=\"URI\" value=\"s3://icedq-qa/Files/Compressed.zip/Compressed/Customer.json\" />\n\n  <api:set attr=\"JSONPath\" value=\"$.\" />\n\n  <!-- The GET method corresponds to SELECT. Here you can override the default processing of the SELECT statement. The results of processing are pushed to the schema's output. See SELECT Execution for more information. -->\n  <api:script method=\"GET\">\n    <api:set attr=\"method\" value=\"GET\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for INSERTS please see the INSERT Execution page within the help for further information and examples. -->\n  <api:script method=\"POST\">\n    <api:set attr=\"method\" value=\"POST\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Inserts are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for UPDATES please see the UPDATE Execution page within the help for further information and examples. -->\n  <api:script method=\"MERGE\">\n    <api:set attr=\"method\" value=\"PUT\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Updates are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for DELETES please see the DELETE Execution page within the help for further information and examples. -->\n  <api:script method=\"DELETE\">\n    <api:set attr=\"method\" value=\"DELETE\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Deletes are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n</api:script>\n",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4070,
+        "ruleClsPropID" : 4883,
         "paramId" : 494,
         "paramMethod" : "setXpath",
         "paramValue" : "",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4071,
+        "ruleClsPropID" : 4884,
         "paramId" : 493,
         "paramMethod" : "setCacheTableName",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4072,
+        "ruleClsPropID" : 4885,
         "paramId" : 496,
         "paramMethod" : "setDataModel",
         "paramValue" : "FlattenedDocuments",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4073,
+        "ruleClsPropID" : 4886,
         "paramId" : 497,
         "paramMethod" : "setRSDSchemaColumn",
         "paramValue" : "acctnumber^~^12^~^VARCHAR^~^2000^~^1$~$addressid^~^12^~^VARCHAR^~^2000^~^2$~$birthdate^~^91^~^DATE^~^3^~^3$~$customerid^~^12^~^VARCHAR^~^2000^~^4$~$datefirstpurchase^~^91^~^DATE^~^3^~^5$~$email^~^12^~^VARCHAR^~^2000^~^6$~$firstname^~^12^~^VARCHAR^~^2000^~^7$~$gender^~^12^~^VARCHAR^~^2000^~^8$~$lastname^~^12^~^VARCHAR^~^2000^~^9$~$phoneno^~^12^~^VARCHAR^~^2000^~^10$~$yearlyincome^~^12^~^VARCHAR^~^2000^~^11$~$json:_id^~^12^~^VARCHAR^~^255^~^12",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4075,
+        "ruleClsPropID" : 4888,
         "paramId" : 71,
         "paramMethod" : "setFileFormat",
         "paramValue" : "JSON",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4076,
+        "ruleClsPropID" : 4889,
         "paramId" : 492,
         "paramMethod" : "setCacheEnable",
         "paramValue" : "no",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4058,
+        "ruleClsPropID" : 4890,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from Customer",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4860,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4897,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "acctnumber",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -178,8 +178,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4861,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4898,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "addressid",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -189,8 +189,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4862,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4899,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "birthdate",
           "srcTrgColDataType" : "DATE",
           "colFlagType" : "src",
@@ -200,8 +200,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4863,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4900,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "customerid",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -211,8 +211,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4864,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4901,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "datefirstpurchase",
           "srcTrgColDataType" : "DATE",
           "colFlagType" : "src",
@@ -222,8 +222,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4865,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4902,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "email",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -233,8 +233,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4866,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4903,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "firstname",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -244,8 +244,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4867,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4904,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "gender",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -255,8 +255,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4868,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4905,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "lastname",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -266,8 +266,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4869,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4906,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "phoneno",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -277,8 +277,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4870,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4907,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "yearlyincome",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -288,8 +288,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 4871,
-          "ruleClsPropId" : 4058,
+          "srcTgtColId" : 4908,
+          "ruleClsPropId" : 4890,
           "srcTrgColName" : "json:_id",
           "srcTrgColDataType" : "VARCHAR",
           "colFlagType" : "src",
@@ -301,28 +301,28 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4060,
+        "ruleClsPropID" : 4892,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "1971",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4061,
+        "ruleClsPropID" : 4893,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4062,
+        "ruleClsPropID" : 4894,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4064,
+        "ruleClsPropID" : 4896,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "true",
@@ -360,13 +360,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 4089,
+        "ruleClsPropID" : 4909,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 4875,
-          "ruleClsPropId" : 4089,
+          "srcTgtColId" : 4920,
+          "ruleClsPropId" : 4909,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
           "colFlagType" : "tgt",
@@ -378,49 +378,49 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4099,
+        "ruleClsPropID" : 4911,
         "paramId" : 493,
         "paramMethod" : "setCacheTableName",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4091,
+        "ruleClsPropID" : 4912,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "cnt^~^12^~^String^~^20^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4092,
+        "ruleClsPropID" : 4913,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "1971",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4093,
+        "ruleClsPropID" : 4914,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4094,
+        "ruleClsPropID" : 4915,
         "paramId" : 8,
         "paramMethod" : "setFileName",
         "paramValue" : "/compressed_files/Customer.json",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4096,
+        "ruleClsPropID" : 4916,
         "paramId" : 466,
         "paramMethod" : "setXMLRSDSchema",
         "paramValue" : "<api:script xmlns:api=\"http://apiscript.com/ns?v1\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\n\n  <!-- See Column Definitions to specify column behavior and use XPaths to extract column values from JSON. -->\n  <api:info title=\"Customer\" desc=\"Generated schema file.\" xmlns:other=\"http://apiscript.com/ns?v1\">\n    <!-- You can modify the name, type, and column size here. -->\n    <attr name=\"AcctNumber\"        xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/AcctNumber\"        />\n    <attr name=\"AddressID\"         xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/AddressID\"         />\n    <attr name=\"BirthDate\"         xs:type=\"date\"   readonly=\"false\"              other:xPath=\"/json/BirthDate\"         />\n    <attr name=\"CustomerID\"        xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/CustomerID\"        />\n    <attr name=\"DateFirstPurchase\" xs:type=\"date\"   readonly=\"false\"              other:xPath=\"/json/DateFirstPurchase\" />\n    <attr name=\"Email\"             xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/Email\"             />\n    <attr name=\"FirstName\"         xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/FirstName\"         />\n    <attr name=\"Gender\"            xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/Gender\"            />\n    <attr name=\"LastName\"          xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/LastName\"          />\n    <attr name=\"PhoneNo\"           xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/PhoneNo\"           />\n    <attr name=\"YearlyIncome\"      xs:type=\"string\" readonly=\"false\"              other:xPath=\"/json/YearlyIncome\"      />\n    <attr name=\"json:_id\"          xs:type=\"string\" readonly=\"false\"  key=\"true\"  other:xPath=\"/json/_id\"               />\n  </api:info>\n\n  <api:set attr=\"DataModel\" value=\"FLATTENEDDOCUMENTS\" />\n  <api:set attr=\"URI\" value=\"s3://icedq-qa/Files/Compressed.zip/Compressed/Customer.json\" />\n\n  <api:set attr=\"JSONPath\" value=\"$.\" />\n\n  <!-- The GET method corresponds to SELECT. Here you can override the default processing of the SELECT statement. The results of processing are pushed to the schema's output. See SELECT Execution for more information. -->\n  <api:script method=\"GET\">\n    <api:set attr=\"method\" value=\"GET\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for INSERTS please see the INSERT Execution page within the help for further information and examples. -->\n  <api:script method=\"POST\">\n    <api:set attr=\"method\" value=\"POST\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Inserts are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for UPDATES please see the UPDATE Execution page within the help for further information and examples. -->\n  <api:script method=\"MERGE\">\n    <api:set attr=\"method\" value=\"PUT\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Updates are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for DELETES please see the DELETE Execution page within the help for further information and examples. -->\n  <api:script method=\"DELETE\">\n    <api:set attr=\"method\" value=\"DELETE\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Deletes are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n</api:script>\n",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4095,
+        "ruleClsPropID" : 4919,
         "paramId" : 492,
         "paramMethod" : "setCacheEnable",
         "paramValue" : "no",
@@ -455,9 +455,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 4877,
-        "srcColId" : 4860,
-        "trgColId" : 4875,
+        "colMapId" : 4933,
+        "srcColId" : 4897,
+        "trgColId" : 4920,
         "colMapType" : "join",
         "srcColName" : "acctnumber",
         "tgtColName" : "cnt",
@@ -466,14 +466,14 @@
         "displayIndex" : 0
       } ],
       "exprlist" : [ {
-        "exprID" : 4634,
+        "exprID" : 4934,
         "exprLogID" : 0,
         "exprName" : "EXPR_GEAU60C",
         "expression" : "S.acctnumber",
         "result" : "Pass",
         "exprType" : "5",
         "exprVisible" : 1,
-        "exprIndex" : 0,
+        "exprIndex" : 1,
         "ruleId" : 4002,
         "ruleInstanceId" : 0,
         "ruleClassId" : 4057,
@@ -491,77 +491,77 @@
       } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 4101,
+        "ruleClsPropID" : 4921,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4102,
+        "ruleClsPropID" : 4922,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4103,
+        "ruleClsPropID" : 4923,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4104,
+        "ruleClsPropID" : 4924,
         "paramId" : 22,
         "paramMethod" : "setMaxRowCount",
         "paramValue" : "-1",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4105,
+        "ruleClsPropID" : 4925,
         "paramId" : 23,
         "paramMethod" : "setMaxErrorCount",
         "paramValue" : "500",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4106,
+        "ruleClsPropID" : 4926,
         "paramId" : 24,
         "paramMethod" : "setShowErrorData",
         "paramValue" : "Yes",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4107,
+        "ruleClsPropID" : 4927,
         "paramId" : 72,
         "paramMethod" : "setTimeOut",
         "paramValue" : "",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4108,
+        "ruleClsPropID" : 4928,
         "paramId" : 73,
         "paramMethod" : "setLoadDataFlag",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4109,
+        "ruleClsPropID" : 4929,
         "paramId" : 465,
         "paramMethod" : "setReportXlsx",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4110,
+        "ruleClsPropID" : 4930,
         "paramId" : 530,
         "paramMethod" : "setThresholdFlag",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 4111,
+        "ruleClsPropID" : 4931,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
         "paramValue" : "",
@@ -577,8 +577,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 4860,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4897,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "acctnumber",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -588,8 +588,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4861,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4898,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "addressid",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -599,8 +599,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4862,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4899,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "birthdate",
       "srcTrgColDataType" : "DATE",
       "colFlagType" : "src",
@@ -610,8 +610,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4863,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4900,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "customerid",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -621,8 +621,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4864,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4901,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "datefirstpurchase",
       "srcTrgColDataType" : "DATE",
       "colFlagType" : "src",
@@ -632,8 +632,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4865,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4902,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "email",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -643,8 +643,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4866,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4903,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "firstname",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -654,8 +654,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4867,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4904,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "gender",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -665,8 +665,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4868,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4905,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "lastname",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -676,8 +676,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4869,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4906,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "phoneno",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -687,8 +687,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4870,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4907,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "yearlyincome",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -698,8 +698,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4871,
-      "ruleClsPropId" : 4058,
+      "srcTgtColId" : 4908,
+      "ruleClsPropId" : 4890,
       "srcTrgColName" : "json:_id",
       "srcTrgColDataType" : "VARCHAR",
       "colFlagType" : "src",
@@ -709,8 +709,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 4875,
-      "ruleClsPropId" : 4089,
+      "srcTgtColId" : 4920,
+      "ruleClsPropId" : 4909,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
       "colFlagType" : "tgt",
@@ -721,9 +721,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 4877,
-      "srcColId" : 4860,
-      "trgColId" : 4875,
+      "colMapId" : 4933,
+      "srcColId" : 4897,
+      "trgColId" : 4920,
       "colMapType" : "join",
       "srcColName" : "acctnumber",
       "tgtColName" : "cnt",
@@ -748,14 +748,14 @@
     "classCreateDate" : null,
     "classModifyDate" : null,
     "exprVOList" : [ {
-      "exprID" : 4634,
+      "exprID" : 4934,
       "exprLogID" : 0,
       "exprName" : "EXPR_GEAU60C",
       "expression" : "S.acctnumber",
       "result" : "Pass",
       "exprType" : "5",
       "exprVisible" : 1,
-      "exprIndex" : 0,
+      "exprIndex" : 1,
       "ruleId" : 4002,
       "ruleInstanceId" : 0,
       "ruleClassId" : 4057,
