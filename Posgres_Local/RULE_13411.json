@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2024-01-03 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2024-01-03 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "Apurv",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 13414,
     "successBody" : "",
     "failureBody" : "",
@@ -99,6 +99,27 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
+        "ruleClsPropID" : 13424,
+        "paramId" : 466,
+        "paramMethod" : "setXMLRSDSchema",
+        "paramValue" : "<api:script xmlns:api=\"http://apiscript.com/ns?v1\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\n\n  <!-- See Column Definitions to specify column behavior and use XPaths to extract column values from JSON. -->\n  <api:info title=\"STAFF\" desc=\"Generated schema file.\" xmlns:other=\"http://apiscript.com/ns?v1\">\n    <!-- You can modify the name, type, and column size here. -->\n    <attr name=\"ADDRESS\"     xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/ADDRESS\"     />\n    <attr name=\"BIRTHD\"      xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/BIRTHD\"      />\n    <attr name=\"BONUS\"       xs:type=\"double\"   readonly=\"false\"              other:xPath=\"/json/BONUS\"       />\n    <attr name=\"CITY\"        xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/CITY\"        />\n    <attr name=\"COMM\"        xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/COMM\"        />\n    <attr name=\"COMPANY\"     xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/COMPANY\"     />\n    <attr name=\"FNAME\"       xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/FNAME\"       />\n    <attr name=\"HIRED\"       xs:type=\"datetime\" readonly=\"false\"              other:xPath=\"/json/HIRED\"       />\n    <attr name=\"HPHONE\"      xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/HPHONE\"      />\n    <attr name=\"JOBCODE\"     xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/JOBCODE\"     />\n    <attr name=\"LNAME\"       xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/LNAME\"       />\n    <attr name=\"SALARY\"      xs:type=\"integer\"  readonly=\"false\"              other:xPath=\"/json/SALARY\"      />\n    <attr name=\"SEX\"         xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/SEX\"         />\n    <attr name=\"SSN\"         xs:type=\"integer\"  readonly=\"false\"              other:xPath=\"/json/SSN\"         />\n    <attr name=\"STAFFID\"     xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/STAFFID\"     />\n    <attr name=\"STATE\"       xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/STATE\"       />\n    <attr name=\"TOTALSALARY\" xs:type=\"double\"   readonly=\"false\"              other:xPath=\"/json/TOTALSALARY\" />\n    <attr name=\"json:_id\"    xs:type=\"string\"   readonly=\"false\"  key=\"true\"  other:xPath=\"/json/_id\"         />\n  </api:info>\n\n  <api:set attr=\"DataModel\" value=\"FLATTENEDDOCUMENTS\" />\n  <api:set attr=\"URI\" value=\"D:\\\\iCEDQ\\\\Sample_Files\\\\Files\\\\STAFF.json\" />\n\n  <api:set attr=\"JSONPath\" value=\"$.\" />\n\n  <!-- The GET method corresponds to SELECT. Here you can override the default processing of the SELECT statement. The results of processing are pushed to the schema's output. See SELECT Execution for more information. -->\n  <api:script method=\"GET\">\n    <api:set attr=\"method\" value=\"GET\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for INSERTS please see the INSERT Execution page within the help for further information and examples. -->\n  <api:script method=\"POST\">\n    <api:set attr=\"method\" value=\"POST\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Inserts are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for UPDATES please see the UPDATE Execution page within the help for further information and examples. -->\n  <api:script method=\"MERGE\">\n    <api:set attr=\"method\" value=\"PUT\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Updates are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for DELETES please see the DELETE Execution page within the help for further information and examples. -->\n  <api:script method=\"DELETE\">\n    <api:set attr=\"method\" value=\"DELETE\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Deletes are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n</api:script>\n",
+        "srcTrgTbllist" : [ ],
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 13423,
+        "paramId" : 8,
+        "paramMethod" : "setFileName",
+        "paramValue" : "\\STAFF.json",
+        "srcTrgTbllist" : null,
+        "fileContent" : null
+      }, {
+        "ruleClsPropID" : 13422,
+        "paramId" : 83,
+        "paramMethod" : "setColumnsMInfo",
+        "paramValue" : "address^~^12^~^VARCHAR^~^2000^~^1$~$birthd^~^12^~^VARCHAR^~^2000^~^2$~$bonus^~^8^~^FLOAT^~^15^~^3$~$city^~^12^~^VARCHAR^~^2000^~^4$~$comm^~^12^~^VARCHAR^~^2000^~^5$~$company^~^12^~^VARCHAR^~^2000^~^6$~$fname^~^12^~^VARCHAR^~^2000^~^7$~$hired^~^93^~^TIMESTAMP^~^8^~^8$~$hphone^~^12^~^VARCHAR^~^2000^~^9$~$jobcode^~^12^~^VARCHAR^~^2000^~^10$~$lname^~^12^~^VARCHAR^~^2000^~^11$~$salary^~^4^~^INT^~^10^~^12$~$sex^~^12^~^VARCHAR^~^2000^~^13$~$ssn^~^4^~^INT^~^10^~^14$~$staffid^~^12^~^VARCHAR^~^2000^~^15$~$state^~^12^~^VARCHAR^~^2000^~^16$~$totalsalary^~^8^~^FLOAT^~^15^~^17$~$json:_id^~^12^~^VARCHAR^~^255^~^18",
+        "srcTrgTbllist" : [ ],
+        "fileContent" : null
+      }, {
         "ruleClsPropID" : 13433,
         "paramId" : 492,
         "paramMethod" : "setCacheEnable",
@@ -141,27 +162,6 @@
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 13424,
-        "paramId" : 466,
-        "paramMethod" : "setXMLRSDSchema",
-        "paramValue" : "<api:script xmlns:api=\"http://apiscript.com/ns?v1\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\n\n  <!-- See Column Definitions to specify column behavior and use XPaths to extract column values from JSON. -->\n  <api:info title=\"STAFF\" desc=\"Generated schema file.\" xmlns:other=\"http://apiscript.com/ns?v1\">\n    <!-- You can modify the name, type, and column size here. -->\n    <attr name=\"ADDRESS\"     xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/ADDRESS\"     />\n    <attr name=\"BIRTHD\"      xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/BIRTHD\"      />\n    <attr name=\"BONUS\"       xs:type=\"double\"   readonly=\"false\"              other:xPath=\"/json/BONUS\"       />\n    <attr name=\"CITY\"        xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/CITY\"        />\n    <attr name=\"COMM\"        xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/COMM\"        />\n    <attr name=\"COMPANY\"     xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/COMPANY\"     />\n    <attr name=\"FNAME\"       xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/FNAME\"       />\n    <attr name=\"HIRED\"       xs:type=\"datetime\" readonly=\"false\"              other:xPath=\"/json/HIRED\"       />\n    <attr name=\"HPHONE\"      xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/HPHONE\"      />\n    <attr name=\"JOBCODE\"     xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/JOBCODE\"     />\n    <attr name=\"LNAME\"       xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/LNAME\"       />\n    <attr name=\"SALARY\"      xs:type=\"integer\"  readonly=\"false\"              other:xPath=\"/json/SALARY\"      />\n    <attr name=\"SEX\"         xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/SEX\"         />\n    <attr name=\"SSN\"         xs:type=\"integer\"  readonly=\"false\"              other:xPath=\"/json/SSN\"         />\n    <attr name=\"STAFFID\"     xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/STAFFID\"     />\n    <attr name=\"STATE\"       xs:type=\"string\"   readonly=\"false\"              other:xPath=\"/json/STATE\"       />\n    <attr name=\"TOTALSALARY\" xs:type=\"double\"   readonly=\"false\"              other:xPath=\"/json/TOTALSALARY\" />\n    <attr name=\"json:_id\"    xs:type=\"string\"   readonly=\"false\"  key=\"true\"  other:xPath=\"/json/_id\"         />\n  </api:info>\n\n  <api:set attr=\"DataModel\" value=\"FLATTENEDDOCUMENTS\" />\n  <api:set attr=\"URI\" value=\"D:\\\\iCEDQ\\\\Sample_Files\\\\Files\\\\STAFF.json\" />\n\n  <api:set attr=\"JSONPath\" value=\"$.\" />\n\n  <!-- The GET method corresponds to SELECT. Here you can override the default processing of the SELECT statement. The results of processing are pushed to the schema's output. See SELECT Execution for more information. -->\n  <api:script method=\"GET\">\n    <api:set attr=\"method\" value=\"GET\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for INSERTS please see the INSERT Execution page within the help for further information and examples. -->\n  <api:script method=\"POST\">\n    <api:set attr=\"method\" value=\"POST\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Inserts are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for UPDATES please see the UPDATE Execution page within the help for further information and examples. -->\n  <api:script method=\"MERGE\">\n    <api:set attr=\"method\" value=\"PUT\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Updates are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n  <!-- To add support for DELETES please see the DELETE Execution page within the help for further information and examples. -->\n  <api:script method=\"DELETE\">\n    <api:set attr=\"method\" value=\"DELETE\"/>\n    <api:call op=\"jsonproviderGet\">\n      <api:throw code=\"500\" desc=\"Deletes are not currently supported.\"/>\n      <api:push/>\n    </api:call>\n  </api:script>\n\n</api:script>\n",
-        "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 13423,
-        "paramId" : 8,
-        "paramMethod" : "setFileName",
-        "paramValue" : "\\STAFF.json",
-        "srcTrgTbllist" : null,
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 13422,
-        "paramId" : 83,
-        "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "address^~^12^~^VARCHAR^~^2000^~^1$~$birthd^~^12^~^VARCHAR^~^2000^~^2$~$bonus^~^8^~^FLOAT^~^15^~^3$~$city^~^12^~^VARCHAR^~^2000^~^4$~$comm^~^12^~^VARCHAR^~^2000^~^5$~$company^~^12^~^VARCHAR^~^2000^~^6$~$fname^~^12^~^VARCHAR^~^2000^~^7$~$hired^~^93^~^TIMESTAMP^~^8^~^8$~$hphone^~^12^~^VARCHAR^~^2000^~^9$~$jobcode^~^12^~^VARCHAR^~^2000^~^10$~$lname^~^12^~^VARCHAR^~^2000^~^11$~$salary^~^4^~^INT^~^10^~^12$~$sex^~^12^~^VARCHAR^~^2000^~^13$~$ssn^~^4^~^INT^~^10^~^14$~$staffid^~^12^~^VARCHAR^~^2000^~^15$~$state^~^12^~^VARCHAR^~^2000^~^16$~$totalsalary^~^8^~^FLOAT^~^15^~^17$~$json:_id^~^12^~^VARCHAR^~^255^~^18",
-        "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
         "ruleClsPropID" : 13421,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
@@ -195,7 +195,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from STAFF",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 13434,
+          "srcTgtColId" : 13511,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "address",
           "srcTrgColDataType" : "VARCHAR",
@@ -206,7 +206,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 13435,
+          "srcTgtColId" : 13512,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "birthd",
           "srcTrgColDataType" : "VARCHAR",
@@ -217,7 +217,7 @@
           "colFormat" : "",
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 13436,
+          "srcTgtColId" : 13513,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "bonus",
           "srcTrgColDataType" : "FLOAT",
@@ -228,7 +228,7 @@
           "colFormat" : "",
           "displayIndex" : 2
         }, {
-          "srcTgtColId" : 13437,
+          "srcTgtColId" : 13514,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "city",
           "srcTrgColDataType" : "VARCHAR",
@@ -239,7 +239,7 @@
           "colFormat" : "",
           "displayIndex" : 3
         }, {
-          "srcTgtColId" : 13438,
+          "srcTgtColId" : 13515,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "comm",
           "srcTrgColDataType" : "VARCHAR",
@@ -250,7 +250,7 @@
           "colFormat" : "",
           "displayIndex" : 4
         }, {
-          "srcTgtColId" : 13439,
+          "srcTgtColId" : 13516,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "company",
           "srcTrgColDataType" : "VARCHAR",
@@ -261,7 +261,7 @@
           "colFormat" : "",
           "displayIndex" : 5
         }, {
-          "srcTgtColId" : 13440,
+          "srcTgtColId" : 13517,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "fname",
           "srcTrgColDataType" : "VARCHAR",
@@ -272,7 +272,7 @@
           "colFormat" : "",
           "displayIndex" : 6
         }, {
-          "srcTgtColId" : 13441,
+          "srcTgtColId" : 13518,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "hired",
           "srcTrgColDataType" : "TIMESTAMP",
@@ -283,7 +283,7 @@
           "colFormat" : "",
           "displayIndex" : 7
         }, {
-          "srcTgtColId" : 13442,
+          "srcTgtColId" : 13519,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "hphone",
           "srcTrgColDataType" : "VARCHAR",
@@ -294,7 +294,7 @@
           "colFormat" : "",
           "displayIndex" : 8
         }, {
-          "srcTgtColId" : 13443,
+          "srcTgtColId" : 13520,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "jobcode",
           "srcTrgColDataType" : "VARCHAR",
@@ -305,7 +305,7 @@
           "colFormat" : "",
           "displayIndex" : 9
         }, {
-          "srcTgtColId" : 13444,
+          "srcTgtColId" : 13521,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "lname",
           "srcTrgColDataType" : "VARCHAR",
@@ -316,7 +316,7 @@
           "colFormat" : "",
           "displayIndex" : 10
         }, {
-          "srcTgtColId" : 13445,
+          "srcTgtColId" : 13522,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "salary",
           "srcTrgColDataType" : "INT",
@@ -327,7 +327,7 @@
           "colFormat" : "",
           "displayIndex" : 11
         }, {
-          "srcTgtColId" : 13446,
+          "srcTgtColId" : 13523,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "sex",
           "srcTrgColDataType" : "VARCHAR",
@@ -338,7 +338,7 @@
           "colFormat" : "",
           "displayIndex" : 12
         }, {
-          "srcTgtColId" : 13447,
+          "srcTgtColId" : 13524,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "ssn",
           "srcTrgColDataType" : "INT",
@@ -349,7 +349,7 @@
           "colFormat" : "",
           "displayIndex" : 13
         }, {
-          "srcTgtColId" : 13448,
+          "srcTgtColId" : 13525,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "staffid",
           "srcTrgColDataType" : "VARCHAR",
@@ -360,7 +360,7 @@
           "colFormat" : "",
           "displayIndex" : 14
         }, {
-          "srcTgtColId" : 13449,
+          "srcTgtColId" : 13526,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "state",
           "srcTrgColDataType" : "VARCHAR",
@@ -371,7 +371,7 @@
           "colFormat" : "",
           "displayIndex" : 15
         }, {
-          "srcTgtColId" : 13450,
+          "srcTgtColId" : 13527,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "totalsalary",
           "srcTrgColDataType" : "FLOAT",
@@ -382,7 +382,7 @@
           "colFormat" : "",
           "displayIndex" : 16
         }, {
-          "srcTgtColId" : 13451,
+          "srcTgtColId" : 13528,
           "ruleClsPropId" : 13415,
           "srcTrgColName" : "json:_id",
           "srcTrgColDataType" : "VARCHAR",
@@ -480,7 +480,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 13463,
+          "srcTgtColId" : 13532,
           "ruleClsPropId" : 13452,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -521,9 +521,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 13476,
-        "srcColId" : 13434,
-        "trgColId" : 13463,
+        "colMapId" : 13534,
+        "srcColId" : 13511,
+        "trgColId" : 13532,
         "colMapType" : "join",
         "srcColName" : "address",
         "tgtColName" : "cnt",
@@ -620,7 +620,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 13434,
+      "srcTgtColId" : 13511,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "address",
       "srcTrgColDataType" : "VARCHAR",
@@ -631,7 +631,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 13435,
+      "srcTgtColId" : 13512,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "birthd",
       "srcTrgColDataType" : "VARCHAR",
@@ -642,7 +642,7 @@
       "colFormat" : "",
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 13436,
+      "srcTgtColId" : 13513,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "bonus",
       "srcTrgColDataType" : "FLOAT",
@@ -653,7 +653,7 @@
       "colFormat" : "",
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 13437,
+      "srcTgtColId" : 13514,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "city",
       "srcTrgColDataType" : "VARCHAR",
@@ -664,7 +664,7 @@
       "colFormat" : "",
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 13438,
+      "srcTgtColId" : 13515,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "comm",
       "srcTrgColDataType" : "VARCHAR",
@@ -675,7 +675,7 @@
       "colFormat" : "",
       "displayIndex" : 4
     }, {
-      "srcTgtColId" : 13439,
+      "srcTgtColId" : 13516,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "company",
       "srcTrgColDataType" : "VARCHAR",
@@ -686,7 +686,7 @@
       "colFormat" : "",
       "displayIndex" : 5
     }, {
-      "srcTgtColId" : 13440,
+      "srcTgtColId" : 13517,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "fname",
       "srcTrgColDataType" : "VARCHAR",
@@ -697,7 +697,7 @@
       "colFormat" : "",
       "displayIndex" : 6
     }, {
-      "srcTgtColId" : 13441,
+      "srcTgtColId" : 13518,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "hired",
       "srcTrgColDataType" : "TIMESTAMP",
@@ -708,7 +708,7 @@
       "colFormat" : "",
       "displayIndex" : 7
     }, {
-      "srcTgtColId" : 13442,
+      "srcTgtColId" : 13519,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "hphone",
       "srcTrgColDataType" : "VARCHAR",
@@ -719,7 +719,7 @@
       "colFormat" : "",
       "displayIndex" : 8
     }, {
-      "srcTgtColId" : 13443,
+      "srcTgtColId" : 13520,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "jobcode",
       "srcTrgColDataType" : "VARCHAR",
@@ -730,7 +730,7 @@
       "colFormat" : "",
       "displayIndex" : 9
     }, {
-      "srcTgtColId" : 13444,
+      "srcTgtColId" : 13521,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "lname",
       "srcTrgColDataType" : "VARCHAR",
@@ -741,7 +741,7 @@
       "colFormat" : "",
       "displayIndex" : 10
     }, {
-      "srcTgtColId" : 13445,
+      "srcTgtColId" : 13522,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "salary",
       "srcTrgColDataType" : "INT",
@@ -752,7 +752,7 @@
       "colFormat" : "",
       "displayIndex" : 11
     }, {
-      "srcTgtColId" : 13446,
+      "srcTgtColId" : 13523,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "sex",
       "srcTrgColDataType" : "VARCHAR",
@@ -763,7 +763,7 @@
       "colFormat" : "",
       "displayIndex" : 12
     }, {
-      "srcTgtColId" : 13447,
+      "srcTgtColId" : 13524,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "ssn",
       "srcTrgColDataType" : "INT",
@@ -774,7 +774,7 @@
       "colFormat" : "",
       "displayIndex" : 13
     }, {
-      "srcTgtColId" : 13448,
+      "srcTgtColId" : 13525,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "staffid",
       "srcTrgColDataType" : "VARCHAR",
@@ -785,7 +785,7 @@
       "colFormat" : "",
       "displayIndex" : 14
     }, {
-      "srcTgtColId" : 13449,
+      "srcTgtColId" : 13526,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "state",
       "srcTrgColDataType" : "VARCHAR",
@@ -796,7 +796,7 @@
       "colFormat" : "",
       "displayIndex" : 15
     }, {
-      "srcTgtColId" : 13450,
+      "srcTgtColId" : 13527,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "totalsalary",
       "srcTrgColDataType" : "FLOAT",
@@ -807,7 +807,7 @@
       "colFormat" : "",
       "displayIndex" : 16
     }, {
-      "srcTgtColId" : 13451,
+      "srcTgtColId" : 13528,
       "ruleClsPropId" : 13415,
       "srcTrgColName" : "json:_id",
       "srcTrgColDataType" : "VARCHAR",
@@ -818,7 +818,7 @@
       "colFormat" : "",
       "displayIndex" : 17
     }, {
-      "srcTgtColId" : 13463,
+      "srcTgtColId" : 13532,
       "ruleClsPropId" : 13452,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -830,9 +830,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 13476,
-      "srcColId" : 13434,
-      "trgColId" : 13463,
+      "colMapId" : 13534,
+      "srcColId" : 13511,
+      "trgColId" : 13532,
       "colMapType" : "join",
       "srcColName" : "address",
       "tgtColName" : "cnt",
