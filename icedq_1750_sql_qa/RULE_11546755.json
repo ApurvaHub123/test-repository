@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2024-03-06 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2024-03-06 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "18.0.0",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 11546758,
     "successBody" : "",
     "failureBody" : "",
@@ -87,7 +87,7 @@
       "classObjName" : "ICE_1709708053268",
       "queryBuilderXML" : null,
       "connId" : 0,
-      "resultType" : "rowcount",
+      "resultType" : "expression",
       "connName" : null,
       "connUrl" : null,
       "connFullUrl" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 11546789,
-        "srcColId" : 11546768,
-        "trgColId" : 11546776,
+        "colMapId" : 11546838,
+        "srcColId" : 11546832,
+        "trgColId" : 11546836,
         "colMapType" : "join",
         "srcColName" : "country_id",
         "tgtColName" : "cnt",
@@ -106,7 +106,30 @@
         "srcTrgColMapVisible" : 0,
         "displayIndex" : 0
       } ],
-      "exprlist" : [ ],
+      "exprlist" : [ {
+        "exprID" : 11546839,
+        "exprLogID" : 0,
+        "exprName" : "EXPR_PYFR445",
+        "expression" : "S.country_id == 'AR'",
+        "result" : "Pass",
+        "exprType" : "5",
+        "exprVisible" : 1,
+        "exprIndex" : 1,
+        "ruleId" : 11546755,
+        "ruleInstanceId" : 0,
+        "ruleClassId" : 11546758,
+        "ruleName" : null,
+        "trueCount" : null,
+        "falseCount" : null,
+        "errCount" : null,
+        "exprOrg" : "S.country_id == 'AR'",
+        "tc" : null,
+        "fc" : null,
+        "er" : null,
+        "name" : null,
+        "ve" : 0,
+        "exporg" : null
+      } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
         "ruleClsPropID" : 11546777,
@@ -205,7 +228,7 @@
       "classObjName" : "ICE_1709708053268",
       "queryBuilderXML" : null,
       "connId" : 1876353,
-      "resultType" : "rowcount",
+      "resultType" : "expression",
       "connName" : null,
       "connUrl" : null,
       "connFullUrl" : null,
@@ -222,7 +245,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 11546768,
+          "srcTgtColId" : 11546832,
           "ruleClsPropId" : 11546759,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
@@ -233,7 +256,7 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 11546769,
+          "srcTgtColId" : 11546833,
           "ruleClsPropId" : 11546759,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
@@ -244,7 +267,7 @@
           "colFormat" : "",
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 11546770,
+          "srcTgtColId" : 11546834,
           "ruleClsPropId" : 11546759,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
@@ -318,7 +341,7 @@
       "classObjName" : "ICE_1709708053268",
       "queryBuilderXML" : null,
       "connId" : 1876353,
-      "resultType" : "rowcount",
+      "resultType" : "expression",
       "connName" : null,
       "connUrl" : null,
       "connFullUrl" : null,
@@ -335,7 +358,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 11546776,
+          "srcTgtColId" : 11546836,
           "ruleClsPropId" : 11546771,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -378,7 +401,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 11546768,
+      "srcTgtColId" : 11546832,
       "ruleClsPropId" : 11546759,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
@@ -389,7 +412,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 11546769,
+      "srcTgtColId" : 11546833,
       "ruleClsPropId" : 11546759,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
@@ -400,7 +423,7 @@
       "colFormat" : "",
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 11546770,
+      "srcTgtColId" : 11546834,
       "ruleClsPropId" : 11546759,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
@@ -411,7 +434,7 @@
       "colFormat" : "",
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 11546776,
+      "srcTgtColId" : 11546836,
       "ruleClsPropId" : 11546771,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -423,9 +446,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 11546789,
-      "srcColId" : 11546768,
-      "trgColId" : 11546776,
+      "colMapId" : 11546838,
+      "srcColId" : 11546832,
+      "trgColId" : 11546836,
       "colMapType" : "join",
       "srcColName" : "country_id",
       "tgtColName" : "cnt",
@@ -449,7 +472,30 @@
     "classModifydBy" : 0,
     "classCreateDate" : null,
     "classModifyDate" : null,
-    "exprVOList" : [ ],
+    "exprVOList" : [ {
+      "exprID" : 11546839,
+      "exprLogID" : 0,
+      "exprName" : "EXPR_PYFR445",
+      "expression" : "S.country_id == 'AR'",
+      "result" : "Pass",
+      "exprType" : "5",
+      "exprVisible" : 1,
+      "exprIndex" : 1,
+      "ruleId" : 11546755,
+      "ruleInstanceId" : 0,
+      "ruleClassId" : 11546758,
+      "ruleName" : null,
+      "trueCount" : null,
+      "falseCount" : null,
+      "errCount" : null,
+      "exprOrg" : null,
+      "tc" : null,
+      "fc" : null,
+      "er" : null,
+      "name" : null,
+      "ve" : 0,
+      "exporg" : null
+    } ],
     "derivedvariablelist" : null
   }
 }
