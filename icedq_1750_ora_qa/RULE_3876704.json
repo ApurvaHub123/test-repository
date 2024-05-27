@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 62122,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 62122,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2024-05-27 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2024-05-27 00:00:00",
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "amarbele",
     "projectName" : "UpgradeTesting",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "amarbele",
     "ruleClassId" : 3876705,
     "successBody" : null,
     "failureBody" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 3876729,
-        "srcColId" : 3876727,
-        "trgColId" : 3876728,
+        "colMapId" : 3880317,
+        "srcColId" : 3880315,
+        "trgColId" : 3880316,
         "colMapType" : "join",
         "srcColName" : "avg_calculated_salary",
         "tgtColName" : "avg_calculated_salary",
@@ -109,21 +109,21 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3876708,
+        "ruleClsPropID" : 3880296,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876709,
+        "ruleClsPropID" : 3880297,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876710,
+        "ruleClsPropID" : 3880298,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
@@ -161,13 +161,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3876711,
+        "ruleClsPropID" : 3880299,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select avg(calculated_salary) as avg_calculated_salary from \"TESTUSER\".REG_EMPLOYEE",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3876727,
-          "ruleClsPropId" : 3876711,
+          "srcTgtColId" : 3880315,
+          "ruleClsPropId" : 3880299,
           "srcTrgColName" : "avg_calculated_salary",
           "srcTrgColDataType" : "DECFLOAT",
           "colFlagType" : "src",
@@ -179,35 +179,35 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876713,
+        "ruleClsPropID" : 3880301,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "3095138",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876714,
+        "ruleClsPropID" : 3880302,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876715,
+        "ruleClsPropID" : 3880303,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876717,
+        "ruleClsPropID" : 3880305,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876718,
+        "ruleClsPropID" : 3880306,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "avg_calculated_salary^~^1111^~^DECFLOAT^~^34^~^1",
@@ -245,13 +245,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3876719,
+        "ruleClsPropID" : 3880307,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select avg(calculated_salary) as avg_calculated_salary from \"TESTUSER\".REG_EMPLOYEE",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3876728,
-          "ruleClsPropId" : 3876719,
+          "srcTgtColId" : 3880316,
+          "ruleClsPropId" : 3880307,
           "srcTrgColName" : "avg_calculated_salary",
           "srcTrgColDataType" : "DECFLOAT",
           "colFlagType" : "tgt",
@@ -263,35 +263,35 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876721,
+        "ruleClsPropID" : 3880309,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "3095138",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876722,
+        "ruleClsPropID" : 3880310,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876723,
+        "ruleClsPropID" : 3880311,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876725,
+        "ruleClsPropID" : 3880313,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3876726,
+        "ruleClsPropID" : 3880314,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "avg_calculated_salary^~^1111^~^DECFLOAT^~^34^~^1",
@@ -307,8 +307,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 3876727,
-      "ruleClsPropId" : 3876711,
+      "srcTgtColId" : 3880315,
+      "ruleClsPropId" : 3880299,
       "srcTrgColName" : "avg_calculated_salary",
       "srcTrgColDataType" : "DECFLOAT",
       "colFlagType" : "src",
@@ -318,8 +318,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 3876728,
-      "ruleClsPropId" : 3876719,
+      "srcTgtColId" : 3880316,
+      "ruleClsPropId" : 3880307,
       "srcTrgColName" : "avg_calculated_salary",
       "srcTrgColDataType" : "DECFLOAT",
       "colFlagType" : "tgt",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 3876729,
-      "srcColId" : 3876727,
-      "trgColId" : 3876728,
+      "colMapId" : 3880317,
+      "srcColId" : 3880315,
+      "trgColId" : 3880316,
       "colMapType" : "join",
       "srcColName" : "avg_calculated_salary",
       "tgtColName" : "avg_calculated_salary",
