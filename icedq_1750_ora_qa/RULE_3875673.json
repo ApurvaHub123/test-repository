@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 62122,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 62122,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2024-05-27 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2024-05-27 00:00:00",
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "amarbele",
     "projectName" : "UpgradeTesting",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "amarbele",
     "ruleClassId" : 3875674,
     "successBody" : null,
     "failureBody" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 3875698,
-        "srcColId" : 3875696,
-        "trgColId" : 3875697,
+        "colMapId" : 3876021,
+        "srcColId" : 3876019,
+        "trgColId" : 3876020,
         "colMapType" : "join",
         "srcColName" : "sum_salary",
         "tgtColName" : "sum_salary",
@@ -109,21 +109,21 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3875677,
+        "ruleClsPropID" : 3876000,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875678,
+        "ruleClsPropID" : 3876001,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875679,
+        "ruleClsPropID" : 3876002,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
@@ -161,13 +161,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3875680,
+        "ruleClsPropID" : 3876003,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select sum(salary) as sum_Salary from \"TESTUSER\".REG_EMPLOYEE",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3875696,
-          "ruleClsPropId" : 3875680,
+          "srcTgtColId" : 3876019,
+          "ruleClsPropId" : 3876003,
           "srcTrgColName" : "sum_salary",
           "srcTrgColDataType" : "INTEGER",
           "colFlagType" : "src",
@@ -179,35 +179,35 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875682,
+        "ruleClsPropID" : 3876005,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "3095138",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875683,
+        "ruleClsPropID" : 3876006,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875684,
+        "ruleClsPropID" : 3876007,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875686,
+        "ruleClsPropID" : 3876009,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875687,
+        "ruleClsPropID" : 3876010,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "sum_salary^~^4^~^INTEGER^~^10^~^1",
@@ -245,13 +245,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3875688,
+        "ruleClsPropID" : 3876011,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select sum(salary) as sum_Salary from \"TESTUSER\".REG_EMPLOYEE",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3875697,
-          "ruleClsPropId" : 3875688,
+          "srcTgtColId" : 3876020,
+          "ruleClsPropId" : 3876011,
           "srcTrgColName" : "sum_salary",
           "srcTrgColDataType" : "INTEGER",
           "colFlagType" : "tgt",
@@ -263,35 +263,35 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875690,
+        "ruleClsPropID" : 3876013,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "3095138",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875691,
+        "ruleClsPropID" : 3876014,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875692,
+        "ruleClsPropID" : 3876015,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875694,
+        "ruleClsPropID" : 3876017,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875695,
+        "ruleClsPropID" : 3876018,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "sum_salary^~^4^~^INTEGER^~^10^~^1",
@@ -307,8 +307,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 3875696,
-      "ruleClsPropId" : 3875680,
+      "srcTgtColId" : 3876019,
+      "ruleClsPropId" : 3876003,
       "srcTrgColName" : "sum_salary",
       "srcTrgColDataType" : "INTEGER",
       "colFlagType" : "src",
@@ -318,8 +318,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 3875697,
-      "ruleClsPropId" : 3875688,
+      "srcTgtColId" : 3876020,
+      "ruleClsPropId" : 3876011,
       "srcTrgColName" : "sum_salary",
       "srcTrgColDataType" : "INTEGER",
       "colFlagType" : "tgt",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 3875698,
-      "srcColId" : 3875696,
-      "trgColId" : 3875697,
+      "colMapId" : 3876021,
+      "srcColId" : 3876019,
+      "trgColId" : 3876020,
       "colMapType" : "join",
       "srcColName" : "sum_salary",
       "tgtColName" : "sum_salary",
