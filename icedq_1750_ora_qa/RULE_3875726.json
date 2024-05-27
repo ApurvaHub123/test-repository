@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 62122,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 62122,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2024-05-27 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2024-05-27 00:00:00",
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "amarbele",
     "projectName" : "UpgradeTesting",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "amarbele",
     "ruleClassId" : 3875727,
     "successBody" : null,
     "failureBody" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 3875751,
-        "srcColId" : 3875749,
-        "trgColId" : 3875750,
+        "colMapId" : 3876065,
+        "srcColId" : 3876063,
+        "trgColId" : 3876064,
         "colMapType" : "join",
         "srcColName" : "max_salary",
         "tgtColName" : "max_salary",
@@ -109,21 +109,21 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3875730,
+        "ruleClsPropID" : 3876044,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875731,
+        "ruleClsPropID" : 3876045,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875732,
+        "ruleClsPropID" : 3876046,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
@@ -161,13 +161,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3875733,
+        "ruleClsPropID" : 3876047,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select max(salary) as max_Salary from \"TESTUSER\".REG_EMPLOYEE",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3875749,
-          "ruleClsPropId" : 3875733,
+          "srcTgtColId" : 3876063,
+          "ruleClsPropId" : 3876047,
           "srcTrgColName" : "max_salary",
           "srcTrgColDataType" : "INTEGER",
           "colFlagType" : "src",
@@ -179,35 +179,35 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875735,
+        "ruleClsPropID" : 3876049,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "3095138",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875736,
+        "ruleClsPropID" : 3876050,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875737,
+        "ruleClsPropID" : 3876051,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875739,
+        "ruleClsPropID" : 3876053,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875740,
+        "ruleClsPropID" : 3876054,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "max_salary^~^4^~^INTEGER^~^10^~^1",
@@ -245,13 +245,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3875741,
+        "ruleClsPropID" : 3876055,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select max(salary) as max_Salary from \"TESTUSER\".REG_EMPLOYEE",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3875750,
-          "ruleClsPropId" : 3875741,
+          "srcTgtColId" : 3876064,
+          "ruleClsPropId" : 3876055,
           "srcTrgColName" : "max_salary",
           "srcTrgColDataType" : "INTEGER",
           "colFlagType" : "tgt",
@@ -263,35 +263,35 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875743,
+        "ruleClsPropID" : 3876057,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "3095138",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875744,
+        "ruleClsPropID" : 3876058,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875745,
+        "ruleClsPropID" : 3876059,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875747,
+        "ruleClsPropID" : 3876061,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3875748,
+        "ruleClsPropID" : 3876062,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "max_salary^~^4^~^INTEGER^~^10^~^1",
@@ -307,8 +307,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 3875749,
-      "ruleClsPropId" : 3875733,
+      "srcTgtColId" : 3876063,
+      "ruleClsPropId" : 3876047,
       "srcTrgColName" : "max_salary",
       "srcTrgColDataType" : "INTEGER",
       "colFlagType" : "src",
@@ -318,8 +318,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 3875750,
-      "ruleClsPropId" : 3875741,
+      "srcTgtColId" : 3876064,
+      "ruleClsPropId" : 3876055,
       "srcTrgColName" : "max_salary",
       "srcTrgColDataType" : "INTEGER",
       "colFlagType" : "tgt",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 3875751,
-      "srcColId" : 3875749,
-      "trgColId" : 3875750,
+      "colMapId" : 3876065,
+      "srcColId" : 3876063,
+      "trgColId" : 3876064,
       "colMapType" : "join",
       "srcColName" : "max_salary",
       "tgtColName" : "max_salary",
