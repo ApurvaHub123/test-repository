@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 213584,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 205,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2024-05-29 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2024-05-29 00:00:00",
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -49,12 +49,12 @@
     "srcConn" : "_ORACLE",
     "trgConn" : "_ORACLE",
     "elapseTime" : 0,
-    "parameterId" : "Dhanashri/License",
+    "parameterId" : "Dhanashri\\License",
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "dhanashriw01",
     "projectName" : "18.2.0_Xray_ExecutionReport",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 3895254,
     "successBody" : null,
     "failureBody" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 3895287,
-        "srcColId" : 3895283,
-        "trgColId" : 3895286,
+        "colMapId" : 3901607,
+        "srcColId" : 3901603,
+        "trgColId" : 3901606,
         "colMapType" : "join",
         "srcColName" : "country_id",
         "tgtColName" : "cnt",
@@ -109,77 +109,77 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3895271,
+        "ruleClsPropID" : 3901591,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895272,
+        "ruleClsPropID" : 3901592,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895273,
+        "ruleClsPropID" : 3901593,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895274,
+        "ruleClsPropID" : 3901594,
         "paramId" : 22,
         "paramMethod" : "setMaxRowCount",
         "paramValue" : "-1",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895275,
+        "ruleClsPropID" : 3901595,
         "paramId" : 23,
         "paramMethod" : "setMaxErrorCount",
         "paramValue" : "500",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895276,
+        "ruleClsPropID" : 3901596,
         "paramId" : 24,
         "paramMethod" : "setShowErrorData",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895277,
+        "ruleClsPropID" : 3901597,
         "paramId" : 72,
         "paramMethod" : "setTimeOut",
         "paramValue" : null,
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895278,
+        "ruleClsPropID" : 3901598,
         "paramId" : 73,
         "paramMethod" : "setLoadDataFlag",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895279,
+        "ruleClsPropID" : 3901599,
         "paramId" : 465,
         "paramMethod" : "setReportXlsx",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895280,
+        "ruleClsPropID" : 3901600,
         "paramId" : 530,
         "paramMethod" : "setThresholdFlag",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895281,
+        "ruleClsPropID" : 3901601,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
         "paramValue" : "",
@@ -217,13 +217,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3895257,
+        "ruleClsPropID" : 3901577,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from #Q2#",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3895283,
-          "ruleClsPropId" : 3895257,
+          "srcTgtColId" : 3901603,
+          "ruleClsPropId" : 3901577,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
           "colFlagType" : "src",
@@ -233,8 +233,8 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 3895284,
-          "ruleClsPropId" : 3895257,
+          "srcTgtColId" : 3901604,
+          "ruleClsPropId" : 3901577,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -244,8 +244,8 @@
           "colFormat" : null,
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 3895285,
-          "ruleClsPropId" : 3895257,
+          "srcTgtColId" : 3901605,
+          "ruleClsPropId" : 3901577,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -257,42 +257,42 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895259,
+        "ruleClsPropID" : 3901579,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "4181293",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895260,
+        "ruleClsPropID" : 3901580,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895261,
+        "ruleClsPropID" : 3901581,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895263,
+        "ruleClsPropID" : 3901583,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "true",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895264,
+        "ruleClsPropID" : 3901584,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "country_id^~^1^~^CHAR^~^2^~^1$~$country_name^~^12^~^VARCHAR2^~^40^~^2$~$region_id^~^2^~^NUMBER^~^0^~^3",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895265,
+        "ruleClsPropID" : 3901585,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
@@ -330,13 +330,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 3895266,
+        "ruleClsPropID" : 3901586,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3895286,
-          "ruleClsPropId" : 3895266,
+          "srcTgtColId" : 3901606,
+          "ruleClsPropId" : 3901586,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
           "colFlagType" : "tgt",
@@ -348,21 +348,21 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895268,
+        "ruleClsPropID" : 3901588,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "cnt^~^12^~^String^~^20^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895269,
+        "ruleClsPropID" : 3901589,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "4181293",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 3895270,
+        "ruleClsPropID" : 3901590,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
@@ -378,8 +378,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 3895283,
-      "ruleClsPropId" : 3895257,
+      "srcTgtColId" : 3901603,
+      "ruleClsPropId" : 3901577,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
       "colFlagType" : "src",
@@ -389,8 +389,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 3895284,
-      "ruleClsPropId" : 3895257,
+      "srcTgtColId" : 3901604,
+      "ruleClsPropId" : 3901577,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -400,8 +400,8 @@
       "colFormat" : null,
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 3895285,
-      "ruleClsPropId" : 3895257,
+      "srcTgtColId" : 3901605,
+      "ruleClsPropId" : 3901577,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -411,8 +411,8 @@
       "colFormat" : null,
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 3895286,
-      "ruleClsPropId" : 3895266,
+      "srcTgtColId" : 3901606,
+      "ruleClsPropId" : 3901586,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
       "colFlagType" : "tgt",
@@ -423,9 +423,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 3895287,
-      "srcColId" : 3895283,
-      "trgColId" : 3895286,
+      "colMapId" : 3901607,
+      "srcColId" : 3901603,
+      "trgColId" : 3901606,
       "colMapType" : "join",
       "srcColName" : "country_id",
       "tgtColName" : "cnt",
@@ -444,7 +444,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : "Dhanashri/License",
+    "ruleParameter" : "Dhanashri\\License",
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
