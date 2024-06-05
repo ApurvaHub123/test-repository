@@ -43,11 +43,11 @@
     "failureAttFlag" : 0,
     "successAttFlag" : 0,
     "srcConnId" : 114882,
-    "trgConnId" : 4909960,
+    "trgConnId" : 114882,
     "srcSysGroupId" : 0,
     "trgSysGroupId" : 0,
     "srcConn" : "sqlservernative_SC",
-    "trgConn" : "Snowflake_UP",
+    "trgConn" : "sqlservernative_SC",
     "elapseTime" : 0,
     "parameterId" : "",
     "type" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 12614416,
-        "srcColId" : 12614412,
-        "trgColId" : 12614415,
+        "colMapId" : 12614423,
+        "srcColId" : 12614419,
+        "trgColId" : 12614422,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -166,7 +166,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from DBO.Customer",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 12614412,
+          "srcTgtColId" : 12614419,
           "ruleClsPropId" : 12614359,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "int",
@@ -232,7 +232,7 @@
       "vid" : "GetData21",
       "classObjName" : "ICE_1717584130850",
       "queryBuilderXML" : null,
-      "connId" : 4909960,
+      "connId" : 114882,
       "resultType" : "",
       "connName" : null,
       "connUrl" : null,
@@ -248,12 +248,12 @@
         "ruleClsPropID" : 12614368,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
-        "paramValue" : "select count(*) as cnt from PUBLIC.STAFF",
+        "paramValue" : "select count(*) as cnt from DBO.Customer",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 12614415,
+          "srcTgtColId" : 12614422,
           "ruleClsPropId" : 12614368,
           "srcTrgColName" : "cnt",
-          "srcTrgColDataType" : "NUMBER",
+          "srcTrgColDataType" : "int",
           "colFlagType" : "tgt",
           "srcTrgColVisible" : 0,
           "joinList" : null,
@@ -266,7 +266,7 @@
         "ruleClsPropID" : 12614370,
         "paramId" : 16,
         "paramMethod" : "setConnId",
-        "paramValue" : "4909960",
+        "paramValue" : "114882",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -294,15 +294,8 @@
         "ruleClsPropID" : 12614375,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
-        "paramValue" : "cnt^~^-5^~^NUMBER^~^18^~^1",
+        "paramValue" : "cnt^~^4^~^int^~^10^~^1",
         "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 12614376,
-        "paramId" : 404,
-        "paramMethod" : "setIsMultipleOutVaiables",
-        "paramValue" : "false",
-        "srcTrgTbllist" : null,
         "fileContent" : null
       } ],
       "bigDataExecMode" : null,
@@ -314,7 +307,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 12614412,
+      "srcTgtColId" : 12614419,
       "ruleClsPropId" : 12614359,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "int",
@@ -325,10 +318,10 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 12614415,
+      "srcTgtColId" : 12614422,
       "ruleClsPropId" : 12614368,
       "srcTrgColName" : "cnt",
-      "srcTrgColDataType" : "NUMBER",
+      "srcTrgColDataType" : "int",
       "colFlagType" : "tgt",
       "srcTrgColVisible" : 0,
       "joinList" : null,
@@ -337,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 12614416,
-      "srcColId" : 12614412,
-      "trgColId" : 12614415,
+      "colMapId" : 12614423,
+      "srcColId" : 12614419,
+      "trgColId" : 12614422,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
