@@ -18,11 +18,11 @@
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2024-06-05 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2024-06-05 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -54,7 +54,7 @@
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "UpgradeTesting",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 12615125,
     "successBody" : "",
     "failureBody" : "",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 12615185,
-        "srcColId" : 12615149,
-        "trgColId" : 12615172,
+        "colMapId" : 12615190,
+        "srcColId" : 12615187,
+        "trgColId" : 12615188,
         "colMapType" : "join",
         "srcColName" : "A",
         "tgtColName" : "A",
@@ -222,7 +222,7 @@
         "paramMethod" : "setFileName",
         "paramValue" : "/customer_fixed.txt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 12615149,
+          "srcTgtColId" : 12615187,
           "ruleClsPropId" : 12615126,
           "srcTrgColName" : "A",
           "srcTrgColDataType" : "String",
@@ -273,14 +273,14 @@
         "ruleClsPropID" : 12615132,
         "paramId" : 67,
         "paramMethod" : "setSkipFirstRowCount",
-        "paramValue" : "0",
+        "paramValue" : "1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
         "ruleClsPropID" : 12615133,
         "paramId" : 68,
         "paramMethod" : "setSkipLastRowCount",
-        "paramValue" : "0",
+        "paramValue" : "1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -364,7 +364,7 @@
         "ruleClsPropID" : 12615145,
         "paramId" : 1144,
         "paramMethod" : "setFileLayout",
-        "paramValue" : "",
+        "paramValue" : "customerid,NUMBER,0,15\nacctnumber,STRING,15,30\nfirstname,STRING,30,45\nlastname,STRING,45,60\ngender,STRING,60,68\nbirthdate,DATE,68,81\ndatefirstpurchase,DATE,81,101\nphoneno,NUMBER,101,112\nemail,STRING,112,144\nyearlyincome,NUMBER,144,158\naddressid,NUMBER,158,167\n",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
@@ -425,7 +425,7 @@
         "paramMethod" : "setFileName",
         "paramValue" : "/customer_fixed.txt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 12615172,
+          "srcTgtColId" : 12615188,
           "ruleClsPropId" : 12615150,
           "srcTrgColName" : "A",
           "srcTrgColDataType" : "String",
@@ -476,14 +476,14 @@
         "ruleClsPropID" : 12615156,
         "paramId" : 67,
         "paramMethod" : "setSkipFirstRowCount",
-        "paramValue" : "0",
+        "paramValue" : "1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
         "ruleClsPropID" : 12615157,
         "paramId" : 68,
         "paramMethod" : "setSkipLastRowCount",
-        "paramValue" : "0",
+        "paramValue" : "1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -594,7 +594,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 12615149,
+      "srcTgtColId" : 12615187,
       "ruleClsPropId" : 12615126,
       "srcTrgColName" : "A",
       "srcTrgColDataType" : "String",
@@ -605,7 +605,7 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 12615172,
+      "srcTgtColId" : 12615188,
       "ruleClsPropId" : 12615150,
       "srcTrgColName" : "A",
       "srcTrgColDataType" : "String",
@@ -617,9 +617,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 12615185,
-      "srcColId" : 12615149,
-      "trgColId" : 12615172,
+      "colMapId" : 12615190,
+      "srcColId" : 12615187,
+      "trgColId" : 12615188,
       "colMapType" : "join",
       "srcColName" : "A",
       "tgtColName" : "A",
