@@ -104,7 +104,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from INFORMATION_SCHEMA.views",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3942684,
+          "srcTgtColId" : 3942700,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "table_catalog",
           "srcTrgColDataType" : "varchar",
@@ -115,7 +115,7 @@
           "colFormat" : null,
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 3942685,
+          "srcTgtColId" : 3942701,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "table_schema",
           "srcTrgColDataType" : "varchar",
@@ -126,7 +126,7 @@
           "colFormat" : null,
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 3942686,
+          "srcTgtColId" : 3942702,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "table_name",
           "srcTrgColDataType" : "varchar",
@@ -137,7 +137,7 @@
           "colFormat" : null,
           "displayIndex" : 2
         }, {
-          "srcTgtColId" : 3942687,
+          "srcTgtColId" : 3942703,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "view_definition",
           "srcTrgColDataType" : "varchar",
@@ -148,7 +148,7 @@
           "colFormat" : null,
           "displayIndex" : 3
         }, {
-          "srcTgtColId" : 3942688,
+          "srcTgtColId" : 3942704,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "check_option",
           "srcTrgColDataType" : "varchar",
@@ -159,7 +159,7 @@
           "colFormat" : null,
           "displayIndex" : 4
         }, {
-          "srcTgtColId" : 3942689,
+          "srcTgtColId" : 3942705,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "is_updatable",
           "srcTrgColDataType" : "varchar",
@@ -170,7 +170,7 @@
           "colFormat" : null,
           "displayIndex" : 5
         }, {
-          "srcTgtColId" : 3942690,
+          "srcTgtColId" : 3942706,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "is_insertable_into",
           "srcTrgColDataType" : "varchar",
@@ -181,7 +181,7 @@
           "colFormat" : null,
           "displayIndex" : 6
         }, {
-          "srcTgtColId" : 3942691,
+          "srcTgtColId" : 3942707,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "is_trigger_updatable",
           "srcTrgColDataType" : "varchar",
@@ -192,7 +192,7 @@
           "colFormat" : null,
           "displayIndex" : 7
         }, {
-          "srcTgtColId" : 3942692,
+          "srcTgtColId" : 3942708,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "is_trigger_deletable",
           "srcTrgColDataType" : "varchar",
@@ -203,7 +203,7 @@
           "colFormat" : null,
           "displayIndex" : 8
         }, {
-          "srcTgtColId" : 3942693,
+          "srcTgtColId" : 3942709,
           "ruleClsPropId" : 3942596,
           "srcTrgColName" : "is_trigger_insertable_into",
           "srcTrgColDataType" : "varchar",
@@ -287,7 +287,7 @@
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 3942695,
+          "srcTgtColId" : 3942711,
           "ruleClsPropId" : 3942614,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
@@ -349,9 +349,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 3942697,
-        "srcColId" : 3942684,
-        "trgColId" : 3942695,
+        "colMapId" : 3942713,
+        "srcColId" : 3942700,
+        "trgColId" : 3942711,
         "colMapType" : "join",
         "srcColName" : "table_catalog",
         "tgtColName" : "cnt",
@@ -428,14 +428,14 @@
         "ruleClsPropID" : 3942629,
         "paramId" : 530,
         "paramMethod" : "setThresholdFlag",
-        "paramValue" : "false",
+        "paramValue" : "true",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
         "ruleClsPropID" : 3942630,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
-        "paramValue" : "",
+        "paramValue" : "exitcode ==125",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
@@ -455,7 +455,7 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 3942684,
+      "srcTgtColId" : 3942700,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "table_catalog",
       "srcTrgColDataType" : "varchar",
@@ -466,7 +466,7 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 3942685,
+      "srcTgtColId" : 3942701,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "table_schema",
       "srcTrgColDataType" : "varchar",
@@ -477,7 +477,7 @@
       "colFormat" : null,
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 3942686,
+      "srcTgtColId" : 3942702,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "table_name",
       "srcTrgColDataType" : "varchar",
@@ -488,7 +488,7 @@
       "colFormat" : null,
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 3942687,
+      "srcTgtColId" : 3942703,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "view_definition",
       "srcTrgColDataType" : "varchar",
@@ -499,7 +499,7 @@
       "colFormat" : null,
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 3942688,
+      "srcTgtColId" : 3942704,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "check_option",
       "srcTrgColDataType" : "varchar",
@@ -510,7 +510,7 @@
       "colFormat" : null,
       "displayIndex" : 4
     }, {
-      "srcTgtColId" : 3942689,
+      "srcTgtColId" : 3942705,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "is_updatable",
       "srcTrgColDataType" : "varchar",
@@ -521,7 +521,7 @@
       "colFormat" : null,
       "displayIndex" : 5
     }, {
-      "srcTgtColId" : 3942690,
+      "srcTgtColId" : 3942706,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "is_insertable_into",
       "srcTrgColDataType" : "varchar",
@@ -532,7 +532,7 @@
       "colFormat" : null,
       "displayIndex" : 6
     }, {
-      "srcTgtColId" : 3942691,
+      "srcTgtColId" : 3942707,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "is_trigger_updatable",
       "srcTrgColDataType" : "varchar",
@@ -543,7 +543,7 @@
       "colFormat" : null,
       "displayIndex" : 7
     }, {
-      "srcTgtColId" : 3942692,
+      "srcTgtColId" : 3942708,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "is_trigger_deletable",
       "srcTrgColDataType" : "varchar",
@@ -554,7 +554,7 @@
       "colFormat" : null,
       "displayIndex" : 8
     }, {
-      "srcTgtColId" : 3942693,
+      "srcTgtColId" : 3942709,
       "ruleClsPropId" : 3942596,
       "srcTrgColName" : "is_trigger_insertable_into",
       "srcTrgColDataType" : "varchar",
@@ -565,7 +565,7 @@
       "colFormat" : null,
       "displayIndex" : 9
     }, {
-      "srcTgtColId" : 3942695,
+      "srcTgtColId" : 3942711,
       "ruleClsPropId" : 3942614,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
@@ -577,9 +577,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 3942697,
-      "srcColId" : 3942684,
-      "trgColId" : 3942695,
+      "colMapId" : 3942713,
+      "srcColId" : 3942700,
+      "trgColId" : 3942711,
       "colMapType" : "join",
       "srcColName" : "table_catalog",
       "tgtColName" : "cnt",
