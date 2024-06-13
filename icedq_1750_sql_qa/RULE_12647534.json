@@ -3,7 +3,7 @@
     "id" : 12647534,
     "ruleInstanceId" : 0,
     "ruleDesc" : "",
-    "execMode" : "htreport",
+    "execMode" : "report",
     "exitCode" : null,
     "folderId" : 12621210,
     "projectId" : 92460,
@@ -80,7 +80,7 @@
       "name" : null,
       "ruleClassId" : 12647541,
       "connType" : "",
-      "execMode" : "htreport",
+      "execMode" : "report",
       "index" : 1,
       "classRun" : "com.ice.bpel.CompareData",
       "vid" : "CompareData11",
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 12647594,
-        "srcColId" : 12647586,
-        "trgColId" : 12647591,
+        "colMapId" : 12647626,
+        "srcColId" : 12647616,
+        "trgColId" : 12647625,
         "colMapType" : "join",
         "srcColName" : "job_id",
         "tgtColName" : "cnt",
@@ -109,88 +109,81 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 12647561,
+        "ruleClsPropID" : 12647595,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647562,
+        "ruleClsPropID" : 12647596,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647563,
+        "ruleClsPropID" : 12647597,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647564,
+        "ruleClsPropID" : 12647598,
         "paramId" : 22,
         "paramMethod" : "setMaxRowCount",
         "paramValue" : "-1",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647565,
+        "ruleClsPropID" : 12647599,
         "paramId" : 23,
         "paramMethod" : "setMaxErrorCount",
         "paramValue" : "500",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647566,
+        "ruleClsPropID" : 12647600,
         "paramId" : 24,
         "paramMethod" : "setShowErrorData",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647567,
+        "ruleClsPropID" : 12647601,
         "paramId" : 72,
         "paramMethod" : "setTimeOut",
         "paramValue" : "",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647568,
+        "ruleClsPropID" : 12647602,
         "paramId" : 73,
         "paramMethod" : "setLoadDataFlag",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647569,
+        "ruleClsPropID" : 12647603,
         "paramId" : 465,
         "paramMethod" : "setReportXlsx",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647570,
+        "ruleClsPropID" : 12647604,
         "paramId" : 530,
         "paramMethod" : "setThresholdFlag",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647571,
+        "ruleClsPropID" : 12647605,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
-        "fileContent" : null
-      }, {
-        "ruleClsPropID" : 12647592,
-        "paramId" : 487,
-        "paramMethod" : "setDegreeOfParallelism",
-        "paramValue" : "1",
-        "srcTrgTbllist" : null,
         "fileContent" : null
       } ],
       "bigDataExecMode" : null,
@@ -205,7 +198,7 @@
       "name" : null,
       "ruleClassId" : 12647539,
       "connType" : "DATABASE",
-      "execMode" : "htreport",
+      "execMode" : "report",
       "index" : 0,
       "classRun" : "com.ice.bpel.GetData",
       "vid" : "GetData11",
@@ -224,13 +217,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 12647542,
+        "ruleClsPropID" : 12647607,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.JOBS",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 12647586,
-          "ruleClsPropId" : 12647542,
+          "srcTgtColId" : 12647616,
+          "ruleClsPropId" : 12647607,
           "srcTrgColName" : "job_id",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -240,8 +233,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 12647587,
-          "ruleClsPropId" : 12647542,
+          "srcTgtColId" : 12647617,
+          "ruleClsPropId" : 12647607,
           "srcTrgColName" : "job_title",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -251,8 +244,8 @@
           "colFormat" : "",
           "displayIndex" : 1
         }, {
-          "srcTgtColId" : 12647588,
-          "ruleClsPropId" : 12647542,
+          "srcTgtColId" : 12647618,
+          "ruleClsPropId" : 12647607,
           "srcTrgColName" : "min_salary",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -262,8 +255,8 @@
           "colFormat" : "",
           "displayIndex" : 2
         }, {
-          "srcTgtColId" : 12647589,
-          "ruleClsPropId" : 12647542,
+          "srcTgtColId" : 12647619,
+          "ruleClsPropId" : 12647607,
           "srcTrgColName" : "max_salary",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -275,42 +268,42 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647544,
+        "ruleClsPropID" : 12647609,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "924441",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647545,
+        "ruleClsPropID" : 12647610,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647546,
+        "ruleClsPropID" : 12647611,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647548,
+        "ruleClsPropID" : 12647613,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "true",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647549,
+        "ruleClsPropID" : 12647614,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "job_id^~^12^~^VARCHAR2^~^10^~^1$~$job_title^~^12^~^VARCHAR2^~^35^~^2$~$min_salary^~^2^~^NUMBER^~^6^~^3$~$max_salary^~^2^~^NUMBER^~^6^~^4",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647550,
+        "ruleClsPropID" : 12647615,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
@@ -329,7 +322,7 @@
       "name" : null,
       "ruleClassId" : 12647540,
       "connType" : "DATABASE",
-      "execMode" : "htreport",
+      "execMode" : "report",
       "index" : 0,
       "classRun" : "com.ice.bpel.GetData",
       "vid" : "GetData21",
@@ -348,13 +341,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 12647555,
+        "ruleClsPropID" : 12647620,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 12647591,
-          "ruleClsPropId" : 12647555,
+          "srcTgtColId" : 12647625,
+          "ruleClsPropId" : 12647620,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
           "colFlagType" : "tgt",
@@ -366,21 +359,21 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647557,
+        "ruleClsPropID" : 12647622,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "cnt^~^12^~^String^~^20^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647558,
+        "ruleClsPropID" : 12647623,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "924441",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 12647559,
+        "ruleClsPropID" : 12647624,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
@@ -396,8 +389,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 12647586,
-      "ruleClsPropId" : 12647542,
+      "srcTgtColId" : 12647616,
+      "ruleClsPropId" : 12647607,
       "srcTrgColName" : "job_id",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -407,8 +400,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 12647587,
-      "ruleClsPropId" : 12647542,
+      "srcTgtColId" : 12647617,
+      "ruleClsPropId" : 12647607,
       "srcTrgColName" : "job_title",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -418,8 +411,8 @@
       "colFormat" : "",
       "displayIndex" : 1
     }, {
-      "srcTgtColId" : 12647588,
-      "ruleClsPropId" : 12647542,
+      "srcTgtColId" : 12647618,
+      "ruleClsPropId" : 12647607,
       "srcTrgColName" : "min_salary",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -429,8 +422,8 @@
       "colFormat" : "",
       "displayIndex" : 2
     }, {
-      "srcTgtColId" : 12647589,
-      "ruleClsPropId" : 12647542,
+      "srcTgtColId" : 12647619,
+      "ruleClsPropId" : 12647607,
       "srcTrgColName" : "max_salary",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -440,8 +433,8 @@
       "colFormat" : "",
       "displayIndex" : 3
     }, {
-      "srcTgtColId" : 12647591,
-      "ruleClsPropId" : 12647555,
+      "srcTgtColId" : 12647625,
+      "ruleClsPropId" : 12647620,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
       "colFlagType" : "tgt",
@@ -452,9 +445,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 12647594,
-      "srcColId" : 12647586,
-      "trgColId" : 12647591,
+      "colMapId" : 12647626,
+      "srcColId" : 12647616,
+      "trgColId" : 12647625,
       "colMapType" : "join",
       "srcColName" : "job_id",
       "tgtColName" : "cnt",
