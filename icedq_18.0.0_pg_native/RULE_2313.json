@@ -12,17 +12,17 @@
     "folderType" : "RULE",
     "startTime" : null,
     "endTime" : null,
-    "ruleName" : "Validation_1721643036494_1721643455589_1721643458797",
+    "ruleName" : "Validation_1",
     "displayName" : null,
     "rulePurpose" : "",
     "ruleTemplate" : null,
     "statusName" : null,
     "ruleCreatedBy" : 7,
-    "ruleModifiedBy" : 0,
+    "ruleModifiedBy" : 7,
     "subjectAreaKey" : 0,
-    "ruleStatus" : 1,
+    "ruleStatus" : 0,
     "ruleCreateDate" : "2024-07-22 00:00:00",
-    "ruleModifiedDate" : null,
+    "ruleModifiedDate" : "2024-07-26 00:00:00",
     "enterpriseErrorCode" : "",
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -49,12 +49,12 @@
     "srcConn" : "ora-connection-1",
     "trgConn" : "ora-connection-1",
     "elapseTime" : 0,
-    "parameterId" : "",
+    "parameterId" : null,
     "type" : null,
     "isRuleExit" : null,
     "ruleCreatedByName" : "admin",
     "projectName" : "rule-mssing",
-    "ruleModifiedByName" : null,
+    "ruleModifiedByName" : "admin",
     "ruleClassId" : 2316,
     "successBody" : "",
     "failureBody" : "",
@@ -99,13 +99,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 2324,
+        "ruleClsPropID" : 7983,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select * from HR.COUNTRIES",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 2326,
-          "ruleClsPropId" : 2324,
+          "srcTgtColId" : 8002,
+          "ruleClsPropId" : 7983,
           "srcTrgColName" : "country_id",
           "srcTrgColDataType" : "CHAR",
           "colFlagType" : "src",
@@ -115,8 +115,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 2327,
-          "ruleClsPropId" : 2324,
+          "srcTgtColId" : 8003,
+          "ruleClsPropId" : 7983,
           "srcTrgColName" : "country_name",
           "srcTrgColDataType" : "VARCHAR2",
           "colFlagType" : "src",
@@ -126,8 +126,8 @@
           "colFormat" : "",
           "displayIndex" : 0
         }, {
-          "srcTgtColId" : 2328,
-          "ruleClsPropId" : 2324,
+          "srcTgtColId" : 8004,
+          "ruleClsPropId" : 7983,
           "srcTrgColName" : "region_id",
           "srcTrgColDataType" : "NUMBER",
           "colFlagType" : "src",
@@ -139,42 +139,42 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2323,
+        "ruleClsPropID" : 7982,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "625",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2322,
+        "ruleClsPropID" : 7981,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2320,
+        "ruleClsPropID" : 7979,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2319,
+        "ruleClsPropID" : 7978,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "true",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2318,
+        "ruleClsPropID" : 7977,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "country_id^~^1^~^CHAR^~^2^~^1$~$country_name^~^12^~^VARCHAR2^~^40^~^2$~$region_id^~^2^~^NUMBER^~^0^~^3",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2317,
+        "ruleClsPropID" : 7976,
         "paramId" : 404,
         "paramMethod" : "setIsMultipleOutVaiables",
         "paramValue" : "false",
@@ -212,13 +212,13 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 2332,
+        "ruleClsPropID" : 7988,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select 1 as cnt from dual",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 2334,
-          "ruleClsPropId" : 2332,
+          "srcTgtColId" : 8005,
+          "ruleClsPropId" : 7988,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "String",
           "colFlagType" : "tgt",
@@ -230,21 +230,21 @@
         } ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2331,
+        "ruleClsPropID" : 7987,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "cnt^~^12^~^String^~^20^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2330,
+        "ruleClsPropID" : 7986,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "625",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2329,
+        "ruleClsPropID" : 7985,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
@@ -279,9 +279,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 2347,
-        "srcColId" : 2326,
-        "trgColId" : 2334,
+        "colMapId" : 8006,
+        "srcColId" : 8002,
+        "trgColId" : 8005,
         "colMapType" : "join",
         "srcColName" : "country_id",
         "tgtColName" : "cnt",
@@ -315,77 +315,77 @@
       } ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 2346,
+        "ruleClsPropID" : 8001,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2345,
+        "ruleClsPropID" : 8000,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2344,
+        "ruleClsPropID" : 7999,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2343,
+        "ruleClsPropID" : 7998,
         "paramId" : 22,
         "paramMethod" : "setMaxRowCount",
         "paramValue" : "-1",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2342,
+        "ruleClsPropID" : 7997,
         "paramId" : 23,
         "paramMethod" : "setMaxErrorCount",
         "paramValue" : "500",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2341,
+        "ruleClsPropID" : 7996,
         "paramId" : 24,
         "paramMethod" : "setShowErrorData",
         "paramValue" : "Yes",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2340,
+        "ruleClsPropID" : 7995,
         "paramId" : 72,
         "paramMethod" : "setTimeOut",
         "paramValue" : "",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2339,
+        "ruleClsPropID" : 7994,
         "paramId" : 73,
         "paramMethod" : "setLoadDataFlag",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2338,
+        "ruleClsPropID" : 7993,
         "paramId" : 465,
         "paramMethod" : "setReportXlsx",
         "paramValue" : "No",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2337,
+        "ruleClsPropID" : 7992,
         "paramId" : 530,
         "paramMethod" : "setThresholdFlag",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 2335,
+        "ruleClsPropID" : 7990,
         "paramId" : 531,
         "paramMethod" : "setThresholdExpression",
         "paramValue" : "",
@@ -401,8 +401,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 2326,
-      "ruleClsPropId" : 2324,
+      "srcTgtColId" : 8002,
+      "ruleClsPropId" : 7983,
       "srcTrgColName" : "country_id",
       "srcTrgColDataType" : "CHAR",
       "colFlagType" : "src",
@@ -412,8 +412,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 2327,
-      "ruleClsPropId" : 2324,
+      "srcTgtColId" : 8003,
+      "ruleClsPropId" : 7983,
       "srcTrgColName" : "country_name",
       "srcTrgColDataType" : "VARCHAR2",
       "colFlagType" : "src",
@@ -423,8 +423,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 2328,
-      "ruleClsPropId" : 2324,
+      "srcTgtColId" : 8004,
+      "ruleClsPropId" : 7983,
       "srcTrgColName" : "region_id",
       "srcTrgColDataType" : "NUMBER",
       "colFlagType" : "src",
@@ -434,8 +434,8 @@
       "colFormat" : "",
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 2334,
-      "ruleClsPropId" : 2332,
+      "srcTgtColId" : 8005,
+      "ruleClsPropId" : 7988,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "String",
       "colFlagType" : "tgt",
@@ -446,9 +446,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 2347,
-      "srcColId" : 2326,
-      "trgColId" : 2334,
+      "colMapId" : 8006,
+      "srcColId" : 8002,
+      "trgColId" : 8005,
       "colMapType" : "join",
       "srcColName" : "country_id",
       "tgtColName" : "cnt",
@@ -467,7 +467,7 @@
     "resultType" : null,
     "showErrorData" : null,
     "reportXlsx" : null,
-    "ruleParameter" : "",
+    "ruleParameter" : null,
     "classCreatedBy" : 0,
     "classModifydBy" : 0,
     "classCreateDate" : null,
