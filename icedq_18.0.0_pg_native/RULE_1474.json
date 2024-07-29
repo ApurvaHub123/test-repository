@@ -22,7 +22,7 @@
     "subjectAreaKey" : 0,
     "ruleStatus" : 1,
     "ruleCreateDate" : "2024-06-10 00:00:00",
-    "ruleModifiedDate" : "2024-07-26 00:00:00",
+    "ruleModifiedDate" : "2024-07-29 00:00:00",
     "enterpriseErrorCode" : null,
     "legalEntityId" : 1,
     "subjectAreaName" : null,
@@ -96,9 +96,9 @@
       "ruleName" : null,
       "ruleParameter" : null,
       "srcTrgMaplist" : [ {
-        "colMapId" : 7401,
-        "srcColId" : 7399,
-        "trgColId" : 7400,
+        "colMapId" : 10865,
+        "srcColId" : 10863,
+        "trgColId" : 10864,
         "colMapType" : "join",
         "srcColName" : "cnt",
         "tgtColName" : "cnt",
@@ -109,21 +109,21 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 7394,
+        "ruleClsPropID" : 10858,
         "paramId" : 798,
         "paramMethod" : "setEngineType",
         "paramValue" : "V8",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7393,
+        "ruleClsPropID" : 10857,
         "paramId" : 10,
         "paramMethod" : "setTargetObject",
         "paramValue" : "GetData21",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7392,
+        "ruleClsPropID" : 10856,
         "paramId" : 9,
         "paramMethod" : "setSourceObject",
         "paramValue" : "GetData11",
@@ -161,48 +161,48 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 7385,
+        "ruleClsPropID" : 10849,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "cnt^~^-5^~^BIGINT^~^19^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7384,
+        "ruleClsPropID" : 10848,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7383,
+        "ruleClsPropID" : 10847,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7382,
+        "ruleClsPropID" : 10846,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7381,
+        "ruleClsPropID" : 10845,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "2565",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7380,
+        "ruleClsPropID" : 10844,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from dwdelta.customerdelta",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 7399,
-          "ruleClsPropId" : 7380,
+          "srcTgtColId" : 10863,
+          "ruleClsPropId" : 10844,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "BIGINT",
           "colFlagType" : "src",
@@ -245,48 +245,48 @@
       "exprlist" : [ ],
       "derivedexprlist" : null,
       "paramsVOLst" : [ {
-        "ruleClsPropID" : 7391,
+        "ruleClsPropID" : 10855,
         "paramId" : 83,
         "paramMethod" : "setColumnsMInfo",
         "paramValue" : "cnt^~^-5^~^BIGINT^~^19^~^1",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7390,
+        "ruleClsPropID" : 10854,
         "paramId" : 82,
         "paramMethod" : "setAppendOrderBy",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7389,
+        "ruleClsPropID" : 10853,
         "paramId" : 84,
         "paramMethod" : "setOrderByStr",
         "paramValue" : "null",
         "srcTrgTbllist" : [ ],
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7388,
+        "ruleClsPropID" : 10852,
         "paramId" : 337,
         "paramMethod" : "setIsStoredProcedure",
         "paramValue" : "false",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7387,
+        "ruleClsPropID" : 10851,
         "paramId" : 16,
         "paramMethod" : "setConnId",
         "paramValue" : "2565",
         "srcTrgTbllist" : null,
         "fileContent" : null
       }, {
-        "ruleClsPropID" : 7386,
+        "ruleClsPropID" : 10850,
         "paramId" : 6,
         "paramMethod" : "setQueryString",
         "paramValue" : "select count(*) as cnt from dwdelta.customerdelta",
         "srcTrgTbllist" : [ {
-          "srcTgtColId" : 7400,
-          "ruleClsPropId" : 7386,
+          "srcTgtColId" : 10864,
+          "ruleClsPropId" : 10850,
           "srcTrgColName" : "cnt",
           "srcTrgColDataType" : "BIGINT",
           "colFlagType" : "tgt",
@@ -307,8 +307,8 @@
       "thresholdExpression" : null
     } ],
     "srcTrgTbllist" : [ {
-      "srcTgtColId" : 7399,
-      "ruleClsPropId" : 7380,
+      "srcTgtColId" : 10863,
+      "ruleClsPropId" : 10844,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "BIGINT",
       "colFlagType" : "src",
@@ -318,8 +318,8 @@
       "colFormat" : null,
       "displayIndex" : 0
     }, {
-      "srcTgtColId" : 7400,
-      "ruleClsPropId" : 7386,
+      "srcTgtColId" : 10864,
+      "ruleClsPropId" : 10850,
       "srcTrgColName" : "cnt",
       "srcTrgColDataType" : "BIGINT",
       "colFlagType" : "tgt",
@@ -330,9 +330,9 @@
       "displayIndex" : 0
     } ],
     "colMapList" : [ {
-      "colMapId" : 7401,
-      "srcColId" : 7399,
-      "trgColId" : 7400,
+      "colMapId" : 10865,
+      "srcColId" : 10863,
+      "trgColId" : 10864,
       "colMapType" : "join",
       "srcColName" : "cnt",
       "tgtColName" : "cnt",
